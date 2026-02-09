@@ -1,0 +1,1009 @@
+[0.000000] (-) TimerEvent: {}
+[0.000061] (super_odometry) JobQueued: {'identifier': 'super_odometry', 'dependencies': OrderedDict()}
+[0.000364] (super_odometry) JobStarted: {'identifier': 'super_odometry'}
+[0.007578] (super_odometry) JobProgress: {'identifier': 'super_odometry', 'progress': 'cmake'}
+[0.007619] (super_odometry) Command: {'cmd': ['/usr/bin/cmake', '/root/ros2_ws/src/slam/SuperOdom/super_odometry', '-DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry'], 'cwd': '/root/ros2_ws/src/slam/SuperOdom/super_odometry/build/super_odometry', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('NVIDIA_CTK_LIBCUDA_DIR', '/usr/lib/x86_64-linux-gnu'), ('HOSTNAME', 'zhhavant-Legion-Pro-7-16IAX10H'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/visibility_graph_msg/lib:/root/ros2_ws/install/go2_sport_api/lib:/root/ros2_ws/install/unitree_go/lib:/root/ros2_ws/install/unitree_api/lib:/root/ros2_ws/install/super_odometry/lib:/root/ros2_ws/install/super_odometry_msgs/lib:/root/ros2_ws/install/rviz_2d_overlay_plugins/lib:/root/ros2_ws/install/rviz_2d_overlay_msgs/lib:/root/ros2_ws/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws/src/slam/SuperOdom'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/waypoint_rviz_plugin:/root/ros2_ws/install/waypoint_example:/root/ros2_ws/install/visualization_tools:/root/ros2_ws/install/graph_decoder:/root/ros2_ws/install/far_planner:/root/ros2_ws/install/boundary_handler:/root/ros2_ws/install/visibility_graph_msg:/root/ros2_ws/install/vehicle_simulator:/root/ros2_ws/install/local_planner:/root/ros2_ws/install/calibrate_imu:/root/ros2_ws/install/go2_sport_api:/root/ros2_ws/install/unitree_go:/root/ros2_ws/install/unitree_api:/root/ros2_ws/install/point_lio_unilidar:/root/ros2_ws/install/transform_sensors:/root/ros2_ws/install/terrain_analysis_ext:/root/ros2_ws/install/terrain_analysis:/root/ros2_ws/install/teleop_rviz_plugin_plus:/root/ros2_ws/install/teleop_rviz_plugin:/root/ros2_ws/install/super_odometry:/root/ros2_ws/install/super_odometry_msgs:/root/ros2_ws/install/sensor_scan_generation:/root/ros2_ws/install/rviz_2d_overlay_plugins:/root/ros2_ws/install/rviz_2d_overlay_msgs:/root/ros2_ws/install/ros_tcp_endpoint:/root/ros2_ws/install/livox_ros_driver2:/root/ros2_ws/install/goalpoint_rviz_plugin:/root/ros2_ws/install/go2_h264_repub:/opt/ros/humble'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/ros2_ws/src/slam/SuperOdom/super_odometry/build/super_odometry'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/ros2_ws/install/visualization_tools/local/lib/python3.10/dist-packages:/root/ros2_ws/install/visibility_graph_msg/local/lib/python3.10/dist-packages:/root/ros2_ws/install/unitree_go/local/lib/python3.10/dist-packages:/root/ros2_ws/install/unitree_api/local/lib/python3.10/dist-packages:/root/ros2_ws/install/transform_sensors/lib/python3.10/site-packages:/root/ros2_ws/install/super_odometry_msgs/local/lib/python3.10/dist-packages:/root/ros2_ws/install/rviz_2d_overlay_msgs/local/lib/python3.10/dist-packages:/root/ros2_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:/root/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'void'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/waypoint_rviz_plugin:/root/ros2_ws/install/waypoint_example:/root/ros2_ws/install/visualization_tools:/root/ros2_ws/install/graph_decoder:/root/ros2_ws/install/far_planner:/root/ros2_ws/install/boundary_handler:/root/ros2_ws/install/visibility_graph_msg:/root/ros2_ws/install/vehicle_simulator:/root/ros2_ws/install/local_planner:/root/ros2_ws/install/calibrate_imu:/root/ros2_ws/install/go2_sport_api:/root/ros2_ws/install/unitree_go:/root/ros2_ws/install/unitree_api:/root/ros2_ws/install/point_lio_unilidar:/root/ros2_ws/install/terrain_analysis_ext:/root/ros2_ws/install/terrain_analysis:/root/ros2_ws/install/teleop_rviz_plugin_plus:/root/ros2_ws/install/teleop_rviz_plugin:/root/ros2_ws/install/super_odometry:/root/ros2_ws/install/super_odometry_msgs:/root/ros2_ws/install/sensor_scan_generation:/root/ros2_ws/install/rviz_2d_overlay_plugins:/root/ros2_ws/install/rviz_2d_overlay_msgs:/root/ros2_ws/install/livox_ros_driver2:/root/ros2_ws/install/goalpoint_rviz_plugin:/root/ros2_ws/install/go2_h264_repub:/root/ros2_ws/install/transform_sensors:/root/ros2_ws/install/ros_tcp_endpoint:/opt/ros/humble')]), 'shell': False}
+[0.043028] (super_odometry) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.071718] (super_odometry) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.075368] (super_odometry) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099956] (-) TimerEvent: {}
+[0.116195] (super_odometry) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.119052] (super_odometry) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.119125] (super_odometry) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.119438] (super_odometry) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.121085] (super_odometry) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.164145] (super_odometry) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.167985] (super_odometry) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.168022] (super_odometry) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.168045] (super_odometry) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.170061] (super_odometry) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.200998] (-) TimerEvent: {}
+[0.251407] (super_odometry) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.301187] (-) TimerEvent: {}
+[0.318608] (super_odometry) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[0.321144] (super_odometry) StdoutLine: {'line': b'-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.351077] (super_odometry) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.355114] (super_odometry) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.360690] (super_odometry) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.368133] (super_odometry) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.378465] (super_odometry) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.401319] (-) TimerEvent: {}
+[0.407509] (super_odometry) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.410039] (super_odometry) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.473728] (super_odometry) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.493804] (super_odometry) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.501386] (-) TimerEvent: {}
+[0.520655] (super_odometry) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.528156] (super_odometry) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.570541] (super_odometry) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.570710] (super_odometry) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.601500] (-) TimerEvent: {}
+[0.614106] (super_odometry) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.614238] (super_odometry) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.643528] (super_odometry) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.650225] (super_odometry) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.659146] (super_odometry) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.667553] (super_odometry) StdoutLine: {'line': b'-- Found image_transport: 3.1.12 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[0.694358] (super_odometry) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.701553] (-) TimerEvent: {}
+[0.702958] (super_odometry) StdoutLine: {'line': b'-- Found tf2: 0.25.18 (/opt/ros/humble/share/tf2/cmake)\n'}
+[0.706353] (super_odometry) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.18 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.752419] (super_odometry) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.18 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[0.762702] (super_odometry) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.763771] (super_odometry) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[0.763828] (super_odometry) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.764775] (super_odometry) StdoutLine: {'line': b'-- Found super_odometry_msgs: 0.0.0 (/root/ros2_ws/install/super_odometry_msgs/share/super_odometry_msgs/cmake)\n'}
+[0.774806] (super_odometry) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[0.793019] (super_odometry) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (found suitable version "3.4.0", minimum required is "3.1") \n'}
+[0.801641] (-) TimerEvent: {}
+[0.810681] (super_odometry) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization \n'}
+[0.820638] (super_odometry) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[0.831317] (super_odometry) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[0.856225] (super_odometry) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[0.856284] (super_odometry) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[0.872904] (super_odometry) StdoutLine: {'line': b'-- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  \n'}
+[0.875626] (super_odometry) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX \n'}
+[0.901726] (-) TimerEvent: {}
+[0.958657] (super_odometry) StdoutLine: {'line': b'-- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") \n'}
+[0.958765] (super_odometry) StdoutLine: {'line': b'-- Found MPI: TRUE (found version "3.1") found components: C \n'}
+[0.960020] (super_odometry) StdoutLine: {'line': b'-- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") \n'}
+[0.963747] (super_odometry) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[0.971694] (super_odometry) StdoutLine: {'line': b'-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") \n'}
+[0.978773] (super_odometry) StdoutLine: {'line': b'-- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") \n'}
+[1.001801] (-) TimerEvent: {}
+[1.027598] (super_odometry) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[1.027721] (super_odometry) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[1.069618] (super_odometry) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[1.069817] (super_odometry) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[1.102310] (-) TimerEvent: {}
+[1.110359] (super_odometry) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[1.110481] (super_odometry) StdoutLine: {'line': b'-- Looking for connect\n'}
+[1.147234] (super_odometry) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[1.147377] (super_odometry) StdoutLine: {'line': b'-- Looking for remove\n'}
+[1.187050] (super_odometry) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[1.187178] (super_odometry) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[1.202379] (-) TimerEvent: {}
+[1.227128] (super_odometry) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[1.227237] (super_odometry) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[1.267932] (super_odometry) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[1.302473] (-) TimerEvent: {}
+[1.321347] (super_odometry) StdoutLine: {'line': b'-- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") \n'}
+[1.322431] (super_odometry) StdoutLine: {'line': b'-- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  \n'}
+[1.323855] (super_odometry) StdoutLine: {'line': b'-- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") \n'}
+[1.324097] (super_odometry) StdoutLine: {'line': b'-- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") \n'}
+[1.330643] (super_odometry) StdoutLine: {'line': b'-- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") \n'}
+[1.332302] (super_odometry) StdoutLine: {'line': b'-- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  \n'}
+[1.334078] (super_odometry) StdoutLine: {'line': b'-- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") \n'}
+[1.337124] (super_odometry) StdoutLine: {'line': b'-- Found utf8cpp: /usr/include/utf8cpp  \n'}
+[1.387885] (super_odometry) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[1.399035] (super_odometry) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[1.402546] (-) TimerEvent: {}
+[1.423223] (super_odometry) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[1.423306] (super_odometry) StdoutLine: {'line': b'-- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") \n'}
+[1.423333] (super_odometry) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.456039] (super_odometry) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to pcap will be disabled\x1b[0m\n'}
+[1.456260] (super_odometry) StdoutLine: {'line': b'-- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") \n'}
+[1.456340] (super_odometry) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.502716] (-) TimerEvent: {}
+[1.535317] (super_odometry) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.537843] (super_odometry) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.602810] (-) TimerEvent: {}
+[1.607306] (super_odometry) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[1.674676] (super_odometry) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.702878] (-) TimerEvent: {}
+[1.745249] (super_odometry) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[1.745360] (super_odometry) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[1.745388] (super_odometry) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[1.745534] (super_odometry) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[1.745686] (super_odometry) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[1.745847] (super_odometry) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[1.745887] (super_odometry) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[1.747331] (super_odometry) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[1.747404] (super_odometry) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[1.747439] (super_odometry) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[1.747459] (super_odometry) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[1.747477] (super_odometry) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[1.747495] (super_odometry) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[1.747512] (super_odometry) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[1.747529] (super_odometry) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[1.747546] (super_odometry) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[1.747563] (super_odometry) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[1.747625] (super_odometry) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[1.747653] (super_odometry) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[1.747962] (super_odometry) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[1.747985] (super_odometry) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[1.749436] (super_odometry) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[1.749477] (super_odometry) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[1.749497] (super_odometry) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[1.749520] (super_odometry) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[1.749694] (super_odometry) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[1.749729] (super_odometry) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[1.750022] (super_odometry) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[1.750046] (super_odometry) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[1.750538] (super_odometry) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[1.750560] (super_odometry) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[1.750841] (super_odometry) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[1.750878] (super_odometry) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[1.750911] (super_odometry) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[1.751183] (super_odometry) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[1.751478] (super_odometry) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[1.751502] (super_odometry) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[1.751719] (super_odometry) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[1.751754] (super_odometry) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[1.752116] (super_odometry) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[1.752491] (super_odometry) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[1.752519] (super_odometry) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[1.752555] (super_odometry) StdoutLine: {'line': b'-- looking for PCL_MODELER\n'}
+[1.752668] (super_odometry) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[1.752727] (super_odometry) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[1.753277] (super_odometry) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[1.753308] (super_odometry) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[1.753328] (super_odometry) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[1.753362] (super_odometry) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[1.753659] (super_odometry) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[1.754241] (super_odometry) StdoutLine: {'line': b'-- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  \n'}
+[1.756223] (super_odometry) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[1.771767] (super_odometry) StdoutLine: {'line': b'-- Found required Ceres dependency: Eigen version 3.4.0 in /usr/include/eigen3\n'}
+[1.775037] (super_odometry) StdoutLine: {'line': b'-- Found required Ceres dependency: glog\n'}
+[1.775268] (super_odometry) StdoutLine: {'line': b'-- Found required Ceres dependency: gflags\n'}
+[1.775420] (super_odometry) StdoutLine: {'line': b'-- Found Ceres version: 2.0.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]\n'}
+[1.795350] (super_odometry) StdoutLine: {'line': b'-- GTSAM include directory:  /usr/local/lib/cmake/GTSAM/../../../include\n'}
+[1.796555] (super_odometry) StdoutLine: {'line': b'-- Found livox_ros_driver2: 1.0.0 (/root/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake)\n'}
+[1.802963] (-) TimerEvent: {}
+[1.853166] (super_odometry) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.889733] (super_odometry) StderrLine: {'line': b'\x1b[0mWARNING: Target "feature_extraction_node" requests linking to directory "/root/ros2_ws/src/slam/SuperOdom/super_odometry/include".  Targets may link only to libraries.  CMake is dropping the item.\x1b[0m\n'}
+[1.903014] (-) TimerEvent: {}
+[1.909788] (super_odometry) StdoutLine: {'line': b'-- Generating done\n'}
+[1.921458] (super_odometry) StdoutLine: {'line': b'-- Build files have been written to: /root/ros2_ws/src/slam/SuperOdom/super_odometry/build/super_odometry\n'}
+[1.931116] (super_odometry) CommandEnded: {'returncode': 0}
+[1.932299] (super_odometry) JobProgress: {'identifier': 'super_odometry', 'progress': 'build'}
+[1.932313] (super_odometry) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/src/slam/SuperOdom/super_odometry/build/super_odometry', '--', '-j24', '-l24'], 'cwd': '/root/ros2_ws/src/slam/SuperOdom/super_odometry/build/super_odometry', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('NVIDIA_CTK_LIBCUDA_DIR', '/usr/lib/x86_64-linux-gnu'), ('HOSTNAME', 'zhhavant-Legion-Pro-7-16IAX10H'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/visibility_graph_msg/lib:/root/ros2_ws/install/go2_sport_api/lib:/root/ros2_ws/install/unitree_go/lib:/root/ros2_ws/install/unitree_api/lib:/root/ros2_ws/install/super_odometry/lib:/root/ros2_ws/install/super_odometry_msgs/lib:/root/ros2_ws/install/rviz_2d_overlay_plugins/lib:/root/ros2_ws/install/rviz_2d_overlay_msgs/lib:/root/ros2_ws/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws/src/slam/SuperOdom'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/waypoint_rviz_plugin:/root/ros2_ws/install/waypoint_example:/root/ros2_ws/install/visualization_tools:/root/ros2_ws/install/graph_decoder:/root/ros2_ws/install/far_planner:/root/ros2_ws/install/boundary_handler:/root/ros2_ws/install/visibility_graph_msg:/root/ros2_ws/install/vehicle_simulator:/root/ros2_ws/install/local_planner:/root/ros2_ws/install/calibrate_imu:/root/ros2_ws/install/go2_sport_api:/root/ros2_ws/install/unitree_go:/root/ros2_ws/install/unitree_api:/root/ros2_ws/install/point_lio_unilidar:/root/ros2_ws/install/transform_sensors:/root/ros2_ws/install/terrain_analysis_ext:/root/ros2_ws/install/terrain_analysis:/root/ros2_ws/install/teleop_rviz_plugin_plus:/root/ros2_ws/install/teleop_rviz_plugin:/root/ros2_ws/install/super_odometry:/root/ros2_ws/install/super_odometry_msgs:/root/ros2_ws/install/sensor_scan_generation:/root/ros2_ws/install/rviz_2d_overlay_plugins:/root/ros2_ws/install/rviz_2d_overlay_msgs:/root/ros2_ws/install/ros_tcp_endpoint:/root/ros2_ws/install/livox_ros_driver2:/root/ros2_ws/install/goalpoint_rviz_plugin:/root/ros2_ws/install/go2_h264_repub:/opt/ros/humble'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/ros2_ws/src/slam/SuperOdom/super_odometry/build/super_odometry'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/ros2_ws/install/visualization_tools/local/lib/python3.10/dist-packages:/root/ros2_ws/install/visibility_graph_msg/local/lib/python3.10/dist-packages:/root/ros2_ws/install/unitree_go/local/lib/python3.10/dist-packages:/root/ros2_ws/install/unitree_api/local/lib/python3.10/dist-packages:/root/ros2_ws/install/transform_sensors/lib/python3.10/site-packages:/root/ros2_ws/install/super_odometry_msgs/local/lib/python3.10/dist-packages:/root/ros2_ws/install/rviz_2d_overlay_msgs/local/lib/python3.10/dist-packages:/root/ros2_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:/root/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'void'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/waypoint_rviz_plugin:/root/ros2_ws/install/waypoint_example:/root/ros2_ws/install/visualization_tools:/root/ros2_ws/install/graph_decoder:/root/ros2_ws/install/far_planner:/root/ros2_ws/install/boundary_handler:/root/ros2_ws/install/visibility_graph_msg:/root/ros2_ws/install/vehicle_simulator:/root/ros2_ws/install/local_planner:/root/ros2_ws/install/calibrate_imu:/root/ros2_ws/install/go2_sport_api:/root/ros2_ws/install/unitree_go:/root/ros2_ws/install/unitree_api:/root/ros2_ws/install/point_lio_unilidar:/root/ros2_ws/install/terrain_analysis_ext:/root/ros2_ws/install/terrain_analysis:/root/ros2_ws/install/teleop_rviz_plugin_plus:/root/ros2_ws/install/teleop_rviz_plugin:/root/ros2_ws/install/super_odometry:/root/ros2_ws/install/super_odometry_msgs:/root/ros2_ws/install/sensor_scan_generation:/root/ros2_ws/install/rviz_2d_overlay_plugins:/root/ros2_ws/install/rviz_2d_overlay_msgs:/root/ros2_ws/install/livox_ros_driver2:/root/ros2_ws/install/goalpoint_rviz_plugin:/root/ros2_ws/install/go2_h264_repub:/root/ros2_ws/install/transform_sensors:/root/ros2_ws/install/ros_tcp_endpoint:/opt/ros/humble')]), 'shell': False}
+[1.966124] (super_odometry) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/SuperOdomLib.dir/src/FeatureExtraction/featureExtraction.cpp.o\x1b[0m\n'}
+[1.966759] (super_odometry) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/SuperOdomLib.dir/src/ImuPreintegration/imuPreintegration.cpp.o\x1b[0m\n'}
+[1.967500] (super_odometry) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/SuperOdomLib.dir/src/LaserMapping/laserMapping.cpp.o\x1b[0m\n'}
+[1.967625] (super_odometry) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/SuperOdomLib.dir/src/LaserMapping/lidarOptimization.cpp.o\x1b[0m\n'}
+[1.969162] (super_odometry) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/SuperOdomLib.dir/src/LidarProcess/pose_local_parameterization.cpp.o\x1b[0m\n'}
+[1.969224] (super_odometry) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/SuperOdomLib.dir/src/LaserMapping/LocalMap.cpp.o\x1b[0m\n'}
+[1.969582] (super_odometry) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/SuperOdomLib.dir/src/LidarProcess/LidarSlam.cpp.o\x1b[0m\n'}
+[1.969630] (super_odometry) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/SuperOdomLib.dir/src/LidarProcess/SE3AbsolutatePoseFactor.cpp.o\x1b[0m\n'}
+[1.969675] (super_odometry) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/SuperOdomLib.dir/src/parameter/parameter.cpp.o\x1b[0m\n'}
+[1.973072] (super_odometry) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/SuperOdomLib.dir/src/utils/superodom_utils.cpp.o\x1b[0m\n'}
+[2.003105] (-) TimerEvent: {}
+[2.103299] (-) TimerEvent: {}
+[2.203627] (-) TimerEvent: {}
+[2.304066] (-) TimerEvent: {}
+[2.404448] (-) TimerEvent: {}
+[2.504828] (-) TimerEvent: {}
+[2.605272] (-) TimerEvent: {}
+[2.705707] (-) TimerEvent: {}
+[2.806148] (-) TimerEvent: {}
+[2.906565] (-) TimerEvent: {}
+[3.007035] (-) TimerEvent: {}
+[3.107473] (-) TimerEvent: {}
+[3.207922] (-) TimerEvent: {}
+[3.308597] (-) TimerEvent: {}
+[3.408950] (-) TimerEvent: {}
+[3.509267] (-) TimerEvent: {}
+[3.547114] (super_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/include/super_odometry/LidarProcess/factor/pose_local_parameterization.h:11\x1b[m\x1b[K,\n'}
+[3.547302] (super_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/LidarProcess/pose_local_parameterization.cpp:5\x1b[m\x1b[K:\n'}
+[3.547381] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/include/super_odometry/LidarProcess/factor/../../utils/utility.h:137:6:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[3.547443] (super_odometry) StderrLine: {'line': b'  137 |     }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[3.547498] (super_odometry) StderrLine: {'line': b'      |      \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.547548] (super_odometry) StderrLine: {'line': b'      |      \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[3.609345] (-) TimerEvent: {}
+[3.685047] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/LidarProcess/pose_local_parameterization.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual bool PoseLocalParameterization::ComputeJacobian(const double*, double*) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.685289] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/LidarProcess/pose_local_parameterization.cpp:24:63:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kx\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[3.685357] (super_odometry) StderrLine: {'line': b'   24 | bool PoseLocalParameterization::ComputeJacobian(\x1b[01;35m\x1b[Kconst double *x\x1b[m\x1b[K, double *jacobian) const\n'}
+[3.685409] (super_odometry) StderrLine: {'line': b'      |                                                 \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[3.703092] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/LaserMapping/lidarOptimization.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual bool PoseSE3Parameterization::ComputeJacobian(const double*, double*) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.703167] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/LaserMapping/lidarOptimization.cpp:102:61:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kx\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[3.703215] (super_odometry) StderrLine: {'line': b'  102 | bool PoseSE3Parameterization::ComputeJacobian(\x1b[01;35m\x1b[Kconst double *x\x1b[m\x1b[K, double *jacobian) const\n'}
+[3.703264] (super_odometry) StderrLine: {'line': b'      |                                               \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[3.709430] (-) TimerEvent: {}
+[3.809682] (-) TimerEvent: {}
+[3.910018] (-) TimerEvent: {}
+[4.010294] (-) TimerEvent: {}
+[4.110550] (-) TimerEvent: {}
+[4.210833] (-) TimerEvent: {}
+[4.311153] (-) TimerEvent: {}
+[4.411464] (-) TimerEvent: {}
+[4.511806] (-) TimerEvent: {}
+[4.612133] (-) TimerEvent: {}
+[4.712510] (-) TimerEvent: {}
+[4.813010] (-) TimerEvent: {}
+[4.913230] (-) TimerEvent: {}
+[4.937276] (super_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/LidarProcess/SE3AbsolutatePoseFactor.cpp:7\x1b[m\x1b[K:\n'}
+[4.937440] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/include/super_odometry/utils/utility.h:137:6:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[4.937516] (super_odometry) StderrLine: {'line': b'  137 |     }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[4.937566] (super_odometry) StderrLine: {'line': b'      |      \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.937611] (super_odometry) StderrLine: {'line': b'      |      \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[5.013320] (-) TimerEvent: {}
+[5.049882] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/LaserMapping/laserMapping.cpp:796:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kignoring \xe2\x80\x98\x1b[01m\x1b[K#pragma clang diagnostic\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunknown-pragmas\x1b[m\x1b[K]\n'}
+[5.050043] (super_odometry) StderrLine: {'line': b'  796 | #pragma clang diagnostic pop\n'}
+[5.050097] (super_odometry) StderrLine: {'line': b'      | \n'}
+[5.113413] (-) TimerEvent: {}
+[5.213809] (-) TimerEvent: {}
+[5.314123] (-) TimerEvent: {}
+[5.414424] (-) TimerEvent: {}
+[5.514681] (-) TimerEvent: {}
+[5.614974] (-) TimerEvent: {}
+[5.715304] (-) TimerEvent: {}
+[5.815655] (-) TimerEvent: {}
+[5.915947] (-) TimerEvent: {}
+[6.016215] (-) TimerEvent: {}
+[6.116486] (-) TimerEvent: {}
+[6.216810] (-) TimerEvent: {}
+[6.317057] (-) TimerEvent: {}
+[6.417370] (-) TimerEvent: {}
+[6.517707] (-) TimerEvent: {}
+[6.618391] (-) TimerEvent: {}
+[6.722649] (-) TimerEvent: {}
+[6.823071] (-) TimerEvent: {}
+[6.923768] (-) TimerEvent: {}
+[7.024228] (-) TimerEvent: {}
+[7.124815] (-) TimerEvent: {}
+[7.225396] (-) TimerEvent: {}
+[7.325810] (-) TimerEvent: {}
+[7.427492] (-) TimerEvent: {}
+[7.527971] (-) TimerEvent: {}
+[7.628370] (-) TimerEvent: {}
+[7.728717] (-) TimerEvent: {}
+[7.829083] (-) TimerEvent: {}
+[7.929371] (-) TimerEvent: {}
+[8.029759] (-) TimerEvent: {}
+[8.109543] (super_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/include/super_odometry/FeatureExtraction/featureExtraction.h:27\x1b[m\x1b[K,\n'}
+[8.109715] (super_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/FeatureExtraction/featureExtraction.cpp:5\x1b[m\x1b[K:\n'}
+[8.109753] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/include/super_odometry/sensor_data/imu/imu_data.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Imu::imuInit(MapRingBuffer<std::shared_ptr<Imu> >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.109786] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/include/super_odometry/sensor_data/imu/imu_data.h:82:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Krot_first\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K-Wunused-but-set-variable\x1b[m\x1b[K]\n'}
+[8.109826] (super_odometry) StderrLine: {'line': b'   82 |         const Eigen::Quaterniond \x1b[01;35m\x1b[Krot_first\x1b[m\x1b[K = imuBuf.measMap_.begin()->second->q_w_i;\n'}
+[8.109855] (super_odometry) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.129968] (-) TimerEvent: {}
+[8.173348] (super_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/include/super_odometry/FeatureExtraction/featureExtraction.h:27\x1b[m\x1b[K,\n'}
+[8.173526] (super_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/FeatureExtraction/featureExtraction.cpp:5\x1b[m\x1b[K:\n'}
+[8.173567] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/include/super_odometry/sensor_data/imu/imu_data.h:101:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Krot_cur\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K-Wunused-but-set-variable\x1b[m\x1b[K]\n'}
+[8.173613] (super_odometry) StderrLine: {'line': b'  101 |         const Eigen::Quaterniond \x1b[01;35m\x1b[Krot_cur\x1b[m\x1b[K = itMeas_->second->q_w_i;\n'}
+[8.173642] (super_odometry) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[8.230115] (-) TimerEvent: {}
+[8.330470] (-) TimerEvent: {}
+[8.430814] (-) TimerEvent: {}
+[8.523284] (super_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/include/super_odometry/LidarProcess/LocalMap.h:31\x1b[m\x1b[K,\n'}
+[8.523450] (super_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/LaserMapping/LocalMap.cpp:5\x1b[m\x1b[K:\n'}
+[8.523499] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/include/super_odometry/flann/nanoflann.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Ksize_t nanoflann::KDTreeSingIndexAaptor<Distance, DatasetAdapter, DIM, IndexType>::knnSearch(const ElementType*, size_t, IndexType*, nanoflann::KDTreeSingIndexAaptor<Distance, DatasetAdapter, DIM, IndexType>::DistanceType*, int) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.523542] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/include/super_odometry/flann/nanoflann.h:871:3:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[8.523642] (super_odometry) StderrLine: {'line': b'  871 |   \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[8.523677] (super_odometry) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[8.530943] (-) TimerEvent: {}
+[8.586103] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/FeatureExtraction/featureExtraction.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid super_odometry::featureExtraction::undistortionAndFeatureExtraction()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.586270] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/FeatureExtraction/featureExtraction.cpp:489:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Klidar_end_time\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[8.586324] (super_odometry) StderrLine: {'line': b'  489 |             double \x1b[01;35m\x1b[Klidar_end_time\x1b[m\x1b[K = lidar_start_time + lidar_msg->back().time;\n'}
+[8.586379] (super_odometry) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.586532] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/FeatureExtraction/featureExtraction.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid super_odometry::featureExtraction::uniformFeatureExtraction(const Ptr&, pcl::PointCloud<pcl::PointXYZI>::Ptr&, int, float)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.586587] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/FeatureExtraction/featureExtraction.cpp:507:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kuint\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[8.586630] (super_odometry) StderrLine: {'line': b'  507 |         for (uint i=1; \x1b[01;35m\x1b[Ki <(int)pc_in->points.size()\x1b[m\x1b[K; i+=skip_num)\n'}
+[8.586665] (super_odometry) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.586732] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/FeatureExtraction/featureExtraction.cpp:518:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ksuggest parentheses around \xe2\x80\x98\x1b[01m\x1b[K&&\x1b[m\x1b[K\xe2\x80\x99 within \xe2\x80\x98\x1b[01m\x1b[K||\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wparentheses\x1b[m\x1b[K]\n'}
+[8.586771] (super_odometry) StderrLine: {'line': b'  517 |                 || \x1b[01;35m\x1b[K(abs(pc_in->points[i].z - pc_in->points[i-1].z) > 1e-7)\x1b[m\x1b[K\n'}
+[8.586803] (super_odometry) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.586832] (super_odometry) StderrLine: {'line': b'  518 | \x1b[01;35m\x1b[K                && (pc_in->points[i].x * pc_in->points[i].x + pc_in->points[i].y * pc_in->points[i].y + pc_in->points[i].z * pc_in->points[i].z > (block_range * block_range))\x1b[m\x1b[K)\n'}
+[8.586863] (super_odometry) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.626024] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/FeatureExtraction/featureExtraction.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[KImu::Ptr super_odometry::featureExtraction::createImuData(const super_odometry::ImuMeasurement&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.626197] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/FeatureExtraction/featureExtraction.cpp:563:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Kgyr\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K-Wunused-but-set-variable\x1b[m\x1b[K]\n'}
+[8.626245] (super_odometry) StderrLine: {'line': b'  563 |             Eigen::Vector3d \x1b[01;35m\x1b[Kgyr\x1b[m\x1b[K = imu_Init->imu_laser_R_Gravity * measurement.gyr;\n'}
+[8.626281] (super_odometry) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[8.631106] (-) TimerEvent: {}
+[8.731354] (-) TimerEvent: {}
+[8.831738] (-) TimerEvent: {}
+[8.911842] (super_odometry) StderrLine: {'line': b'/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/FeatureExtraction/featureExtraction.cpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::PointCloud2 super_odometry::featureExtraction::publishCloud(rclcpp::Publisher<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >::SharedPtr, typename pcl::PointCloud<PointT>::Ptr, rclcpp::Time, std::string) [with Point = point_os::PointcloudXYZITR; sensor_msgs::msg::PointCloud2 = sensor_msgs::msg::PointCloud2_<std::allocator<void> >; rclcpp::Publisher<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >::SharedPtr = std::shared_ptr<rclcpp::Publisher<sensor_msgs::msg::PointCloud2_<std::allocator<void> > > >; typename pcl::PointCloud<PointT>::Ptr = std::shared_ptr<pcl::PointCloud<point_os::PointcloudXYZITR> >; std::string = std::__cxx11::basic_string<char>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.912037] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/FeatureExtraction/featureExtraction.cpp:403:83:\x1b[m\x1b[K   required from here\n'}
+[8.912086] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/FeatureExtraction/featureExtraction.cpp:379:97:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KthisPub\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[8.912125] (super_odometry) StderrLine: {'line': b'  379 |     featureExtraction::publishCloud(\x1b[01;35m\x1b[Krclcpp::Publisher<sensor_msgs::msg::PointCloud2>::SharedPtr thisPub\x1b[m\x1b[K, typename pcl::PointCloud<Point>::Ptr thisCloud,\n'}
+[8.912159] (super_odometry) StderrLine: {'line': b'      |                                     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[8.912227] (super_odometry) StderrLine: {'line': b'/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/FeatureExtraction/featureExtraction.cpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::PointCloud2 super_odometry::featureExtraction::publishCloud(rclcpp::Publisher<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >::SharedPtr, typename pcl::PointCloud<PointT>::Ptr, rclcpp::Time, std::string) [with Point = pcl::PointXYZI; sensor_msgs::msg::PointCloud2 = sensor_msgs::msg::PointCloud2_<std::allocator<void> >; rclcpp::Publisher<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >::SharedPtr = std::shared_ptr<rclcpp::Publisher<sensor_msgs::msg::PointCloud2_<std::allocator<void> > > >; typename pcl::PointCloud<PointT>::Ptr = std::shared_ptr<pcl::PointCloud<pcl::PointXYZI> >; std::string = std::__cxx11::basic_string<char>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.912271] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/FeatureExtraction/featureExtraction.cpp:404:60:\x1b[m\x1b[K   required from here\n'}
+[8.912305] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/FeatureExtraction/featureExtraction.cpp:379:97:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KthisPub\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[8.917214] (super_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/include/super_odometry/LidarProcess/LocalMap.h:31\x1b[m\x1b[K,\n'}
+[8.917318] (super_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/include/super_odometry/LidarProcess/LidarSlam.h:17\x1b[m\x1b[K,\n'}
+[8.917361] (super_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/include/super_odometry/LaserMapping/laserMapping.h:34\x1b[m\x1b[K,\n'}
+[8.917396] (super_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/LaserMapping/laserMapping.cpp:5\x1b[m\x1b[K:\n'}
+[8.917428] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/include/super_odometry/flann/nanoflann.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Ksize_t nanoflann::KDTreeSingIndexAaptor<Distance, DatasetAdapter, DIM, IndexType>::knnSearch(const ElementType*, size_t, IndexType*, nanoflann::KDTreeSingIndexAaptor<Distance, DatasetAdapter, DIM, IndexType>::DistanceType*, int) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.917469] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/include/super_odometry/flann/nanoflann.h:871:3:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[8.917502] (super_odometry) StderrLine: {'line': b'  871 |   \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[8.917533] (super_odometry) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[8.931851] (-) TimerEvent: {}
+[8.934798] (super_odometry) StderrLine: {'line': b'/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/FeatureExtraction/featureExtraction.cpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid super_odometry::featureExtraction::removePointDistortion(double, double, MapRingBuffer<Meas>&, pcl::PointCloud<point_os::PointcloudXYZITR>::Ptr&) [with BufferType = std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >; pcl::PointCloud<point_os::PointcloudXYZITR>::Ptr = std::shared_ptr<pcl::PointCloud<point_os::PointcloudXYZITR> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.934936] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/FeatureExtraction/featureExtraction.cpp:462:74:\x1b[m\x1b[K   required from here\n'}
+[8.934983] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/FeatureExtraction/featureExtraction.cpp:225:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Klidar_end_time\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[8.935025] (super_odometry) StderrLine: {'line': b'  225 |         \x1b[01;35m\x1b[Kdouble lidar_end_time\x1b[m\x1b[K,\n'}
+[8.935058] (super_odometry) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.936465] (super_odometry) StderrLine: {'line': b'/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/FeatureExtraction/featureExtraction.cpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid super_odometry::featureExtraction::removePointDistortion(double, double, MapRingBuffer<Meas>&, pcl::PointCloud<point_os::PointcloudXYZITR>::Ptr&) [with BufferType = std::shared_ptr<Imu>; pcl::PointCloud<point_os::PointcloudXYZITR>::Ptr = std::shared_ptr<pcl::PointCloud<point_os::PointcloudXYZITR> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.936570] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/FeatureExtraction/featureExtraction.cpp:473:48:\x1b[m\x1b[K   required from here\n'}
+[8.936619] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/FeatureExtraction/featureExtraction.cpp:225:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Klidar_end_time\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[9.032033] (-) TimerEvent: {}
+[9.096674] (super_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/include/super_odometry/LidarProcess/LocalMap.h:31\x1b[m\x1b[K,\n'}
+[9.096833] (super_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/include/super_odometry/LidarProcess/LidarSlam.h:17\x1b[m\x1b[K,\n'}
+[9.096885] (super_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/LidarProcess/LidarSlam.cpp:3\x1b[m\x1b[K:\n'}
+[9.096920] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/include/super_odometry/flann/nanoflann.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Ksize_t nanoflann::KDTreeSingIndexAaptor<Distance, DatasetAdapter, DIM, IndexType>::knnSearch(const ElementType*, size_t, IndexType*, nanoflann::KDTreeSingIndexAaptor<Distance, DatasetAdapter, DIM, IndexType>::DistanceType*, int) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.096956] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/include/super_odometry/flann/nanoflann.h:871:3:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[9.096994] (super_odometry) StderrLine: {'line': b'  871 |   \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[9.097025] (super_odometry) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.127125] (super_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/include/super_odometry/LidarProcess/factor/pose_local_parameterization.h:11\x1b[m\x1b[K,\n'}
+[9.127282] (super_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/include/super_odometry/LidarProcess/LidarSlam.h:30\x1b[m\x1b[K,\n'}
+[9.127326] (super_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/include/super_odometry/LaserMapping/laserMapping.h:34\x1b[m\x1b[K,\n'}
+[9.127360] (super_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/LaserMapping/laserMapping.cpp:5\x1b[m\x1b[K:\n'}
+[9.127393] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/include/super_odometry/LidarProcess/factor/../../utils/utility.h:\x1b[m\x1b[K At global scope:\n'}
+[9.127423] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/include/super_odometry/LidarProcess/factor/../../utils/utility.h:137:6:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.127456] (super_odometry) StderrLine: {'line': b'  137 |     }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.127484] (super_odometry) StderrLine: {'line': b'      |      \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.127511] (super_odometry) StderrLine: {'line': b'      |      \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[9.132120] (-) TimerEvent: {}
+[9.232396] (-) TimerEvent: {}
+[9.332795] (-) TimerEvent: {}
+[9.433511] (-) TimerEvent: {}
+[9.438473] (super_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/include/super_odometry/LidarProcess/factor/pose_local_parameterization.h:11\x1b[m\x1b[K,\n'}
+[9.438605] (super_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/include/super_odometry/LidarProcess/LidarSlam.h:30\x1b[m\x1b[K,\n'}
+[9.438649] (super_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/LidarProcess/LidarSlam.cpp:3\x1b[m\x1b[K:\n'}
+[9.438683] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/include/super_odometry/LidarProcess/factor/../../utils/utility.h:\x1b[m\x1b[K At global scope:\n'}
+[9.438728] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/include/super_odometry/LidarProcess/factor/../../utils/utility.h:137:6:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.438761] (super_odometry) StderrLine: {'line': b'  137 |     }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.438791] (super_odometry) StderrLine: {'line': b'      |      \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.438819] (super_odometry) StderrLine: {'line': b'      |      \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[9.533725] (-) TimerEvent: {}
+[9.634146] (-) TimerEvent: {}
+[9.734497] (-) TimerEvent: {}
+[9.834962] (-) TimerEvent: {}
+[9.935265] (-) TimerEvent: {}
+[10.035542] (-) TimerEvent: {}
+[10.137903] (-) TimerEvent: {}
+[10.238416] (-) TimerEvent: {}
+[10.338967] (-) TimerEvent: {}
+[10.439395] (-) TimerEvent: {}
+[10.539799] (-) TimerEvent: {}
+[10.640116] (-) TimerEvent: {}
+[10.740399] (-) TimerEvent: {}
+[10.840909] (-) TimerEvent: {}
+[10.858787] (super_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/include/super_odometry/LaserMapping/laserMapping.h:34\x1b[m\x1b[K,\n'}
+[10.858931] (super_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/LaserMapping/laserMapping.cpp:5\x1b[m\x1b[K:\n'}
+[10.858969] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/include/super_odometry/LidarProcess/LidarSlam.h:208:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[10.859007] (super_odometry) StderrLine: {'line': b'  208 |         rclcpp::Publisher<std_msgs::msg::Float32>::SharedPtr pubUncertaintyYaw;\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[10.859035] (super_odometry) StderrLine: {'line': b'      |                                                                                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[10.859066] (super_odometry) StderrLine: {'line': b'      |                                                                                \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[10.941078] (-) TimerEvent: {}
+[11.041526] (-) TimerEvent: {}
+[11.142055] (-) TimerEvent: {}
+[11.166449] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/LaserMapping/laserMapping.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid super_odometry::laserMapping::adjustVoxelSize()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.166605] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/LaserMapping/laserMapping.cpp:603:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Kincrease_blind_radius\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K-Wunused-but-set-variable\x1b[m\x1b[K]\n'}
+[11.166659] (super_odometry) StderrLine: {'line': b'  603 |         bool \x1b[01;35m\x1b[Kincrease_blind_radius\x1b[m\x1b[K = false;\n'}
+[11.166690] (super_odometry) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.242125] (-) TimerEvent: {}
+[11.288265] (super_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/LidarProcess/LidarSlam.cpp:3\x1b[m\x1b[K:\n'}
+[11.288411] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/include/super_odometry/LidarProcess/LidarSlam.h:208:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[11.288451] (super_odometry) StderrLine: {'line': b'  208 |         rclcpp::Publisher<std_msgs::msg::Float32>::SharedPtr pubUncertaintyYaw;\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[11.288482] (super_odometry) StderrLine: {'line': b'      |                                                                                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.288510] (super_odometry) StderrLine: {'line': b'      |                                                                                \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[11.340434] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/LidarProcess/LidarSlam.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid super_odometry::LidarSLAM::initializeState(bool, const Transformd&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.340595] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/LidarProcess/LidarSlam.cpp:53:42:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kinitialization\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[11.340653] (super_odometry) StderrLine: {'line': b'   53 |     void LidarSLAM::initializeState(\x1b[01;35m\x1b[Kbool initialization\x1b[m\x1b[K, const Transformd&position){\n'}
+[11.340689] (super_odometry) StderrLine: {'line': b'      |                                     \x1b[01;35m\x1b[K~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.342191] (-) TimerEvent: {}
+[11.363646] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/LidarProcess/LidarSlam.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kdouble super_odometry::LidarSLAM::calculateSamplingRate(size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.363806] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/LidarProcess/LidarSlam.cpp:353:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[11.363856] (super_odometry) StderrLine: {'line': b'  353 |         if(\x1b[01;35m\x1b[Knum_points>OptSet.max_surface_features\x1b[m\x1b[K){\n'}
+[11.363892] (super_odometry) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.377813] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/LidarProcess/LidarSlam.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Ksuper_odometry::LidarSLAM::OptimizationParameter super_odometry::LidarSLAM::ComputeLineDistanceParameters(LocalMap&, const Point&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.377961] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/LidarProcess/LidarSlam.cpp:424:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K((Eigen::DenseCoeffsBase<Eigen::Matrix<double, 3, 1>, 1>*)(& pFinal))->Eigen::DenseCoeffsBase<Eigen::Matrix<double, 3, 1>, 1>::x()\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[KEigen::DenseCoeffsBase<Eigen::Matrix<double, 3, 1>, 1>::Scalar\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[11.378021] (super_odometry) StderrLine: {'line': b'  424 |     Point query{\x1b[01;35m\x1b[KpFinal.x()\x1b[m\x1b[K, pFinal.y(), pFinal.z()};\n'}
+[11.378054] (super_odometry) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K~~~~~~~~^~\x1b[m\x1b[K\n'}
+[11.378083] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/LidarProcess/LidarSlam.cpp:424:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K((Eigen::DenseCoeffsBase<Eigen::Matrix<double, 3, 1>, 1>*)(& pFinal))->Eigen::DenseCoeffsBase<Eigen::Matrix<double, 3, 1>, 1>::y()\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[KEigen::DenseCoeffsBase<Eigen::Matrix<double, 3, 1>, 1>::Scalar\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[11.378113] (super_odometry) StderrLine: {'line': b'  424 |     Point query{pFinal.x(), \x1b[01;35m\x1b[KpFinal.y()\x1b[m\x1b[K, pFinal.z()};\n'}
+[11.378139] (super_odometry) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~~~~~~~^~\x1b[m\x1b[K\n'}
+[11.378167] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/LidarProcess/LidarSlam.cpp:424:49:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K((Eigen::DenseCoeffsBase<Eigen::Matrix<double, 3, 1>, 1>*)(& pFinal))->Eigen::DenseCoeffsBase<Eigen::Matrix<double, 3, 1>, 1>::z()\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[KEigen::DenseCoeffsBase<Eigen::Matrix<double, 3, 1>, 1>::Scalar\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[11.378201] (super_odometry) StderrLine: {'line': b'  424 |     Point query{pFinal.x(), pFinal.y(), \x1b[01;35m\x1b[KpFinal.z()\x1b[m\x1b[K};\n'}
+[11.378227] (super_odometry) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K~~~~~~~~^~\x1b[m\x1b[K\n'}
+[11.442306] (-) TimerEvent: {}
+[11.454970] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/LidarProcess/LidarSlam.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Ksuper_odometry::LidarSLAM::OptimizationParameter super_odometry::LidarSLAM::processLineResults(const Vector3d&, const Vector3d&, const Vector3d&, const Matrix3d&, const std::vector<pcl::PointXYZI>&, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.455119] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/LidarProcess/LidarSlam.cpp:447:58:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Keigenvalues\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[11.455160] (super_odometry) StderrLine: {'line': b'  447 |                                   \x1b[01;35m\x1b[Kconst Eigen::Vector3d &eigenvalues\x1b[m\x1b[K,\n'}
+[11.455191] (super_odometry) StderrLine: {'line': b'      |                                   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.455217] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/LidarProcess/LidarSlam.cpp:450:42:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ksquare_max_dist\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[11.455244] (super_odometry) StderrLine: {'line': b'  450 |                                   \x1b[01;35m\x1b[Kdouble square_max_dist\x1b[m\x1b[K) {\n'}
+[11.455271] (super_odometry) StderrLine: {'line': b'      |                                   \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.542406] (-) TimerEvent: {}
+[11.642796] (-) TimerEvent: {}
+[11.716015] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/LidarProcess/LidarSlam.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Ksuper_odometry::LidarSLAM::RegistrationError super_odometry::LidarSLAM::EstimateRegistrationError(ceres::Problem&, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.716168] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/LidarProcess/LidarSlam.cpp:861:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Keigen_thresh\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[11.716208] (super_odometry) StderrLine: {'line': b'  861 |             ceres::Problem &problem, \x1b[01;35m\x1b[Kconst double eigen_thresh\x1b[m\x1b[K) {\n'}
+[11.716239] (super_odometry) StderrLine: {'line': b'      |                                      \x1b[01;35m\x1b[K~~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.743013] (-) TimerEvent: {}
+[11.843414] (-) TimerEvent: {}
+[11.944002] (-) TimerEvent: {}
+[12.044454] (-) TimerEvent: {}
+[12.144876] (-) TimerEvent: {}
+[12.245218] (-) TimerEvent: {}
+[12.250098] (super_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/include/super_odometry/ImuPreintegration/imuPreintegration.h:38\x1b[m\x1b[K,\n'}
+[12.250219] (super_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/ImuPreintegration/imuPreintegration.cpp:4\x1b[m\x1b[K:\n'}
+[12.250255] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/include/super_odometry/sensor_data/imu/imu_data.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Imu::imuInit(MapRingBuffer<std::shared_ptr<Imu> >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.250294] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/include/super_odometry/sensor_data/imu/imu_data.h:82:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Krot_first\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K-Wunused-but-set-variable\x1b[m\x1b[K]\n'}
+[12.250325] (super_odometry) StderrLine: {'line': b'   82 |         const Eigen::Quaterniond \x1b[01;35m\x1b[Krot_first\x1b[m\x1b[K = imuBuf.measMap_.begin()->second->q_w_i;\n'}
+[12.250352] (super_odometry) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[12.306097] (super_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/include/super_odometry/ImuPreintegration/imuPreintegration.h:38\x1b[m\x1b[K,\n'}
+[12.306239] (super_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/ImuPreintegration/imuPreintegration.cpp:4\x1b[m\x1b[K:\n'}
+[12.306274] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/include/super_odometry/sensor_data/imu/imu_data.h:101:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Krot_cur\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K-Wunused-but-set-variable\x1b[m\x1b[K]\n'}
+[12.306301] (super_odometry) StderrLine: {'line': b'  101 |         const Eigen::Quaterniond \x1b[01;35m\x1b[Krot_cur\x1b[m\x1b[K = itMeas_->second->q_w_i;\n'}
+[12.306325] (super_odometry) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[12.345318] (-) TimerEvent: {}
+[12.445716] (-) TimerEvent: {}
+[12.493153] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/ImuPreintegration/imuPreintegration.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool super_odometry::imuPreintegration::build_graph(gtsam::Pose3, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.493343] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/ImuPreintegration/imuPreintegration.cpp:289:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Kdiff\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K-Wunused-but-set-variable\x1b[m\x1b[K]\n'}
+[12.493382] (super_odometry) StderrLine: {'line': b'  289 |         auto \x1b[01;35m\x1b[Kdiff\x1b[m\x1b[K  = curPose.translation() - propState_.pose().translation();\n'}
+[12.493409] (super_odometry) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[12.493432] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/ImuPreintegration/imuPreintegration.cpp:279:72:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KcurLaserodomtimestamp\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[12.493455] (super_odometry) StderrLine: {'line': b'  279 |     bool imuPreintegration::build_graph(gtsam::Pose3 lidarPose, \x1b[01;35m\x1b[Kdouble curLaserodomtimestamp\x1b[m\x1b[K) {\n'}
+[12.493478] (super_odometry) StderrLine: {'line': b'      |                                                                 \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.545952] (-) TimerEvent: {}
+[12.646265] (-) TimerEvent: {}
+[12.746616] (-) TimerEvent: {}
+[12.847003] (-) TimerEvent: {}
+[12.947298] (-) TimerEvent: {}
+[13.047671] (-) TimerEvent: {}
+[13.148064] (-) TimerEvent: {}
+[13.248415] (-) TimerEvent: {}
+[13.348805] (-) TimerEvent: {}
+[13.449134] (-) TimerEvent: {}
+[13.549496] (-) TimerEvent: {}
+[13.649867] (-) TimerEvent: {}
+[13.750180] (-) TimerEvent: {}
+[13.850481] (-) TimerEvent: {}
+[13.950853] (-) TimerEvent: {}
+[14.051291] (-) TimerEvent: {}
+[14.151637] (-) TimerEvent: {}
+[14.252032] (-) TimerEvent: {}
+[14.352329] (-) TimerEvent: {}
+[14.452704] (-) TimerEvent: {}
+[14.553197] (-) TimerEvent: {}
+[14.653491] (-) TimerEvent: {}
+[14.753878] (-) TimerEvent: {}
+[14.854139] (-) TimerEvent: {}
+[14.954442] (-) TimerEvent: {}
+[15.054811] (-) TimerEvent: {}
+[15.155161] (-) TimerEvent: {}
+[15.255561] (-) TimerEvent: {}
+[15.355948] (-) TimerEvent: {}
+[15.456379] (-) TimerEvent: {}
+[15.556754] (-) TimerEvent: {}
+[15.657159] (-) TimerEvent: {}
+[15.757465] (-) TimerEvent: {}
+[15.857852] (-) TimerEvent: {}
+[15.958284] (-) TimerEvent: {}
+[16.058792] (-) TimerEvent: {}
+[16.159112] (-) TimerEvent: {}
+[16.259429] (-) TimerEvent: {}
+[16.359802] (-) TimerEvent: {}
+[16.460130] (-) TimerEvent: {}
+[16.560429] (-) TimerEvent: {}
+[16.660837] (-) TimerEvent: {}
+[16.761142] (-) TimerEvent: {}
+[16.861477] (-) TimerEvent: {}
+[16.961850] (-) TimerEvent: {}
+[17.062133] (-) TimerEvent: {}
+[17.162531] (-) TimerEvent: {}
+[17.262918] (-) TimerEvent: {}
+[17.363315] (-) TimerEvent: {}
+[17.463771] (-) TimerEvent: {}
+[17.564167] (-) TimerEvent: {}
+[17.664419] (-) TimerEvent: {}
+[17.764784] (-) TimerEvent: {}
+[17.865215] (-) TimerEvent: {}
+[17.965638] (-) TimerEvent: {}
+[18.066022] (-) TimerEvent: {}
+[18.166380] (-) TimerEvent: {}
+[18.266777] (-) TimerEvent: {}
+[18.367183] (-) TimerEvent: {}
+[18.467486] (-) TimerEvent: {}
+[18.567893] (-) TimerEvent: {}
+[18.668271] (-) TimerEvent: {}
+[18.768571] (-) TimerEvent: {}
+[18.868824] (-) TimerEvent: {}
+[18.969126] (-) TimerEvent: {}
+[19.069422] (-) TimerEvent: {}
+[19.169786] (-) TimerEvent: {}
+[19.270117] (-) TimerEvent: {}
+[19.370487] (-) TimerEvent: {}
+[19.470901] (-) TimerEvent: {}
+[19.571271] (-) TimerEvent: {}
+[19.671670] (-) TimerEvent: {}
+[19.772043] (-) TimerEvent: {}
+[19.872398] (-) TimerEvent: {}
+[19.972780] (-) TimerEvent: {}
+[20.073130] (-) TimerEvent: {}
+[20.173380] (-) TimerEvent: {}
+[20.273753] (-) TimerEvent: {}
+[20.374133] (-) TimerEvent: {}
+[20.474417] (-) TimerEvent: {}
+[20.574900] (-) TimerEvent: {}
+[20.675205] (-) TimerEvent: {}
+[20.775613] (-) TimerEvent: {}
+[20.876005] (-) TimerEvent: {}
+[20.976269] (-) TimerEvent: {}
+[21.076761] (-) TimerEvent: {}
+[21.177236] (-) TimerEvent: {}
+[21.277607] (-) TimerEvent: {}
+[21.378000] (-) TimerEvent: {}
+[21.478245] (-) TimerEvent: {}
+[21.578570] (-) TimerEvent: {}
+[21.678931] (-) TimerEvent: {}
+[21.779279] (-) TimerEvent: {}
+[21.879771] (-) TimerEvent: {}
+[21.980129] (-) TimerEvent: {}
+[22.080386] (-) TimerEvent: {}
+[22.180775] (-) TimerEvent: {}
+[22.281113] (-) TimerEvent: {}
+[22.381439] (-) TimerEvent: {}
+[22.481875] (-) TimerEvent: {}
+[22.582178] (-) TimerEvent: {}
+[22.682525] (-) TimerEvent: {}
+[22.782990] (-) TimerEvent: {}
+[22.883356] (-) TimerEvent: {}
+[22.983599] (-) TimerEvent: {}
+[23.084040] (-) TimerEvent: {}
+[23.184374] (-) TimerEvent: {}
+[23.284846] (-) TimerEvent: {}
+[23.385165] (-) TimerEvent: {}
+[23.485409] (-) TimerEvent: {}
+[23.585812] (-) TimerEvent: {}
+[23.686220] (-) TimerEvent: {}
+[23.786471] (-) TimerEvent: {}
+[23.886849] (-) TimerEvent: {}
+[23.987143] (-) TimerEvent: {}
+[24.087487] (-) TimerEvent: {}
+[24.187876] (-) TimerEvent: {}
+[24.288256] (-) TimerEvent: {}
+[24.388763] (-) TimerEvent: {}
+[24.489141] (-) TimerEvent: {}
+[24.589472] (-) TimerEvent: {}
+[24.689964] (-) TimerEvent: {}
+[24.790360] (-) TimerEvent: {}
+[24.890837] (-) TimerEvent: {}
+[24.991204] (-) TimerEvent: {}
+[25.091451] (-) TimerEvent: {}
+[25.191899] (-) TimerEvent: {}
+[25.292382] (-) TimerEvent: {}
+[25.392628] (-) TimerEvent: {}
+[25.492865] (-) TimerEvent: {}
+[25.593112] (-) TimerEvent: {}
+[25.693488] (-) TimerEvent: {}
+[25.793841] (-) TimerEvent: {}
+[25.894233] (-) TimerEvent: {}
+[25.994536] (-) TimerEvent: {}
+[26.094929] (-) TimerEvent: {}
+[26.195260] (-) TimerEvent: {}
+[26.295576] (-) TimerEvent: {}
+[26.396045] (-) TimerEvent: {}
+[26.496325] (-) TimerEvent: {}
+[26.596761] (-) TimerEvent: {}
+[26.697106] (-) TimerEvent: {}
+[26.797424] (-) TimerEvent: {}
+[26.897860] (-) TimerEvent: {}
+[26.998197] (-) TimerEvent: {}
+[27.098446] (-) TimerEvent: {}
+[27.198763] (-) TimerEvent: {}
+[27.299044] (-) TimerEvent: {}
+[27.399405] (-) TimerEvent: {}
+[27.499779] (-) TimerEvent: {}
+[27.600140] (-) TimerEvent: {}
+[27.700456] (-) TimerEvent: {}
+[27.800846] (-) TimerEvent: {}
+[27.901175] (-) TimerEvent: {}
+[28.001476] (-) TimerEvent: {}
+[28.101870] (-) TimerEvent: {}
+[28.202213] (-) TimerEvent: {}
+[28.302533] (-) TimerEvent: {}
+[28.402946] (-) TimerEvent: {}
+[28.503264] (-) TimerEvent: {}
+[28.603710] (-) TimerEvent: {}
+[28.704149] (-) TimerEvent: {}
+[28.804475] (-) TimerEvent: {}
+[28.904837] (-) TimerEvent: {}
+[29.005137] (-) TimerEvent: {}
+[29.105383] (-) TimerEvent: {}
+[29.205746] (-) TimerEvent: {}
+[29.306113] (-) TimerEvent: {}
+[29.406516] (-) TimerEvent: {}
+[29.506849] (-) TimerEvent: {}
+[29.607207] (-) TimerEvent: {}
+[29.707469] (-) TimerEvent: {}
+[29.807879] (-) TimerEvent: {}
+[29.833687] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/FeatureExtraction/featureExtraction.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid super_odometry::featureExtraction::undistortionAndFeatureExtraction()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[29.833819] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/FeatureExtraction/featureExtraction.cpp:495:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klidar_start_time\x1b[m\x1b[K\xe2\x80\x99 may be used uninitialized in this function [\x1b[01;35m\x1b[K-Wmaybe-uninitialized\x1b[m\x1b[K]\n'}
+[29.833854] (super_odometry) StderrLine: {'line': b'  495 |             \x1b[01;35m\x1b[KextractFeatures(lidar_start_time, lidar_msg, default_quaternion)\x1b[m\x1b[K;\n'}
+[29.833881] (super_odometry) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[29.907975] (-) TimerEvent: {}
+[30.008284] (-) TimerEvent: {}
+[30.108601] (-) TimerEvent: {}
+[30.209032] (-) TimerEvent: {}
+[30.309396] (-) TimerEvent: {}
+[30.409641] (-) TimerEvent: {}
+[30.510118] (-) TimerEvent: {}
+[30.610559] (-) TimerEvent: {}
+[30.710944] (-) TimerEvent: {}
+[30.811225] (-) TimerEvent: {}
+[30.911481] (-) TimerEvent: {}
+[31.011757] (-) TimerEvent: {}
+[31.112111] (-) TimerEvent: {}
+[31.212371] (-) TimerEvent: {}
+[31.312729] (-) TimerEvent: {}
+[31.413045] (-) TimerEvent: {}
+[31.513346] (-) TimerEvent: {}
+[31.613694] (-) TimerEvent: {}
+[31.714033] (-) TimerEvent: {}
+[31.814339] (-) TimerEvent: {}
+[31.914709] (-) TimerEvent: {}
+[32.015123] (-) TimerEvent: {}
+[32.115383] (-) TimerEvent: {}
+[32.215751] (-) TimerEvent: {}
+[32.316127] (-) TimerEvent: {}
+[32.416440] (-) TimerEvent: {}
+[32.516822] (-) TimerEvent: {}
+[32.617036] (-) TimerEvent: {}
+[32.717372] (-) TimerEvent: {}
+[32.817767] (-) TimerEvent: {}
+[32.918165] (-) TimerEvent: {}
+[33.018549] (-) TimerEvent: {}
+[33.119008] (-) TimerEvent: {}
+[33.219271] (-) TimerEvent: {}
+[33.319540] (-) TimerEvent: {}
+[33.419972] (-) TimerEvent: {}
+[33.520279] (-) TimerEvent: {}
+[33.620965] (-) TimerEvent: {}
+[33.721221] (-) TimerEvent: {}
+[33.821852] (-) TimerEvent: {}
+[33.922137] (-) TimerEvent: {}
+[34.022436] (-) TimerEvent: {}
+[34.122992] (-) TimerEvent: {}
+[34.223287] (-) TimerEvent: {}
+[34.323677] (-) TimerEvent: {}
+[34.424142] (-) TimerEvent: {}
+[34.524429] (-) TimerEvent: {}
+[34.624795] (-) TimerEvent: {}
+[34.725177] (-) TimerEvent: {}
+[34.825430] (-) TimerEvent: {}
+[34.925754] (-) TimerEvent: {}
+[35.026219] (-) TimerEvent: {}
+[35.126479] (-) TimerEvent: {}
+[35.226767] (-) TimerEvent: {}
+[35.327074] (-) TimerEvent: {}
+[35.427348] (-) TimerEvent: {}
+[35.527672] (-) TimerEvent: {}
+[35.628057] (-) TimerEvent: {}
+[35.728325] (-) TimerEvent: {}
+[35.828624] (-) TimerEvent: {}
+[35.928974] (-) TimerEvent: {}
+[36.029320] (-) TimerEvent: {}
+[36.129670] (-) TimerEvent: {}
+[36.229914] (-) TimerEvent: {}
+[36.330181] (-) TimerEvent: {}
+[36.430659] (-) TimerEvent: {}
+[36.530984] (-) TimerEvent: {}
+[36.631230] (-) TimerEvent: {}
+[36.731653] (-) TimerEvent: {}
+[36.831962] (-) TimerEvent: {}
+[36.932216] (-) TimerEvent: {}
+[37.032603] (-) TimerEvent: {}
+[37.132854] (-) TimerEvent: {}
+[37.233219] (-) TimerEvent: {}
+[37.333456] (-) TimerEvent: {}
+[37.433747] (-) TimerEvent: {}
+[37.526726] (super_odometry) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libSuperOdomLib.so\x1b[0m\n'}
+[37.534475] (-) TimerEvent: {}
+[37.634703] (-) TimerEvent: {}
+[37.735031] (-) TimerEvent: {}
+[37.835256] (-) TimerEvent: {}
+[37.935480] (-) TimerEvent: {}
+[38.035754] (-) TimerEvent: {}
+[38.135989] (-) TimerEvent: {}
+[38.236234] (-) TimerEvent: {}
+[38.336477] (-) TimerEvent: {}
+[38.436827] (-) TimerEvent: {}
+[38.537136] (-) TimerEvent: {}
+[38.637378] (-) TimerEvent: {}
+[38.737676] (-) TimerEvent: {}
+[38.838006] (-) TimerEvent: {}
+[38.938248] (-) TimerEvent: {}
+[39.038468] (-) TimerEvent: {}
+[39.090107] (super_odometry) StdoutLine: {'line': b'[ 64%] Built target SuperOdomLib\n'}
+[39.106326] (super_odometry) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/feature_extraction_node.dir/src/featureExtraction_node.cpp.o\x1b[0m\n'}
+[39.106684] (super_odometry) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/laser_mapping_node.dir/src/laserMapping_node.cpp.o\x1b[0m\n'}
+[39.106717] (super_odometry) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/imu_preintegration_node.dir/src/imuPreintegration_node.cpp.o\x1b[0m\n'}
+[39.138552] (-) TimerEvent: {}
+[39.239152] (-) TimerEvent: {}
+[39.339396] (-) TimerEvent: {}
+[39.439760] (-) TimerEvent: {}
+[39.540118] (-) TimerEvent: {}
+[39.640421] (-) TimerEvent: {}
+[39.740791] (-) TimerEvent: {}
+[39.841090] (-) TimerEvent: {}
+[39.941331] (-) TimerEvent: {}
+[40.041694] (-) TimerEvent: {}
+[40.142065] (-) TimerEvent: {}
+[40.242366] (-) TimerEvent: {}
+[40.342645] (-) TimerEvent: {}
+[40.442931] (-) TimerEvent: {}
+[40.543221] (-) TimerEvent: {}
+[40.643501] (-) TimerEvent: {}
+[40.743848] (-) TimerEvent: {}
+[40.844157] (-) TimerEvent: {}
+[40.944408] (-) TimerEvent: {}
+[41.045322] (-) TimerEvent: {}
+[41.145604] (-) TimerEvent: {}
+[41.245960] (-) TimerEvent: {}
+[41.346252] (-) TimerEvent: {}
+[41.446541] (-) TimerEvent: {}
+[41.546895] (-) TimerEvent: {}
+[41.647192] (-) TimerEvent: {}
+[41.747513] (-) TimerEvent: {}
+[41.847849] (-) TimerEvent: {}
+[41.948102] (-) TimerEvent: {}
+[42.048359] (-) TimerEvent: {}
+[42.148741] (-) TimerEvent: {}
+[42.249005] (-) TimerEvent: {}
+[42.349249] (-) TimerEvent: {}
+[42.449496] (-) TimerEvent: {}
+[42.549829] (-) TimerEvent: {}
+[42.650041] (-) TimerEvent: {}
+[42.750285] (-) TimerEvent: {}
+[42.850528] (-) TimerEvent: {}
+[42.950845] (-) TimerEvent: {}
+[43.023810] (super_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/include/super_odometry/FeatureExtraction/featureExtraction.h:27\x1b[m\x1b[K,\n'}
+[43.023955] (super_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/featureExtraction_node.cpp:5\x1b[m\x1b[K:\n'}
+[43.023995] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/include/super_odometry/sensor_data/imu/imu_data.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Imu::imuInit(MapRingBuffer<std::shared_ptr<Imu> >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[43.024025] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/include/super_odometry/sensor_data/imu/imu_data.h:82:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Krot_first\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K-Wunused-but-set-variable\x1b[m\x1b[K]\n'}
+[43.024050] (super_odometry) StderrLine: {'line': b'   82 |         const Eigen::Quaterniond \x1b[01;35m\x1b[Krot_first\x1b[m\x1b[K = imuBuf.measMap_.begin()->second->q_w_i;\n'}
+[43.024073] (super_odometry) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[43.051060] (-) TimerEvent: {}
+[43.073130] (super_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/include/super_odometry/FeatureExtraction/featureExtraction.h:27\x1b[m\x1b[K,\n'}
+[43.073286] (super_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/featureExtraction_node.cpp:5\x1b[m\x1b[K:\n'}
+[43.073319] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/include/super_odometry/sensor_data/imu/imu_data.h:101:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Krot_cur\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K-Wunused-but-set-variable\x1b[m\x1b[K]\n'}
+[43.073357] (super_odometry) StderrLine: {'line': b'  101 |         const Eigen::Quaterniond \x1b[01;35m\x1b[Krot_cur\x1b[m\x1b[K = itMeas_->second->q_w_i;\n'}
+[43.073381] (super_odometry) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[43.151158] (-) TimerEvent: {}
+[43.190301] (super_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/include/super_odometry/LidarProcess/LocalMap.h:31\x1b[m\x1b[K,\n'}
+[43.190446] (super_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/include/super_odometry/LidarProcess/LidarSlam.h:17\x1b[m\x1b[K,\n'}
+[43.190488] (super_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/include/super_odometry/LaserMapping/laserMapping.h:34\x1b[m\x1b[K,\n'}
+[43.190513] (super_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/laserMapping_node.cpp:5\x1b[m\x1b[K:\n'}
+[43.190538] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/include/super_odometry/flann/nanoflann.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Ksize_t nanoflann::KDTreeSingIndexAaptor<Distance, DatasetAdapter, DIM, IndexType>::knnSearch(const ElementType*, size_t, IndexType*, nanoflann::KDTreeSingIndexAaptor<Distance, DatasetAdapter, DIM, IndexType>::DistanceType*, int) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[43.190563] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/include/super_odometry/flann/nanoflann.h:871:3:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[43.190585] (super_odometry) StderrLine: {'line': b'  871 |   \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[43.190606] (super_odometry) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[43.251256] (-) TimerEvent: {}
+[43.345081] (super_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/include/super_odometry/LidarProcess/factor/pose_local_parameterization.h:11\x1b[m\x1b[K,\n'}
+[43.345225] (super_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/include/super_odometry/LidarProcess/LidarSlam.h:30\x1b[m\x1b[K,\n'}
+[43.345256] (super_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/include/super_odometry/LaserMapping/laserMapping.h:34\x1b[m\x1b[K,\n'}
+[43.345280] (super_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/laserMapping_node.cpp:5\x1b[m\x1b[K:\n'}
+[43.345301] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/include/super_odometry/LidarProcess/factor/../../utils/utility.h:\x1b[m\x1b[K At global scope:\n'}
+[43.345323] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/include/super_odometry/LidarProcess/factor/../../utils/utility.h:137:6:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[43.345356] (super_odometry) StderrLine: {'line': b'  137 |     }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[43.345377] (super_odometry) StderrLine: {'line': b'      |      \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[43.345397] (super_odometry) StderrLine: {'line': b'      |      \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[43.351319] (-) TimerEvent: {}
+[43.451515] (-) TimerEvent: {}
+[43.551854] (-) TimerEvent: {}
+[43.652120] (-) TimerEvent: {}
+[43.752374] (-) TimerEvent: {}
+[43.852674] (-) TimerEvent: {}
+[43.953005] (-) TimerEvent: {}
+[44.053255] (-) TimerEvent: {}
+[44.153500] (-) TimerEvent: {}
+[44.253812] (-) TimerEvent: {}
+[44.354154] (-) TimerEvent: {}
+[44.454408] (-) TimerEvent: {}
+[44.554770] (-) TimerEvent: {}
+[44.655096] (-) TimerEvent: {}
+[44.709997] (super_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/include/super_odometry/LaserMapping/laserMapping.h:34\x1b[m\x1b[K,\n'}
+[44.710144] (super_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/laserMapping_node.cpp:5\x1b[m\x1b[K:\n'}
+[44.710181] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/include/super_odometry/LidarProcess/LidarSlam.h:208:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[44.710210] (super_odometry) StderrLine: {'line': b'  208 |         rclcpp::Publisher<std_msgs::msg::Float32>::SharedPtr pubUncertaintyYaw;\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[44.710236] (super_odometry) StderrLine: {'line': b'      |                                                                                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[44.710259] (super_odometry) StderrLine: {'line': b'      |                                                                                \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[44.755193] (-) TimerEvent: {}
+[44.855445] (-) TimerEvent: {}
+[44.955760] (-) TimerEvent: {}
+[45.056158] (-) TimerEvent: {}
+[45.156400] (-) TimerEvent: {}
+[45.256651] (-) TimerEvent: {}
+[45.356896] (-) TimerEvent: {}
+[45.457142] (-) TimerEvent: {}
+[45.557383] (-) TimerEvent: {}
+[45.657701] (-) TimerEvent: {}
+[45.750511] (super_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/include/super_odometry/ImuPreintegration/imuPreintegration.h:38\x1b[m\x1b[K,\n'}
+[45.750655] (super_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/imuPreintegration_node.cpp:5\x1b[m\x1b[K:\n'}
+[45.750690] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/include/super_odometry/sensor_data/imu/imu_data.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Imu::imuInit(MapRingBuffer<std::shared_ptr<Imu> >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[45.750717] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/include/super_odometry/sensor_data/imu/imu_data.h:82:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Krot_first\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K-Wunused-but-set-variable\x1b[m\x1b[K]\n'}
+[45.750741] (super_odometry) StderrLine: {'line': b'   82 |         const Eigen::Quaterniond \x1b[01;35m\x1b[Krot_first\x1b[m\x1b[K = imuBuf.measMap_.begin()->second->q_w_i;\n'}
+[45.750762] (super_odometry) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[45.757832] (-) TimerEvent: {}
+[45.796293] (super_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/include/super_odometry/ImuPreintegration/imuPreintegration.h:38\x1b[m\x1b[K,\n'}
+[45.796440] (super_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/src/imuPreintegration_node.cpp:5\x1b[m\x1b[K:\n'}
+[45.796472] (super_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/slam/SuperOdom/super_odometry/include/super_odometry/sensor_data/imu/imu_data.h:101:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Krot_cur\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K-Wunused-but-set-variable\x1b[m\x1b[K]\n'}
+[45.796499] (super_odometry) StderrLine: {'line': b'  101 |         const Eigen::Quaterniond \x1b[01;35m\x1b[Krot_cur\x1b[m\x1b[K = itMeas_->second->q_w_i;\n'}
+[45.796522] (super_odometry) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[45.857993] (-) TimerEvent: {}
+[45.958232] (-) TimerEvent: {}
+[46.058469] (-) TimerEvent: {}
+[46.138966] (super_odometry) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking CXX executable feature_extraction_node\x1b[0m\n'}
+[46.158581] (-) TimerEvent: {}
+[46.258896] (-) TimerEvent: {}
+[46.359258] (-) TimerEvent: {}
+[46.459608] (-) TimerEvent: {}
+[46.553226] (super_odometry) StdoutLine: {'line': b'[ 88%] Built target feature_extraction_node\n'}
+[46.559738] (-) TimerEvent: {}
+[46.659996] (-) TimerEvent: {}
+[46.760435] (-) TimerEvent: {}
+[46.861823] (-) TimerEvent: {}
+[46.962168] (-) TimerEvent: {}
+[47.062520] (-) TimerEvent: {}
+[47.162916] (-) TimerEvent: {}
+[47.263273] (-) TimerEvent: {}
+[47.366032] (-) TimerEvent: {}
+[47.466434] (-) TimerEvent: {}
+[47.566802] (-) TimerEvent: {}
+[47.667108] (-) TimerEvent: {}
+[47.767478] (-) TimerEvent: {}
+[47.867815] (-) TimerEvent: {}
+[47.968163] (-) TimerEvent: {}
+[48.068542] (-) TimerEvent: {}
+[48.120139] (super_odometry) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking CXX executable laser_mapping_node\x1b[0m\n'}
+[48.168726] (-) TimerEvent: {}
+[48.269088] (-) TimerEvent: {}
+[48.369445] (-) TimerEvent: {}
+[48.469794] (-) TimerEvent: {}
+[48.501158] (super_odometry) StdoutLine: {'line': b'[ 94%] Built target laser_mapping_node\n'}
+[48.569945] (-) TimerEvent: {}
+[48.670298] (-) TimerEvent: {}
+[48.770642] (-) TimerEvent: {}
+[48.870997] (-) TimerEvent: {}
+[48.971227] (-) TimerEvent: {}
+[49.071444] (-) TimerEvent: {}
+[49.171776] (-) TimerEvent: {}
+[49.272117] (-) TimerEvent: {}
+[49.373396] (-) TimerEvent: {}
+[49.473752] (-) TimerEvent: {}
+[49.574070] (-) TimerEvent: {}
+[49.674304] (-) TimerEvent: {}
+[49.774600] (-) TimerEvent: {}
+[49.874973] (-) TimerEvent: {}
+[49.975249] (-) TimerEvent: {}
+[50.075502] (-) TimerEvent: {}
+[50.175740] (-) TimerEvent: {}
+[50.276057] (-) TimerEvent: {}
+[50.376375] (-) TimerEvent: {}
+[50.476602] (-) TimerEvent: {}
+[50.576929] (-) TimerEvent: {}
+[50.677247] (-) TimerEvent: {}
+[50.779121] (-) TimerEvent: {}
+[50.879375] (-) TimerEvent: {}
+[50.979638] (-) TimerEvent: {}
+[51.079921] (-) TimerEvent: {}
+[51.180228] (-) TimerEvent: {}
+[51.280450] (-) TimerEvent: {}
+[51.380774] (-) TimerEvent: {}
+[51.481022] (-) TimerEvent: {}
+[51.582019] (-) TimerEvent: {}
+[51.682254] (-) TimerEvent: {}
+[51.727671] (super_odometry) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable imu_preintegration_node\x1b[0m\n'}
+[51.782344] (-) TimerEvent: {}
+[51.882617] (-) TimerEvent: {}
+[51.982909] (-) TimerEvent: {}
+[52.083151] (-) TimerEvent: {}
+[52.183424] (-) TimerEvent: {}
+[52.258492] (super_odometry) StdoutLine: {'line': b'[100%] Built target imu_preintegration_node\n'}
+[52.269623] (super_odometry) CommandEnded: {'returncode': 0}
+[52.269762] (super_odometry) JobProgress: {'identifier': 'super_odometry', 'progress': 'install'}
+[52.273865] (super_odometry) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ros2_ws/src/slam/SuperOdom/super_odometry/build/super_odometry'], 'cwd': '/root/ros2_ws/src/slam/SuperOdom/super_odometry/build/super_odometry', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('NVIDIA_CTK_LIBCUDA_DIR', '/usr/lib/x86_64-linux-gnu'), ('HOSTNAME', 'zhhavant-Legion-Pro-7-16IAX10H'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/visibility_graph_msg/lib:/root/ros2_ws/install/go2_sport_api/lib:/root/ros2_ws/install/unitree_go/lib:/root/ros2_ws/install/unitree_api/lib:/root/ros2_ws/install/super_odometry/lib:/root/ros2_ws/install/super_odometry_msgs/lib:/root/ros2_ws/install/rviz_2d_overlay_plugins/lib:/root/ros2_ws/install/rviz_2d_overlay_msgs/lib:/root/ros2_ws/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws/src/slam/SuperOdom'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/waypoint_rviz_plugin:/root/ros2_ws/install/waypoint_example:/root/ros2_ws/install/visualization_tools:/root/ros2_ws/install/graph_decoder:/root/ros2_ws/install/far_planner:/root/ros2_ws/install/boundary_handler:/root/ros2_ws/install/visibility_graph_msg:/root/ros2_ws/install/vehicle_simulator:/root/ros2_ws/install/local_planner:/root/ros2_ws/install/calibrate_imu:/root/ros2_ws/install/go2_sport_api:/root/ros2_ws/install/unitree_go:/root/ros2_ws/install/unitree_api:/root/ros2_ws/install/point_lio_unilidar:/root/ros2_ws/install/transform_sensors:/root/ros2_ws/install/terrain_analysis_ext:/root/ros2_ws/install/terrain_analysis:/root/ros2_ws/install/teleop_rviz_plugin_plus:/root/ros2_ws/install/teleop_rviz_plugin:/root/ros2_ws/install/super_odometry:/root/ros2_ws/install/super_odometry_msgs:/root/ros2_ws/install/sensor_scan_generation:/root/ros2_ws/install/rviz_2d_overlay_plugins:/root/ros2_ws/install/rviz_2d_overlay_msgs:/root/ros2_ws/install/ros_tcp_endpoint:/root/ros2_ws/install/livox_ros_driver2:/root/ros2_ws/install/goalpoint_rviz_plugin:/root/ros2_ws/install/go2_h264_repub:/opt/ros/humble'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/ros2_ws/src/slam/SuperOdom/super_odometry/build/super_odometry'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/ros2_ws/install/visualization_tools/local/lib/python3.10/dist-packages:/root/ros2_ws/install/visibility_graph_msg/local/lib/python3.10/dist-packages:/root/ros2_ws/install/unitree_go/local/lib/python3.10/dist-packages:/root/ros2_ws/install/unitree_api/local/lib/python3.10/dist-packages:/root/ros2_ws/install/transform_sensors/lib/python3.10/site-packages:/root/ros2_ws/install/super_odometry_msgs/local/lib/python3.10/dist-packages:/root/ros2_ws/install/rviz_2d_overlay_msgs/local/lib/python3.10/dist-packages:/root/ros2_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:/root/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'void'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/waypoint_rviz_plugin:/root/ros2_ws/install/waypoint_example:/root/ros2_ws/install/visualization_tools:/root/ros2_ws/install/graph_decoder:/root/ros2_ws/install/far_planner:/root/ros2_ws/install/boundary_handler:/root/ros2_ws/install/visibility_graph_msg:/root/ros2_ws/install/vehicle_simulator:/root/ros2_ws/install/local_planner:/root/ros2_ws/install/calibrate_imu:/root/ros2_ws/install/go2_sport_api:/root/ros2_ws/install/unitree_go:/root/ros2_ws/install/unitree_api:/root/ros2_ws/install/point_lio_unilidar:/root/ros2_ws/install/terrain_analysis_ext:/root/ros2_ws/install/terrain_analysis:/root/ros2_ws/install/teleop_rviz_plugin_plus:/root/ros2_ws/install/teleop_rviz_plugin:/root/ros2_ws/install/super_odometry:/root/ros2_ws/install/super_odometry_msgs:/root/ros2_ws/install/sensor_scan_generation:/root/ros2_ws/install/rviz_2d_overlay_plugins:/root/ros2_ws/install/rviz_2d_overlay_msgs:/root/ros2_ws/install/livox_ros_driver2:/root/ros2_ws/install/goalpoint_rviz_plugin:/root/ros2_ws/install/go2_h264_repub:/root/ros2_ws/install/transform_sensors:/root/ros2_ws/install/ros_tcp_endpoint:/opt/ros/humble')]), 'shell': False}
+[52.277207] (super_odometry) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[52.277481] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/share/super_odometry/environment/library_path.sh\n'}
+[52.278727] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/share/super_odometry/environment/library_path.dsv\n'}
+[52.278759] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/include\n'}
+[52.278785] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/include/super_odometry\n'}
+[52.278804] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/include/super_odometry/ImuPreintegration\n'}
+[52.278822] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/include/super_odometry/ImuPreintegration/imuPreintegration.h\n'}
+[52.278838] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/include/super_odometry/container\n'}
+[52.278855] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/include/super_odometry/container/MapRingBuffer.h\n'}
+[52.278870] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/include/super_odometry/sensor_data\n'}
+[52.278886] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/include/super_odometry/sensor_data/imu\n'}
+[52.278901] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/include/super_odometry/sensor_data/imu/imu_data.h\n'}
+[52.278916] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/include/super_odometry/sensor_data/pointcloud\n'}
+[52.278931] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/include/super_odometry/sensor_data/pointcloud/point_os.h\n'}
+[52.278947] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/include/super_odometry/sensor_data/pointcloud/LidarPoint.h\n'}
+[52.278963] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/include/super_odometry/tic_toc.h\n'}
+[52.278979] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/include/super_odometry/LidarProcess\n'}
+[52.278995] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/include/super_odometry/LidarProcess/factor\n'}
+[52.279010] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/include/super_odometry/LidarProcess/factor/pose_local_parameterization.h\n'}
+[52.279028] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/include/super_odometry/LidarProcess/factor/SE3AbsolutatePoseFactor.h\n'}
+[52.279044] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/include/super_odometry/LidarProcess/factor/lidarOptimization.h\n'}
+[52.279058] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/include/super_odometry/LidarProcess/LidarSlam.h\n'}
+[52.279072] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/include/super_odometry/LidarProcess/LocalMap.h\n'}
+[52.279086] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/include/super_odometry/utils\n'}
+[52.279101] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/include/super_odometry/utils/EigenTypes.h\n'}
+[52.279116] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/include/super_odometry/utils/Twist.h\n'}
+[52.279130] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/include/super_odometry/utils/superodom_utils.h\n'}
+[52.279144] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/include/super_odometry/utils/sophus_utils.hpp\n'}
+[52.279158] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/include/super_odometry/utils/utility.h\n'}
+[52.279172] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/include/super_odometry/LaserMapping\n'}
+[52.279188] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/include/super_odometry/LaserMapping/laserMapping.h\n'}
+[52.279202] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/include/super_odometry/FeatureExtraction\n'}
+[52.279216] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/include/super_odometry/FeatureExtraction/featureExtraction.h\n'}
+[52.279230] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/include/super_odometry/config\n'}
+[52.279244] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/include/super_odometry/config/parameter.h\n'}
+[52.279259] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/include/super_odometry/flann\n'}
+[52.279274] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/include/super_odometry/flann/nanoflann.h\n'}
+[52.279288] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/include/super_odometry/flann/octree.h\n'}
+[52.279302] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/include/super_odometry/LocalMap.h\n'}
+[52.279316] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/include/utility.h\n'}
+[52.279347] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/lib/libSuperOdomLib.so\n'}
+[52.283491] (-) TimerEvent: {}
+[52.372276] (super_odometry) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/lib/libSuperOdomLib.so" to ""\n'}
+[52.372395] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/lib/super_odometry/imu_preintegration_node\n'}
+[52.383570] (-) TimerEvent: {}
+[52.385482] (super_odometry) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/lib/super_odometry/imu_preintegration_node" to ""\n'}
+[52.385556] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/lib/super_odometry/feature_extraction_node\n'}
+[52.388986] (super_odometry) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/lib/super_odometry/feature_extraction_node" to ""\n'}
+[52.389073] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/lib/super_odometry/laser_mapping_node\n'}
+[52.395250] (super_odometry) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/lib/super_odometry/laser_mapping_node" to ""\n'}
+[52.397625] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/share/super_odometry//config\n'}
+[52.398527] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/share/super_odometry//config/ouster\n'}
+[52.398576] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/share/super_odometry//config/ouster/os1_128_calibration.yaml\n'}
+[52.398603] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/share/super_odometry//config/livox\n'}
+[52.398765] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/share/super_odometry//config/livox/livox_mid360_calibration.yaml\n'}
+[52.398797] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/share/super_odometry//config/os1_128.yaml\n'}
+[52.398822] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/share/super_odometry//config/vlp_16.yaml\n'}
+[52.398846] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/share/super_odometry//config/velodyne\n'}
+[52.398869] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/share/super_odometry//config/velodyne/vlp_16_calibration.yaml\n'}
+[52.398892] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/share/super_odometry//config/livox_mid360.yaml\n'}
+[52.398940] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/share/super_odometry//launch\n'}
+[52.398963] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/share/super_odometry//launch/livox_mid360.launch.py\n'}
+[52.398989] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/share/super_odometry//launch/superodom_autonomy_sim.launch.py\n'}
+[52.399013] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/share/super_odometry//launch/os1_128.launch.py\n'}
+[52.399094] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/share/super_odometry//launch/vlp_16.launch.py\n'}
+[52.399118] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/share/super_odometry//launch/superodom_autonomy.launch.py\n'}
+[52.399141] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/share/ament_index/resource_index/package_run_dependencies/super_odometry\n'}
+[52.399164] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/share/ament_index/resource_index/parent_prefix_path/super_odometry\n'}
+[52.399188] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/share/super_odometry/environment/ament_prefix_path.sh\n'}
+[52.399210] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/share/super_odometry/environment/ament_prefix_path.dsv\n'}
+[52.399232] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/share/super_odometry/environment/path.sh\n'}
+[52.399253] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/share/super_odometry/environment/path.dsv\n'}
+[52.399275] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/share/super_odometry/local_setup.bash\n'}
+[52.399297] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/share/super_odometry/local_setup.sh\n'}
+[52.399319] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/share/super_odometry/local_setup.zsh\n'}
+[52.399340] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/share/super_odometry/local_setup.dsv\n'}
+[52.399361] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/share/super_odometry/package.dsv\n'}
+[52.399382] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/share/ament_index/resource_index/packages/super_odometry\n'}
+[52.399404] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/share/super_odometry/cmake/export_super_odometryExport.cmake\n'}
+[52.399428] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/share/super_odometry/cmake/export_super_odometryExport-release.cmake\n'}
+[52.399543] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/share/super_odometry/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[52.399586] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/share/super_odometry/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[52.399616] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/share/super_odometry/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[52.399642] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/share/super_odometry/cmake/super_odometryConfig.cmake\n'}
+[52.400084] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/share/super_odometry/cmake/super_odometryConfig-version.cmake\n'}
+[52.400116] (super_odometry) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/slam/SuperOdom/super_odometry/install/super_odometry/share/super_odometry/package.xml\n'}
+[52.400141] (super_odometry) CommandEnded: {'returncode': 0}
+[52.411336] (super_odometry) JobEnded: {'identifier': 'super_odometry', 'rc': 0}
+[52.412278] (-) EventReactorShutdown: {}

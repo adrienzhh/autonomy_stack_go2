@@ -1,2 +1,0 @@
-[0m** WARNING ** io features related to pcap will be disabled[0m
-[0mWARNING: Target "feature_extraction_node" requests linking to directory "/root/ros2_ws/src/slam/SuperOdom/super_odometry/include".  Targets may link only to libraries.  CMake is dropping the item.[0m

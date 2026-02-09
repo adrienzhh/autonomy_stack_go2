@@ -1,3 +1,0 @@
-Invoking command in '/root/ros2_ws/src/build/go2_h264_repub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/utilities/unitree_pkgs/go2_h264_repub -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/go2_h264_repub
-Invoked command in '/root/ros2_ws/src/build/go2_h264_repub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/utilities/unitree_pkgs/go2_h264_repub -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/go2_h264_repub
-Invoking command in '/root/ros2_ws/src/build/go2_h264_repub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/src/build/go2_h264_repub -- -j24 -l24

@@ -1,4 +1,0 @@
-[01m[K/root/ros2_ws/src/utilities/goalpoint_rviz_plugin/src/goalpoint_tool.cpp:[m[K In member function ‘[01m[Kvirtual void goalpoint_rviz_plugin::GoalpointTool::onPoseSet(double, double, double)[m[K’:
-[01m[K/root/ros2_ws/src/utilities/goalpoint_rviz_plugin/src/goalpoint_tool.cpp:52:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktheta[m[K’ [[01;35m[K-Wunused-parameter[m[K]
-   52 | void GoalpointTool::onPoseSet(double x, double y, [01;35m[Kdouble theta[m[K)
-      |                                                   [01;35m[K~~~~~~~^~~~~[m[K

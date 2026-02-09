@@ -1,2 +1,0 @@
-Invoking command in '/root/ros2_ws/src/build/unitree_api': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/utilities/unitree_pkgs/unitree_api -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/unitree_api
-Invoked command in '/root/ros2_ws/src/build/unitree_api' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/utilities/unitree_pkgs/unitree_api -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/unitree_api

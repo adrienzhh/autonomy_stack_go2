@@ -280,7 +280,7 @@ int main(int argc, char** argv)
   nh->get_parameter("goalCloseDis", goalCloseDis);
   nh->get_parameter("is_real_robot", is_real_robot);
 
-  auto subOdom = nh->create_subscription<nav_msgs::msg::Odometry>("/state_estimation", 5, odomHandler);
+  auto subOdom = nh->create_subscription<nav_msgs::msg::Odometry>("/laser_odometry", 5, odomHandler);
 
   auto subPath = nh->create_subscription<nav_msgs::msg::Path>("/path", 5, pathHandler);
 

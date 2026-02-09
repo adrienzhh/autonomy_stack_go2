@@ -1,9 +1,10 @@
 """
-SuperOdom launch file for SIMULATION (bag replay) with topic remappings.
+SuperOdom launch file for SIMULATION (bag replay).
 
-This launch file runs SuperOdom (Livox Mid360) for bag file replay and remaps:
-  - /super_odometry/laser_odometry -> /laser_odom_path
-  - /super_odometry/registered_scan -> /registered_scan
+This launch file runs SuperOdom (Livox Mid360) for bag file replay.
+SuperOdom publishes (with PROJECT_NAME=""):
+  - /laser_odometry (10Hz odometry from scan matching)
+  - /registered_scan (registered point cloud)
 
 Usage: Play a bag file containing /livox/lidar and /livox/imu topics
        ros2 bag play <bag_file> --clock
@@ -54,7 +55,10 @@ def generate_launch_description():
         ],
     )
 
-    # Laser mapping node with remappings
+    # Laser mapping node
+    # Note: PROJECT_NAME defaults to empty, so topics are published as:
+    #   /laser_odometry (10Hz odometry from scan matching)
+    #   /registered_scan (registered point cloud)
     laser_mapping_node = Node(
         package="super_odometry",
         executable="laser_mapping_node",
@@ -64,11 +68,6 @@ def generate_launch_description():
             {"calibration_file": LaunchConfiguration("calibration_file"),
              "use_sim_time": True}
         ],
-        remappings=[
-            # Remap SuperOdom outputs to standard topic names
-            ("/super_odometry/laser_odometry", "/laser_odom_path"),
-            ("/super_odometry/registered_scan", "/registered_scan"),
-        ]
     )
 
     # IMU preintegration node (for future 100Hz odometry)
@@ -101,6 +100,20 @@ def generate_launch_description():
         parameters=[{"use_sim_time": True}]
     )
     
+    # Odometry to TF broadcaster (for laser-only mode without IMU)
+    odom_to_tf_node = Node(
+        package="super_odometry",
+        executable="odom_to_tf.py",
+        name="odom_to_tf",
+        output="screen",
+        parameters=[{
+            "odom_topic": "/laser_odometry",
+            "parent_frame": "map",
+            "child_frame": "sensor",
+            "use_sim_time": True
+        }]
+    )
+    
     return LaunchDescription([
         launch_ros.actions.SetParameter(name='use_sim_time', value=True),
         config_path_arg,
@@ -110,4 +123,5 @@ def generate_launch_description():
         imu_preintegration_node,
         tf_map_to_camera_init,
         tf_sensor_to_aft_mapped,
+        odom_to_tf_node,
     ])

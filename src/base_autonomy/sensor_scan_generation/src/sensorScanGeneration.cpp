@@ -125,7 +125,7 @@ int main(int argc, char** argv)
     false
   };
 
-  subOdometry.subscribe(nh, "/state_estimation", qos_profile);
+  subOdometry.subscribe(nh, "/laser_odometry", qos_profile);
   subLaserCloud.subscribe(nh, "/registered_scan", qos_profile);
   sync_.reset(new Sync(syncPolicy(100), subOdometry, subLaserCloud));
   sync_->registerCallback(std::bind(laserCloudAndOdometryHandler, placeholders::_1, placeholders::_2));

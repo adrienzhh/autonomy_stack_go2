@@ -1,7 +1,5 @@
 <launch>
 
-  <node pkg="sensor_scan_generation" exec="sensorScanGeneration" name="sensorScanGeneration" output="screen">
-    <remap from="/state_estimation" to="/laser_odom_path"/>
-  </node>
+  <node pkg="sensor_scan_generation" exec="sensorScanGeneration" name="sensorScanGeneration" output="screen"/>
 
 </launch>

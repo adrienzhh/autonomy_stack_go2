@@ -249,7 +249,7 @@ int main(int argc, char** argv)
   metricFile.replace(metricFile.find("/install/"), 8, "/src/base_autonomy");
   trajFile.replace(trajFile.find("/install/"), 8, "/src/base_autonomy");
 
-  auto subOdometry = nh->create_subscription<nav_msgs::msg::Odometry>("/state_estimation", 5, odometryHandler);
+  auto subOdometry = nh->create_subscription<nav_msgs::msg::Odometry>("/laser_odometry", 5, odometryHandler);
 
   auto subLaserCloud = nh->create_subscription<sensor_msgs::msg::PointCloud2>("/registered_scan", 5, laserCloudHandler);
 

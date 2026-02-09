@@ -23,3 +23,5 @@ SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 cd $SCRIPT_DIR
 source ./install/setup.bash
 ros2 launch vehicle_simulator system_simulation_superodom.launch.py
+
+# ros2 launch vehicle_simulator system_simulation_superodom.launch.py sensorOffsetX:=0.35 sensorOffsetY:=0.05

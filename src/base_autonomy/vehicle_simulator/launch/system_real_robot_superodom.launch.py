@@ -1,6 +1,6 @@
 """
 System launch file for REAL ROBOT using SuperOdom (Livox Mid360).
-SuperOdom outputs 10Hz laser odometry to /laser_odom_path.
+SuperOdom outputs 10Hz laser odometry to /laser_odometry.
 """
 
 import os
@@ -49,7 +49,7 @@ def generate_launch_description():
             }]
         ),
 
-        # SuperOdom SLAM (Livox Mid360) - publishes /state_estimation
+        # SuperOdom SLAM (Livox Mid360) - publishes /laser_odometry
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource(
                 os.path.join(super_odometry_dir, 'launch', 'superodom_autonomy.launch.py')

@@ -1,12 +1,12 @@
 """
-SuperOdom launch file with topic remappings for Base Autonomy and Route Planner integration.
+SuperOdom launch file for Base Autonomy and Route Planner integration.
 
-This launch file runs SuperOdom (Livox Mid360) and remaps its outputs:
-  - /super_odometry/laser_odometry -> /laser_odom_path
-  - /super_odometry/registered_scan -> /registered_scan
+This launch file runs SuperOdom (Livox Mid360).
+SuperOdom publishes (with PROJECT_NAME=""):
+  - /laser_odometry (10Hz odometry from scan matching)
+  - /registered_scan (registered point cloud)
 
-Current: 10 Hz odometry from laser_odometry
-Future: 100 Hz odometry from state_estimation (when IMU preintegration is enabled)
+Future: 100 Hz odometry from /state_estimation (when IMU preintegration is enabled)
 """
 
 import os
@@ -58,7 +58,10 @@ def generate_launch_description():
         ],
     )
 
-    # Laser mapping node with remappings
+    # Laser mapping node
+    # Note: PROJECT_NAME defaults to empty, so topics are published as:
+    #   /laser_odometry (10Hz odometry from scan matching)
+    #   /registered_scan (registered point cloud)
     laser_mapping_node = Node(
         package="super_odometry",
         executable="laser_mapping_node",
@@ -67,11 +70,6 @@ def generate_launch_description():
             LaunchConfiguration("config_file"),
             {"calibration_file": LaunchConfiguration("calibration_file")}
         ],
-        remappings=[
-            # Remap SuperOdom outputs to standard topic names
-            ("/super_odometry/laser_odometry", "/laser_odom_path"),
-            ("/super_odometry/registered_scan", "/registered_scan"),
-        ]
     )
 
     # IMU preintegration node (for future 100Hz odometry)
@@ -103,6 +101,19 @@ def generate_launch_description():
         arguments=["0", "0", "0", "0", "0", "0", "sensor", "aft_mapped"]
     )
     
+    # Odometry to TF broadcaster (for laser-only mode without IMU)
+    odom_to_tf_node = Node(
+        package="super_odometry",
+        executable="odom_to_tf.py",
+        name="odom_to_tf",
+        output="screen",
+        parameters=[{
+            "odom_topic": "/laser_odometry",
+            "parent_frame": "map",
+            "child_frame": "sensor",
+        }]
+    )
+    
     return LaunchDescription([
         launch_ros.actions.SetParameter(name='use_sim_time', value=False),
         config_path_arg,
@@ -113,4 +124,5 @@ def generate_launch_description():
         imu_preintegration_node,
         tf_map_to_camera_init,
         tf_sensor_to_aft_mapped,
+        odom_to_tf_node,
     ])

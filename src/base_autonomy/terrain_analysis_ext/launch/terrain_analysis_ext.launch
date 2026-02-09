@@ -3,7 +3,6 @@
   <arg name="checkTerrainConn" default="false"/>
 
   <node pkg="terrain_analysis_ext" exec="terrainAnalysisExt" name="terrainAnalysisExt" output="screen">
-    <remap from="/state_estimation" to="/laser_odom_path"/>
     <param name="scanVoxelSize" value="0.1" />
     <param name="decayTime" value="10.0" />
     <param name="noDecayDis" value="0.0" />

@@ -24,7 +24,7 @@ FARMaster::FARMaster()
 void FARMaster::Init() {
   /* initialize subscriber and publisher */
   reset_graph_sub_    = nh_->create_subscription<std_msgs::msg::Empty>("/reset_visibility_graph", 5, std::bind(&FARMaster::ResetGraphCallBack, this, std::placeholders::_1));
-  odom_sub_           = nh_->create_subscription<nav_msgs::msg::Odometry>("/odom_world", 5, std::bind(&FARMaster::OdomCallBack, this, std::placeholders::_1));
+  odom_sub_           = nh_->create_subscription<nav_msgs::msg::Odometry>("/laser_odometry", 5, std::bind(&FARMaster::OdomCallBack, this, std::placeholders::_1));
   terrain_sub_        = nh_->create_subscription<sensor_msgs::msg::PointCloud2>("/terrain_cloud", 1, std::bind(&FARMaster::TerrainCallBack, this, std::placeholders::_1));
   scan_sub_           = nh_->create_subscription<sensor_msgs::msg::PointCloud2>("/scan_cloud", 5, std::bind(&FARMaster::ScanCallBack, this, std::placeholders::_1));
   waypoint_sub_       = nh_->create_subscription<geometry_msgs::msg::PointStamped>("/goal_point", 1, std::bind(&FARMaster::WaypointCallBack, this, std::placeholders::_1));

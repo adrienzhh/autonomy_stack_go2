@@ -2,8 +2,8 @@
 System launch file for SIMULATION with Route Planner using SuperOdom (Livox Mid360).
 For bag file replay - run with: ros2 bag play <bag_file> --clock
 
-SuperOdom outputs:
-  - /laser_odom_path (10Hz odometry)
+SuperOdom outputs (with PROJECT_NAME=""):
+  - /laser_odometry (10Hz odometry from scan matching)
   - /registered_scan (registered point cloud)
 """
 

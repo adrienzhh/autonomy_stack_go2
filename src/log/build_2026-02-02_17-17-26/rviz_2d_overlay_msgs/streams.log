@@ -1,0 +1,188 @@
+[0.246s] Invoking command in '/root/ros2_ws/src/build/rviz_2d_overlay_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/src/install/transform_sensors:/root/ros2_ws/src/install/ros_tcp_endpoint:/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/slam/rviz_2d_overlay_plugins/rviz_2d_overlay_msgs -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/rviz_2d_overlay_msgs
+[0.509s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.509s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.509s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.509s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.510s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.510s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[0.809s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.235s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.792s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.826s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.908s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.908s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.908s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.174s] -- Using numpy include directory: /usr/local/lib/python3.10/dist-packages/numpy/core/include
+[2.222s] -- Configuring done
+[2.319s] -- Generating done
+[2.331s] -- Build files have been written to: /root/ros2_ws/src/build/rviz_2d_overlay_msgs
+[2.337s] Invoked command in '/root/ros2_ws/src/build/rviz_2d_overlay_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/src/install/transform_sensors:/root/ros2_ws/src/install/ros_tcp_endpoint:/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/slam/rviz_2d_overlay_plugins/rviz_2d_overlay_msgs -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/rviz_2d_overlay_msgs
+[2.339s] Invoking command in '/root/ros2_ws/src/build/rviz_2d_overlay_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/src/install/transform_sensors:/root/ros2_ws/src/install/ros_tcp_endpoint:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/src/build/rviz_2d_overlay_msgs -- -j24 -l24
+[2.396s] [35m[1mConsolidate compiler generated dependencies of target rviz_2d_overlay_msgs__rosidl_generator_c[0m
+[2.408s] [  3%] Built target rviz_2d_overlay_msgs__cpp
+[2.414s] [  3%] Built target ament_cmake_python_copy_rviz_2d_overlay_msgs
+[2.415s] [ 12%] Built target rviz_2d_overlay_msgs__rosidl_generator_c
+[2.422s] [35m[1mConsolidate compiler generated dependencies of target rviz_2d_overlay_msgs__rosidl_typesupport_cpp[0m
+[2.422s] [35m[1mConsolidate compiler generated dependencies of target rviz_2d_overlay_msgs__rosidl_typesupport_introspection_cpp[0m
+[2.426s] [35m[1mConsolidate compiler generated dependencies of target rviz_2d_overlay_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[2.433s] [35m[1mConsolidate compiler generated dependencies of target rviz_2d_overlay_msgs__rosidl_typesupport_fastrtps_c[0m
+[2.433s] [35m[1mConsolidate compiler generated dependencies of target rviz_2d_overlay_msgs__rosidl_typesupport_introspection_c[0m
+[2.438s] [35m[1mConsolidate compiler generated dependencies of target rviz_2d_overlay_msgs__rosidl_typesupport_c[0m
+[2.443s] [ 22%] Built target rviz_2d_overlay_msgs__rosidl_typesupport_cpp
+[2.446s] [ 32%] Built target rviz_2d_overlay_msgs__rosidl_typesupport_introspection_cpp
+[2.455s] [ 41%] Built target rviz_2d_overlay_msgs__rosidl_typesupport_fastrtps_cpp
+[2.457s] [ 51%] Built target rviz_2d_overlay_msgs__rosidl_typesupport_c
+[2.457s] [ 61%] Built target rviz_2d_overlay_msgs__rosidl_typesupport_introspection_c
+[2.459s] [ 70%] Built target rviz_2d_overlay_msgs__rosidl_typesupport_fastrtps_c
+[2.489s] [ 70%] Built target rviz_2d_overlay_msgs
+[2.524s] [ 74%] Built target rviz_2d_overlay_msgs__py
+[2.537s] [35m[1mConsolidate compiler generated dependencies of target rviz_2d_overlay_msgs__rosidl_generator_py[0m
+[2.559s] [ 80%] Built target rviz_2d_overlay_msgs__rosidl_generator_py
+[2.577s] [35m[1mConsolidate compiler generated dependencies of target rviz_2d_overlay_msgs__rosidl_typesupport_c__pyext[0m
+[2.581s] [35m[1mConsolidate compiler generated dependencies of target rviz_2d_overlay_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[2.581s] [35m[1mConsolidate compiler generated dependencies of target rviz_2d_overlay_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[2.601s] [ 87%] Built target rviz_2d_overlay_msgs__rosidl_typesupport_introspection_c__pyext
+[2.601s] [ 93%] Built target rviz_2d_overlay_msgs__rosidl_typesupport_c__pyext
+[2.603s] [100%] Built target rviz_2d_overlay_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.730s] /usr/local/lib/python3.10/dist-packages/setuptools_scm/_integration/setuptools.py:24: RuntimeWarning: 
+[2.730s] ERROR: setuptools==59.6.0 is used in combination with setuptools-scm>=8.x
+[2.730s] 
+[2.730s] Your build configuration is incomplete and previously worked by accident!
+[2.731s] setuptools-scm requires setuptools>=61 (recommended: >=80)
+[2.731s] 
+[2.731s] Suggested workaround if applicable:
+[2.731s]  - migrating from the deprecated setup_requires mechanism to pep517/518
+[2.731s]    and using a pyproject.toml to declare build dependencies
+[2.731s]    which are reliably pre-installed before running the build tools
+[2.731s] 
+[2.731s]   warnings.warn(
+[2.735s] running egg_info
+[2.735s] writing rviz_2d_overlay_msgs.egg-info/PKG-INFO
+[2.735s] writing dependency_links to rviz_2d_overlay_msgs.egg-info/dependency_links.txt
+[2.736s] writing top-level names to rviz_2d_overlay_msgs.egg-info/top_level.txt
+[2.772s] listing git files failed - pretending there aren't any
+[2.909s] reading manifest file 'rviz_2d_overlay_msgs.egg-info/SOURCES.txt'
+[2.909s] writing manifest file 'rviz_2d_overlay_msgs.egg-info/SOURCES.txt'
+[2.963s] [100%] Built target ament_cmake_python_build_rviz_2d_overlay_msgs_egg
+[3.047s] Invoked command in '/root/ros2_ws/src/build/rviz_2d_overlay_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/src/install/transform_sensors:/root/ros2_ws/src/install/ros_tcp_endpoint:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/src/build/rviz_2d_overlay_msgs -- -j24 -l24
+[3.049s] Invoking command in '/root/ros2_ws/src/build/rviz_2d_overlay_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/src/install/transform_sensors:/root/ros2_ws/src/install/ros_tcp_endpoint:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/src/build/rviz_2d_overlay_msgs
+[3.065s] -- Install configuration: ""
+[3.065s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/share/ament_index/resource_index/rosidl_interfaces/rviz_2d_overlay_msgs
+[3.065s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/include/rviz_2d_overlay_msgs/rviz_2d_overlay_msgs
+[3.065s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/include/rviz_2d_overlay_msgs/rviz_2d_overlay_msgs/msg
+[3.065s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/include/rviz_2d_overlay_msgs/rviz_2d_overlay_msgs/msg/detail
+[3.065s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/include/rviz_2d_overlay_msgs/rviz_2d_overlay_msgs/msg/detail/overlay_text__struct.h
+[3.065s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/include/rviz_2d_overlay_msgs/rviz_2d_overlay_msgs/msg/detail/overlay_text__type_support.h
+[3.065s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/include/rviz_2d_overlay_msgs/rviz_2d_overlay_msgs/msg/detail/overlay_text__functions.h
+[3.065s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/include/rviz_2d_overlay_msgs/rviz_2d_overlay_msgs/msg/detail/overlay_text__functions.c
+[3.065s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/include/rviz_2d_overlay_msgs/rviz_2d_overlay_msgs/msg/rosidl_generator_c__visibility_control.h
+[3.065s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/include/rviz_2d_overlay_msgs/rviz_2d_overlay_msgs/msg/overlay_text.h
+[3.065s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/share/rviz_2d_overlay_msgs/environment/library_path.sh
+[3.065s] -- Installing: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/share/rviz_2d_overlay_msgs/environment/library_path.dsv
+[3.065s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/lib/librviz_2d_overlay_msgs__rosidl_generator_c.so
+[3.065s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/include/rviz_2d_overlay_msgs/rviz_2d_overlay_msgs
+[3.065s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/include/rviz_2d_overlay_msgs/rviz_2d_overlay_msgs/msg
+[3.065s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/include/rviz_2d_overlay_msgs/rviz_2d_overlay_msgs/msg/detail
+[3.066s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/include/rviz_2d_overlay_msgs/rviz_2d_overlay_msgs/msg/detail/overlay_text__rosidl_typesupport_fastrtps_c.h
+[3.066s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/include/rviz_2d_overlay_msgs/rviz_2d_overlay_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.066s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/lib/librviz_2d_overlay_msgs__rosidl_typesupport_fastrtps_c.so
+[3.066s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/include/rviz_2d_overlay_msgs/rviz_2d_overlay_msgs
+[3.066s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/include/rviz_2d_overlay_msgs/rviz_2d_overlay_msgs/msg
+[3.066s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/include/rviz_2d_overlay_msgs/rviz_2d_overlay_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.066s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/include/rviz_2d_overlay_msgs/rviz_2d_overlay_msgs/msg/detail
+[3.066s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/include/rviz_2d_overlay_msgs/rviz_2d_overlay_msgs/msg/detail/overlay_text__rosidl_typesupport_introspection_c.h
+[3.066s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/include/rviz_2d_overlay_msgs/rviz_2d_overlay_msgs/msg/detail/overlay_text__type_support.c
+[3.066s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/lib/librviz_2d_overlay_msgs__rosidl_typesupport_introspection_c.so
+[3.066s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/lib/librviz_2d_overlay_msgs__rosidl_typesupport_c.so
+[3.066s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/include/rviz_2d_overlay_msgs/rviz_2d_overlay_msgs
+[3.067s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/include/rviz_2d_overlay_msgs/rviz_2d_overlay_msgs/msg
+[3.067s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/include/rviz_2d_overlay_msgs/rviz_2d_overlay_msgs/msg/overlay_text.hpp
+[3.067s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/include/rviz_2d_overlay_msgs/rviz_2d_overlay_msgs/msg/detail
+[3.067s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/include/rviz_2d_overlay_msgs/rviz_2d_overlay_msgs/msg/detail/overlay_text__builder.hpp
+[3.067s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/include/rviz_2d_overlay_msgs/rviz_2d_overlay_msgs/msg/detail/overlay_text__struct.hpp
+[3.067s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/include/rviz_2d_overlay_msgs/rviz_2d_overlay_msgs/msg/detail/overlay_text__type_support.hpp
+[3.067s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/include/rviz_2d_overlay_msgs/rviz_2d_overlay_msgs/msg/detail/overlay_text__traits.hpp
+[3.067s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/include/rviz_2d_overlay_msgs/rviz_2d_overlay_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.067s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/include/rviz_2d_overlay_msgs/rviz_2d_overlay_msgs
+[3.067s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/include/rviz_2d_overlay_msgs/rviz_2d_overlay_msgs/msg
+[3.067s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/include/rviz_2d_overlay_msgs/rviz_2d_overlay_msgs/msg/detail
+[3.067s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/include/rviz_2d_overlay_msgs/rviz_2d_overlay_msgs/msg/detail/dds_fastrtps
+[3.067s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/include/rviz_2d_overlay_msgs/rviz_2d_overlay_msgs/msg/detail/overlay_text__rosidl_typesupport_fastrtps_cpp.hpp
+[3.067s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/include/rviz_2d_overlay_msgs/rviz_2d_overlay_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.067s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/lib/librviz_2d_overlay_msgs__rosidl_typesupport_fastrtps_cpp.so
+[3.068s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/include/rviz_2d_overlay_msgs/rviz_2d_overlay_msgs
+[3.068s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/include/rviz_2d_overlay_msgs/rviz_2d_overlay_msgs/msg
+[3.068s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/include/rviz_2d_overlay_msgs/rviz_2d_overlay_msgs/msg/detail
+[3.068s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/include/rviz_2d_overlay_msgs/rviz_2d_overlay_msgs/msg/detail/overlay_text__rosidl_typesupport_introspection_cpp.hpp
+[3.068s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/include/rviz_2d_overlay_msgs/rviz_2d_overlay_msgs/msg/detail/overlay_text__type_support.cpp
+[3.068s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/lib/librviz_2d_overlay_msgs__rosidl_typesupport_introspection_cpp.so
+[3.068s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/lib/librviz_2d_overlay_msgs__rosidl_typesupport_cpp.so
+[3.069s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/share/rviz_2d_overlay_msgs/environment/pythonpath.sh
+[3.069s] -- Installing: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/share/rviz_2d_overlay_msgs/environment/pythonpath.dsv
+[3.069s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/local/lib/python3.10/dist-packages/rviz_2d_overlay_msgs-1.4.0-py3.10.egg-info
+[3.069s] -- Installing: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/local/lib/python3.10/dist-packages/rviz_2d_overlay_msgs-1.4.0-py3.10.egg-info/PKG-INFO
+[3.069s] -- Installing: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/local/lib/python3.10/dist-packages/rviz_2d_overlay_msgs-1.4.0-py3.10.egg-info/dependency_links.txt
+[3.069s] -- Installing: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/local/lib/python3.10/dist-packages/rviz_2d_overlay_msgs-1.4.0-py3.10.egg-info/SOURCES.txt
+[3.070s] -- Installing: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/local/lib/python3.10/dist-packages/rviz_2d_overlay_msgs-1.4.0-py3.10.egg-info/top_level.txt
+[3.070s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/local/lib/python3.10/dist-packages/rviz_2d_overlay_msgs
+[3.070s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/local/lib/python3.10/dist-packages/rviz_2d_overlay_msgs/rviz_2d_overlay_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.070s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/local/lib/python3.10/dist-packages/rviz_2d_overlay_msgs/rviz_2d_overlay_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.070s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/local/lib/python3.10/dist-packages/rviz_2d_overlay_msgs/librviz_2d_overlay_msgs__rosidl_generator_py.so
+[3.071s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/local/lib/python3.10/dist-packages/rviz_2d_overlay_msgs/rviz_2d_overlay_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.071s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/local/lib/python3.10/dist-packages/rviz_2d_overlay_msgs/_rviz_2d_overlay_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.071s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/local/lib/python3.10/dist-packages/rviz_2d_overlay_msgs/_rviz_2d_overlay_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[3.071s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/local/lib/python3.10/dist-packages/rviz_2d_overlay_msgs/_rviz_2d_overlay_msgs_s.ep.rosidl_typesupport_c.c
+[3.071s] -- Installing: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/local/lib/python3.10/dist-packages/rviz_2d_overlay_msgs/__init__.py
+[3.071s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/local/lib/python3.10/dist-packages/rviz_2d_overlay_msgs/msg
+[3.072s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/local/lib/python3.10/dist-packages/rviz_2d_overlay_msgs/msg/_overlay_text.py
+[3.072s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/local/lib/python3.10/dist-packages/rviz_2d_overlay_msgs/msg/__init__.py
+[3.072s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/local/lib/python3.10/dist-packages/rviz_2d_overlay_msgs/msg/_overlay_text_s.c
+[3.117s] Listing '/root/ros2_ws/src/install/rviz_2d_overlay_msgs/local/lib/python3.10/dist-packages/rviz_2d_overlay_msgs'...
+[3.117s] Compiling '/root/ros2_ws/src/install/rviz_2d_overlay_msgs/local/lib/python3.10/dist-packages/rviz_2d_overlay_msgs/__init__.py'...
+[3.117s] Listing '/root/ros2_ws/src/install/rviz_2d_overlay_msgs/local/lib/python3.10/dist-packages/rviz_2d_overlay_msgs/msg'...
+[3.122s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/local/lib/python3.10/dist-packages/rviz_2d_overlay_msgs/rviz_2d_overlay_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.123s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/local/lib/python3.10/dist-packages/rviz_2d_overlay_msgs/rviz_2d_overlay_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.123s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/local/lib/python3.10/dist-packages/rviz_2d_overlay_msgs/rviz_2d_overlay_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.123s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/lib/librviz_2d_overlay_msgs__rosidl_generator_py.so
+[3.123s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/share/rviz_2d_overlay_msgs/msg/OverlayText.idl
+[3.123s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/share/rviz_2d_overlay_msgs/msg/OverlayText.msg
+[3.123s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/share/ament_index/resource_index/package_run_dependencies/rviz_2d_overlay_msgs
+[3.123s] -- Installing: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/share/ament_index/resource_index/parent_prefix_path/rviz_2d_overlay_msgs
+[3.124s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/share/rviz_2d_overlay_msgs/environment/ament_prefix_path.sh
+[3.124s] -- Installing: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/share/rviz_2d_overlay_msgs/environment/ament_prefix_path.dsv
+[3.124s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/share/rviz_2d_overlay_msgs/environment/path.sh
+[3.124s] -- Installing: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/share/rviz_2d_overlay_msgs/environment/path.dsv
+[3.124s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/share/rviz_2d_overlay_msgs/local_setup.bash
+[3.124s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/share/rviz_2d_overlay_msgs/local_setup.sh
+[3.124s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/share/rviz_2d_overlay_msgs/local_setup.zsh
+[3.124s] -- Installing: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/share/rviz_2d_overlay_msgs/local_setup.dsv
+[3.124s] -- Installing: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/share/rviz_2d_overlay_msgs/package.dsv
+[3.125s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/share/ament_index/resource_index/packages/rviz_2d_overlay_msgs
+[3.125s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/share/rviz_2d_overlay_msgs/cmake/export_rviz_2d_overlay_msgs__rosidl_generator_cExport.cmake
+[3.125s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/share/rviz_2d_overlay_msgs/cmake/export_rviz_2d_overlay_msgs__rosidl_generator_cExport-noconfig.cmake
+[3.125s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/share/rviz_2d_overlay_msgs/cmake/export_rviz_2d_overlay_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[3.125s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/share/rviz_2d_overlay_msgs/cmake/export_rviz_2d_overlay_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.125s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/share/rviz_2d_overlay_msgs/cmake/rviz_2d_overlay_msgs__rosidl_typesupport_introspection_cExport.cmake
+[3.125s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/share/rviz_2d_overlay_msgs/cmake/rviz_2d_overlay_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.125s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/share/rviz_2d_overlay_msgs/cmake/rviz_2d_overlay_msgs__rosidl_typesupport_cExport.cmake
+[3.126s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/share/rviz_2d_overlay_msgs/cmake/rviz_2d_overlay_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[3.126s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/share/rviz_2d_overlay_msgs/cmake/export_rviz_2d_overlay_msgs__rosidl_generator_cppExport.cmake
+[3.126s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/share/rviz_2d_overlay_msgs/cmake/export_rviz_2d_overlay_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.126s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/share/rviz_2d_overlay_msgs/cmake/export_rviz_2d_overlay_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.126s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/share/rviz_2d_overlay_msgs/cmake/rviz_2d_overlay_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[3.126s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/share/rviz_2d_overlay_msgs/cmake/rviz_2d_overlay_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.126s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/share/rviz_2d_overlay_msgs/cmake/rviz_2d_overlay_msgs__rosidl_typesupport_cppExport.cmake
+[3.126s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/share/rviz_2d_overlay_msgs/cmake/rviz_2d_overlay_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[3.126s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/share/rviz_2d_overlay_msgs/cmake/export_rviz_2d_overlay_msgs__rosidl_generator_pyExport.cmake
+[3.126s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/share/rviz_2d_overlay_msgs/cmake/export_rviz_2d_overlay_msgs__rosidl_generator_pyExport-noconfig.cmake
+[3.126s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/share/rviz_2d_overlay_msgs/cmake/rosidl_cmake-extras.cmake
+[3.127s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/share/rviz_2d_overlay_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.127s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/share/rviz_2d_overlay_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.127s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/share/rviz_2d_overlay_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[3.127s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/share/rviz_2d_overlay_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[3.127s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/share/rviz_2d_overlay_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.127s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/share/rviz_2d_overlay_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.131s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/share/rviz_2d_overlay_msgs/cmake/rviz_2d_overlay_msgsConfig.cmake
+[3.132s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/share/rviz_2d_overlay_msgs/cmake/rviz_2d_overlay_msgsConfig-version.cmake
+[3.132s] -- Up-to-date: /root/ros2_ws/src/install/rviz_2d_overlay_msgs/share/rviz_2d_overlay_msgs/package.xml
+[3.133s] Invoked command in '/root/ros2_ws/src/build/rviz_2d_overlay_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/src/install/transform_sensors:/root/ros2_ws/src/install/ros_tcp_endpoint:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/src/build/rviz_2d_overlay_msgs

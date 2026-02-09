@@ -1,0 +1,132 @@
+[0.053s] Invoking command in '/root/ros2_ws/src/build/rviz_2d_overlay_plugins': AMENT_PREFIX_PATH=/root/ros2_ws/src/install/rviz_2d_overlay_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/src/install/rviz_2d_overlay_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/src/install/rviz_2d_overlay_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/src/install/rviz_2d_overlay_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/ros2_ws/src/slam/rviz_2d_overlay_plugins/rviz_2d_overlay_plugins -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/rviz_2d_overlay_plugins
+[5.920s] -- The C compiler identification is GNU 11.4.0
+[5.920s] -- The CXX compiler identification is GNU 11.4.0
+[5.920s] -- Detecting C compiler ABI info
+[5.920s] -- Detecting C compiler ABI info - done
+[5.920s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.921s] -- Detecting C compile features
+[5.921s] -- Detecting C compile features - done
+[5.921s] -- Detecting CXX compiler ABI info
+[5.921s] -- Detecting CXX compiler ABI info - done
+[5.921s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.921s] -- Detecting CXX compile features
+[5.921s] -- Detecting CXX compile features - done
+[5.921s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.921s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.921s] -- Found rviz_2d_overlay_msgs: 1.4.0 (/root/ros2_ws/src/install/rviz_2d_overlay_msgs/share/rviz_2d_overlay_msgs/cmake)
+[5.922s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.922s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.922s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.922s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.922s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.922s] -- Found rviz_common: 11.2.25 (/opt/ros/humble/share/rviz_common/cmake)
+[5.922s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[5.922s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[5.922s] -- Found OGRE
+[5.922s] --   static     : OFF
+[5.923s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[5.923s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[5.923s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[5.927s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[5.927s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[5.927s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[5.927s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[5.927s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[5.927s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[5.927s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[5.928s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[5.928s] -- Could not find freeimage library
+[5.928s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[5.928s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[5.928s] -- Found X11: /usr/include   
+[5.928s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[5.928s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[5.928s] -- Looking for gethostbyname
+[5.928s] -- Looking for gethostbyname - found
+[5.928s] -- Looking for connect
+[5.929s] -- Looking for connect - found
+[5.929s] -- Looking for remove
+[5.929s] -- Looking for remove - found
+[5.929s] -- Looking for shmat
+[5.929s] -- Looking for shmat - found
+[5.929s] -- Looking for IceConnectionNumber in ICE
+[5.929s] -- Looking for IceConnectionNumber in ICE - found
+[5.929s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[5.929s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.929s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.929s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[6.060s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.066s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[6.097s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.105s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[6.131s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[6.161s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.203s] -- Looking for pthread.h
+[6.430s] -- Looking for pthread.h - found
+[6.432s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.662s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.673s] -- Found Threads: TRUE  
+[6.856s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[6.856s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[7.329s] -- Configuring done
+[7.382s] -- Generating done
+[7.386s] [33mCMake Warning:
+[7.387s]   Manually-specified variables were not used by the project:
+[7.387s] 
+[7.387s]     HUMBLE_ROS
+[7.387s]     ROS_EDITION
+[7.387s] 
+[7.387s] [0m
+[7.392s] -- Build files have been written to: /root/ros2_ws/src/build/rviz_2d_overlay_plugins
+[7.410s] Invoked command in '/root/ros2_ws/src/build/rviz_2d_overlay_plugins' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/src/install/rviz_2d_overlay_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/src/install/rviz_2d_overlay_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/src/install/rviz_2d_overlay_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/src/install/rviz_2d_overlay_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/ros2_ws/src/slam/rviz_2d_overlay_plugins/rviz_2d_overlay_plugins -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/rviz_2d_overlay_plugins
+[7.413s] Invoking command in '/root/ros2_ws/src/build/rviz_2d_overlay_plugins': AMENT_PREFIX_PATH=/root/ros2_ws/src/install/rviz_2d_overlay_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/src/install/rviz_2d_overlay_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/src/install/rviz_2d_overlay_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/src/install/rviz_2d_overlay_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros2_ws/src/build/rviz_2d_overlay_plugins -- -j24 -l24
+[12.070s] [ 10%] [34m[1mGenerating include/rviz_2d_overlay_plugins/moc_pie_chart_display.cpp[0m
+[12.072s] [ 20%] [34m[1mGenerating include/rviz_2d_overlay_plugins/moc_overlay_text_display.cpp[0m
+[12.072s] [ 30%] [32mBuilding CXX object CMakeFiles/string_to_overlay_text.dir/src/string_to_overlay_text.cpp.o[0m
+[12.072s] [ 40%] [32mBuilding CXX object CMakeFiles/rviz_2d_overlay_plugins.dir/include/rviz_2d_overlay_plugins/moc_overlay_text_display.cpp.o[0m
+[12.072s] [ 50%] [32mBuilding CXX object CMakeFiles/rviz_2d_overlay_plugins.dir/src/overlay_text_display.cpp.o[0m
+[12.072s] [ 70%] [32mBuilding CXX object CMakeFiles/rviz_2d_overlay_plugins.dir/include/rviz_2d_overlay_plugins/moc_pie_chart_display.cpp.o[0m
+[12.072s] [ 60%] [32mBuilding CXX object CMakeFiles/rviz_2d_overlay_plugins.dir/src/pie_chart_display.cpp.o[0m
+[12.073s] [ 80%] [32mBuilding CXX object CMakeFiles/rviz_2d_overlay_plugins.dir/src/overlay_utils.cpp.o[0m
+[26.380s] [ 90%] [32m[1mLinking CXX executable string_to_overlay_text[0m
+[26.913s] [ 90%] Built target string_to_overlay_text
+[34.989s] [100%] [32m[1mLinking CXX shared library librviz_2d_overlay_plugins.so[0m
+[38.631s] [100%] Built target rviz_2d_overlay_plugins
+[38.649s] Invoked command in '/root/ros2_ws/src/build/rviz_2d_overlay_plugins' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/src/install/rviz_2d_overlay_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/src/install/rviz_2d_overlay_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/src/install/rviz_2d_overlay_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/src/install/rviz_2d_overlay_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros2_ws/src/build/rviz_2d_overlay_plugins -- -j24 -l24
+[38.652s] Invoking command in '/root/ros2_ws/src/build/rviz_2d_overlay_plugins': AMENT_PREFIX_PATH=/root/ros2_ws/src/install/rviz_2d_overlay_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/src/install/rviz_2d_overlay_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/src/install/rviz_2d_overlay_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/src/install/rviz_2d_overlay_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ros2_ws/src/build/rviz_2d_overlay_plugins
+[38.663s] -- Install configuration: ""
+[38.663s] -- Installing: /root/ros2_ws/src/install/rviz_2d_overlay_plugins/share/rviz_2d_overlay_plugins/plugins_description.xml
+[38.664s] -- Installing: /root/ros2_ws/src/install/rviz_2d_overlay_plugins/share/rviz_2d_overlay_plugins/environment/library_path.sh
+[38.664s] -- Installing: /root/ros2_ws/src/install/rviz_2d_overlay_plugins/share/rviz_2d_overlay_plugins/environment/library_path.dsv
+[38.664s] -- Installing: /root/ros2_ws/src/install/rviz_2d_overlay_plugins/lib/librviz_2d_overlay_plugins.so
+[38.677s] -- Set runtime path of "/root/ros2_ws/src/install/rviz_2d_overlay_plugins/lib/librviz_2d_overlay_plugins.so" to ""
+[38.677s] -- Installing: /root/ros2_ws/src/install/rviz_2d_overlay_plugins/include
+[38.677s] -- Installing: /root/ros2_ws/src/install/rviz_2d_overlay_plugins/include/rviz_2d_overlay_plugins
+[38.677s] -- Installing: /root/ros2_ws/src/install/rviz_2d_overlay_plugins/include/rviz_2d_overlay_plugins/pie_chart_display.h
+[38.678s] -- Installing: /root/ros2_ws/src/install/rviz_2d_overlay_plugins/include/rviz_2d_overlay_plugins/overlay_utils.hpp
+[38.678s] -- Installing: /root/ros2_ws/src/install/rviz_2d_overlay_plugins/include/rviz_2d_overlay_plugins/overlay_text_display.hpp
+[38.678s] -- Installing: /root/ros2_ws/src/install/rviz_2d_overlay_plugins/lib/rviz_2d_overlay_plugins/string_to_overlay_text
+[38.682s] -- Set runtime path of "/root/ros2_ws/src/install/rviz_2d_overlay_plugins/lib/rviz_2d_overlay_plugins/string_to_overlay_text" to ""
+[38.682s] -- Installing: /root/ros2_ws/src/install/rviz_2d_overlay_plugins/share/ament_index/resource_index/package_run_dependencies/rviz_2d_overlay_plugins
+[38.683s] -- Installing: /root/ros2_ws/src/install/rviz_2d_overlay_plugins/share/ament_index/resource_index/parent_prefix_path/rviz_2d_overlay_plugins
+[38.683s] -- Installing: /root/ros2_ws/src/install/rviz_2d_overlay_plugins/share/rviz_2d_overlay_plugins/environment/ament_prefix_path.sh
+[38.683s] -- Installing: /root/ros2_ws/src/install/rviz_2d_overlay_plugins/share/rviz_2d_overlay_plugins/environment/ament_prefix_path.dsv
+[38.683s] -- Installing: /root/ros2_ws/src/install/rviz_2d_overlay_plugins/share/rviz_2d_overlay_plugins/environment/path.sh
+[38.683s] -- Installing: /root/ros2_ws/src/install/rviz_2d_overlay_plugins/share/rviz_2d_overlay_plugins/environment/path.dsv
+[38.684s] -- Installing: /root/ros2_ws/src/install/rviz_2d_overlay_plugins/share/rviz_2d_overlay_plugins/local_setup.bash
+[38.684s] -- Installing: /root/ros2_ws/src/install/rviz_2d_overlay_plugins/share/rviz_2d_overlay_plugins/local_setup.sh
+[38.684s] -- Installing: /root/ros2_ws/src/install/rviz_2d_overlay_plugins/share/rviz_2d_overlay_plugins/local_setup.zsh
+[38.684s] -- Installing: /root/ros2_ws/src/install/rviz_2d_overlay_plugins/share/rviz_2d_overlay_plugins/local_setup.dsv
+[38.684s] -- Installing: /root/ros2_ws/src/install/rviz_2d_overlay_plugins/share/rviz_2d_overlay_plugins/package.dsv
+[38.684s] -- Installing: /root/ros2_ws/src/install/rviz_2d_overlay_plugins/share/ament_index/resource_index/packages/rviz_2d_overlay_plugins
+[38.685s] -- Installing: /root/ros2_ws/src/install/rviz_2d_overlay_plugins/share/ament_index/resource_index/rviz_common__pluginlib__plugin/rviz_2d_overlay_plugins
+[38.685s] -- Installing: /root/ros2_ws/src/install/rviz_2d_overlay_plugins/share/rviz_2d_overlay_plugins/cmake/rviz_2d_overlay_pluginsExport.cmake
+[38.685s] -- Installing: /root/ros2_ws/src/install/rviz_2d_overlay_plugins/share/rviz_2d_overlay_plugins/cmake/rviz_2d_overlay_pluginsExport-noconfig.cmake
+[38.685s] -- Installing: /root/ros2_ws/src/install/rviz_2d_overlay_plugins/share/rviz_2d_overlay_plugins/cmake/rviz_2d_overlay_plugins-extras.cmake
+[38.685s] -- Installing: /root/ros2_ws/src/install/rviz_2d_overlay_plugins/share/rviz_2d_overlay_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[38.686s] -- Installing: /root/ros2_ws/src/install/rviz_2d_overlay_plugins/share/rviz_2d_overlay_plugins/cmake/ament_cmake_export_targets-extras.cmake
+[38.686s] -- Installing: /root/ros2_ws/src/install/rviz_2d_overlay_plugins/share/rviz_2d_overlay_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+[38.686s] -- Installing: /root/ros2_ws/src/install/rviz_2d_overlay_plugins/share/rviz_2d_overlay_plugins/cmake/rviz_2d_overlay_pluginsConfig.cmake
+[38.686s] -- Installing: /root/ros2_ws/src/install/rviz_2d_overlay_plugins/share/rviz_2d_overlay_plugins/cmake/rviz_2d_overlay_pluginsConfig-version.cmake
+[38.686s] -- Installing: /root/ros2_ws/src/install/rviz_2d_overlay_plugins/share/rviz_2d_overlay_plugins/package.xml
+[38.690s] Invoked command in '/root/ros2_ws/src/build/rviz_2d_overlay_plugins' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/src/install/rviz_2d_overlay_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/src/install/rviz_2d_overlay_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/src/install/rviz_2d_overlay_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/src/install/rviz_2d_overlay_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ros2_ws/src/build/rviz_2d_overlay_plugins

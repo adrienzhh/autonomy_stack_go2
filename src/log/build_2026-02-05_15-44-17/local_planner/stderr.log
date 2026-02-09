@@ -1,0 +1,28 @@
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    HUMBLE_ROS
+    ROS_EDITION
+
+[0m
+In file included from [01m[K/root/ros2_ws/src/base_autonomy/local_planner/src/pathFollower.cpp:23[m[K:
+[01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K-Wcpp[m[K]
+   35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/root/ros2_ws/src/base_autonomy/local_planner/src/localPlanner.cpp:26[m[K:
+[01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K-Wcpp[m[K]
+   35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+[01m[K/root/ros2_ws/src/base_autonomy/local_planner/src/localPlanner.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/root/ros2_ws/src/base_autonomy/local_planner/src/localPlanner.cpp:676:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KsinVehicleRoll[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  676 |       float [01;35m[KsinVehicleRoll[m[K = sin(vehicleRoll);
+      |             [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/root/ros2_ws/src/base_autonomy/local_planner/src/localPlanner.cpp:677:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KcosVehicleRoll[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  677 |       float [01;35m[KcosVehicleRoll[m[K = cos(vehicleRoll);
+      |             [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/root/ros2_ws/src/base_autonomy/local_planner/src/localPlanner.cpp:678:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KsinVehiclePitch[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  678 |       float [01;35m[KsinVehiclePitch[m[K = sin(vehiclePitch);
+      |             [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/root/ros2_ws/src/base_autonomy/local_planner/src/localPlanner.cpp:679:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KcosVehiclePitch[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  679 |       float [01;35m[KcosVehiclePitch[m[K = cos(vehiclePitch);
+      |             [01;35m[K^~~~~~~~~~~~~~~[m[K

@@ -1,0 +1,37 @@
+[1.085s] Invoking command in '/root/ros2_ws/src/utilities/ROS-TCP-Endpoint': PYTHONPATH=/root/ros2_ws/src/build/ros_tcp_endpoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/src/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /root/ros2_ws/src/build/ros_tcp_endpoint/build install --record /root/ros2_ws/src/build/ros_tcp_endpoint/install.log --install-scripts $base/lib/ros_tcp_endpoint --single-version-externally-managed install_data
+[1.244s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.244s]   warnings.warn(
+[1.272s] /usr/local/lib/python3.10/dist-packages/setuptools_scm/_integration/setuptools.py:24: RuntimeWarning: 
+[1.272s] ERROR: setuptools==59.6.0 is used in combination with setuptools-scm>=8.x
+[1.272s] 
+[1.272s] Your build configuration is incomplete and previously worked by accident!
+[1.272s] setuptools-scm requires setuptools>=61 (recommended: >=80)
+[1.272s] 
+[1.273s] Suggested workaround if applicable:
+[1.273s]  - migrating from the deprecated setup_requires mechanism to pep517/518
+[1.273s]    and using a pyproject.toml to declare build dependencies
+[1.273s]    which are reliably pre-installed before running the build tools
+[1.273s] 
+[1.273s]   warnings.warn(
+[1.282s] running egg_info
+[1.282s] writing ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/PKG-INFO
+[1.282s] writing dependency_links to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/dependency_links.txt
+[1.282s] writing entry points to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/entry_points.txt
+[1.283s] writing requirements to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/requires.txt
+[1.283s] writing top-level names to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/top_level.txt
+[1.302s] listing git files failed - pretending there aren't any
+[1.371s] reading manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[1.371s] adding license file 'LICENSE'
+[1.371s] writing manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[1.371s] running build
+[1.371s] running build_py
+[1.372s] running install
+[1.372s] running install_lib
+[1.373s] running install_data
+[1.373s] running install_egg_info
+[1.373s] removing '/root/ros2_ws/src/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint-0.0.1-py3.10.egg-info' (and everything under it)
+[1.373s] Copying ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info to /root/ros2_ws/src/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint-0.0.1-py3.10.egg-info
+[1.374s] running install_scripts
+[1.385s] Installing default_server_endpoint script to /root/ros2_ws/src/install/ros_tcp_endpoint/lib/ros_tcp_endpoint
+[1.385s] writing list of installed files to '/root/ros2_ws/src/build/ros_tcp_endpoint/install.log'
+[1.403s] Invoked command in '/root/ros2_ws/src/utilities/ROS-TCP-Endpoint' returned '0': PYTHONPATH=/root/ros2_ws/src/build/ros_tcp_endpoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/src/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /root/ros2_ws/src/build/ros_tcp_endpoint/build install --record /root/ros2_ws/src/build/ros_tcp_endpoint/install.log --install-scripts $base/lib/ros_tcp_endpoint --single-version-externally-managed install_data

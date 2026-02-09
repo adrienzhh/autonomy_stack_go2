@@ -1,0 +1,34 @@
+/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/setuptools_scm/_integration/setuptools.py:24: RuntimeWarning: 
+ERROR: setuptools==59.6.0 is used in combination with setuptools-scm>=8.x
+
+Your build configuration is incomplete and previously worked by accident!
+setuptools-scm requires setuptools>=61 (recommended: >=80)
+
+Suggested workaround if applicable:
+ - migrating from the deprecated setup_requires mechanism to pep517/518
+   and using a pyproject.toml to declare build dependencies
+   which are reliably pre-installed before running the build tools
+
+  warnings.warn(
+running egg_info
+writing ../../build/transform_sensors/transform_sensors.egg-info/PKG-INFO
+writing dependency_links to ../../build/transform_sensors/transform_sensors.egg-info/dependency_links.txt
+writing entry points to ../../build/transform_sensors/transform_sensors.egg-info/entry_points.txt
+writing requirements to ../../build/transform_sensors/transform_sensors.egg-info/requires.txt
+writing top-level names to ../../build/transform_sensors/transform_sensors.egg-info/top_level.txt
+listing git files failed - pretending there aren't any
+reading manifest file '../../build/transform_sensors/transform_sensors.egg-info/SOURCES.txt'
+writing manifest file '../../build/transform_sensors/transform_sensors.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/root/ros2_ws/src/install/transform_sensors/lib/python3.10/site-packages/transform_sensors-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/transform_sensors/transform_sensors.egg-info to /root/ros2_ws/src/install/transform_sensors/lib/python3.10/site-packages/transform_sensors-0.0.0-py3.10.egg-info
+running install_scripts
+Installing transform_everything script to /root/ros2_ws/src/install/transform_sensors/lib/transform_sensors
+writing list of installed files to '/root/ros2_ws/src/build/transform_sensors/install.log'

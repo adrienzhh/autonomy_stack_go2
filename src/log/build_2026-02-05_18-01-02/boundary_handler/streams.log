@@ -1,0 +1,29 @@
+[0.057s] Invoking command in '/root/ros2_ws/src/build/boundary_handler': AMENT_PREFIX_PATH=/root/ros2_ws/src/install/visibility_graph_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/src/install/visibility_graph_msg:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/src/install/visibility_graph_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/src/install/visibility_graph_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros2_ws/src/build/boundary_handler -- -j24 -l24
+[0.097s] [35m[1mConsolidate compiler generated dependencies of target boundary_handler[0m
+[0.117s] [100%] Built target boundary_handler
+[0.139s] Invoked command in '/root/ros2_ws/src/build/boundary_handler' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/src/install/visibility_graph_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/src/install/visibility_graph_msg:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/src/install/visibility_graph_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/src/install/visibility_graph_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros2_ws/src/build/boundary_handler -- -j24 -l24
+[0.142s] Invoking command in '/root/ros2_ws/src/build/boundary_handler': AMENT_PREFIX_PATH=/root/ros2_ws/src/install/visibility_graph_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/src/install/visibility_graph_msg:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/src/install/visibility_graph_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/src/install/visibility_graph_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ros2_ws/src/build/boundary_handler
+[0.155s] -- Install configuration: "Release"
+[0.155s] -- Up-to-date: /root/ros2_ws/src/install/boundary_handler/lib/boundary_handler/boundary_handler
+[0.156s] -- Up-to-date: /root/ros2_ws/src/install/boundary_handler/share/boundary_handler/launch
+[0.156s] -- Up-to-date: /root/ros2_ws/src/install/boundary_handler/share/boundary_handler/launch/boundary_handler.launch
+[0.156s] -- Up-to-date: /root/ros2_ws/src/install/boundary_handler/share/boundary_handler/rviz
+[0.156s] -- Up-to-date: /root/ros2_ws/src/install/boundary_handler/share/boundary_handler/rviz/default.rviz
+[0.156s] -- Up-to-date: /root/ros2_ws/src/install/boundary_handler/share/boundary_handler/config
+[0.156s] -- Up-to-date: /root/ros2_ws/src/install/boundary_handler/share/boundary_handler/config/default.yaml
+[0.156s] -- Up-to-date: /root/ros2_ws/src/install/boundary_handler/share/ament_index/resource_index/package_run_dependencies/boundary_handler
+[0.156s] -- Up-to-date: /root/ros2_ws/src/install/boundary_handler/share/ament_index/resource_index/parent_prefix_path/boundary_handler
+[0.156s] -- Up-to-date: /root/ros2_ws/src/install/boundary_handler/share/boundary_handler/environment/ament_prefix_path.sh
+[0.156s] -- Up-to-date: /root/ros2_ws/src/install/boundary_handler/share/boundary_handler/environment/ament_prefix_path.dsv
+[0.156s] -- Up-to-date: /root/ros2_ws/src/install/boundary_handler/share/boundary_handler/environment/path.sh
+[0.156s] -- Up-to-date: /root/ros2_ws/src/install/boundary_handler/share/boundary_handler/environment/path.dsv
+[0.156s] -- Up-to-date: /root/ros2_ws/src/install/boundary_handler/share/boundary_handler/local_setup.bash
+[0.156s] -- Up-to-date: /root/ros2_ws/src/install/boundary_handler/share/boundary_handler/local_setup.sh
+[0.156s] -- Up-to-date: /root/ros2_ws/src/install/boundary_handler/share/boundary_handler/local_setup.zsh
+[0.156s] -- Up-to-date: /root/ros2_ws/src/install/boundary_handler/share/boundary_handler/local_setup.dsv
+[0.156s] -- Installing: /root/ros2_ws/src/install/boundary_handler/share/boundary_handler/package.dsv
+[0.156s] -- Up-to-date: /root/ros2_ws/src/install/boundary_handler/share/ament_index/resource_index/packages/boundary_handler
+[0.156s] -- Up-to-date: /root/ros2_ws/src/install/boundary_handler/share/boundary_handler/cmake/boundary_handlerConfig.cmake
+[0.156s] -- Up-to-date: /root/ros2_ws/src/install/boundary_handler/share/boundary_handler/cmake/boundary_handlerConfig-version.cmake
+[0.157s] -- Up-to-date: /root/ros2_ws/src/install/boundary_handler/share/boundary_handler/package.xml
+[0.170s] Invoked command in '/root/ros2_ws/src/build/boundary_handler' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/src/install/visibility_graph_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/src/install/visibility_graph_msg:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/src/install/visibility_graph_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/src/install/visibility_graph_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ros2_ws/src/build/boundary_handler

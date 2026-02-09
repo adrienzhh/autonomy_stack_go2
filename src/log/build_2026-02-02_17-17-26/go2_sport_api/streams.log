@@ -1,0 +1,122 @@
+[0.024s] Invoking command in '/root/ros2_ws/src/build/go2_sport_api': CMAKE_PREFIX_PATH=/root/ros2_ws/src/install/unitree_go:/root/ros2_ws/src/install/unitree_api:/root/ros2_ws/src/install/waypoint_rviz_plugin:/root/ros2_ws/src/install/waypoint_example:/root/ros2_ws/src/install/visualization_tools:/root/ros2_ws/src/install/graph_decoder:/root/ros2_ws/src/install/far_planner:/root/ros2_ws/src/install/boundary_handler:/root/ros2_ws/src/install/visibility_graph_msg:/root/ros2_ws/src/install/vehicle_simulator:/root/ros2_ws/src/install/local_planner:/root/ros2_ws/src/install/calibrate_imu:/root/ros2_ws/src/install/go2_sport_api:/root/ros2_ws/src/install/point_lio_unilidar:/root/ros2_ws/src/install/terrain_analysis_ext:/root/ros2_ws/src/install/terrain_analysis:/root/ros2_ws/src/install/teleop_rviz_plugin_plus:/root/ros2_ws/src/install/teleop_rviz_plugin:/root/ros2_ws/src/install/super_odometry:/root/ros2_ws/src/install/super_odometry_msgs:/root/ros2_ws/src/install/sensor_scan_generation:/root/ros2_ws/src/install/rviz_2d_overlay_plugins:/root/ros2_ws/src/install/rviz_2d_overlay_msgs:/root/ros2_ws/src/install/livox_ros_driver2:/root/ros2_ws/src/install/goalpoint_rviz_plugin:/root/ros2_ws/src/install/go2_h264_repub:/root/ros2_ws/src/install/transform_sensors:/root/ros2_ws/src/install/ros_tcp_endpoint:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/src/install/unitree_go/lib:/root/ros2_ws/src/install/unitree_api/lib:/root/ros2_ws/src/install/visibility_graph_msg/lib:/root/ros2_ws/src/install/go2_sport_api/lib:/root/ros2_ws/src/install/super_odometry/lib:/root/ros2_ws/src/install/super_odometry_msgs/lib:/root/ros2_ws/src/install/rviz_2d_overlay_plugins/lib:/root/ros2_ws/src/install/rviz_2d_overlay_msgs/lib:/root/ros2_ws/src/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /root/ros2_ws/src/utilities/unitree_pkgs/go2_sport_api -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/go2_sport_api
+[0.040s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.187s] -- Found unitree_go: 0.0.0 (/root/ros2_ws/src/install/unitree_go/share/unitree_go/cmake)
+[0.213s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.216s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.222s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.232s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.246s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.299s] -- Found unitree_api: 0.0.0 (/root/ros2_ws/src/install/unitree_api/share/unitree_api/cmake)
+[0.305s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[0.327s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.329s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.532s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.566s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.591s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.665s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.670s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.671s] -- Configured cppcheck include dirs: /root/ros2_ws/src/utilities/unitree_pkgs/go2_sport_api/include;/root/ros2_ws/src/utilities/unitree_pkgs/go2_sport_api/include/common;/root/ros2_ws/src/utilities/unitree_pkgs/go2_sport_api/include/nlohmann
+[0.671s] -- Configured cppcheck exclude dirs and/or files: 
+[0.671s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.671s] -- Configured cpplint exclude dirs and/or files: 
+[0.671s] -- Added test 'lint_cmake' to check CMake code style
+[0.673s] -- Added test 'uncrustify' to check C / C++ code style
+[0.673s] -- Configured uncrustify additional arguments: 
+[0.674s] -- Added test 'xmllint' to check XML markup files
+[0.675s] -- Configuring done
+[0.688s] -- Generating done
+[0.695s] -- Build files have been written to: /root/ros2_ws/src/build/go2_sport_api
+[0.707s] Invoked command in '/root/ros2_ws/src/build/go2_sport_api' returned '0': CMAKE_PREFIX_PATH=/root/ros2_ws/src/install/unitree_go:/root/ros2_ws/src/install/unitree_api:/root/ros2_ws/src/install/waypoint_rviz_plugin:/root/ros2_ws/src/install/waypoint_example:/root/ros2_ws/src/install/visualization_tools:/root/ros2_ws/src/install/graph_decoder:/root/ros2_ws/src/install/far_planner:/root/ros2_ws/src/install/boundary_handler:/root/ros2_ws/src/install/visibility_graph_msg:/root/ros2_ws/src/install/vehicle_simulator:/root/ros2_ws/src/install/local_planner:/root/ros2_ws/src/install/calibrate_imu:/root/ros2_ws/src/install/go2_sport_api:/root/ros2_ws/src/install/point_lio_unilidar:/root/ros2_ws/src/install/terrain_analysis_ext:/root/ros2_ws/src/install/terrain_analysis:/root/ros2_ws/src/install/teleop_rviz_plugin_plus:/root/ros2_ws/src/install/teleop_rviz_plugin:/root/ros2_ws/src/install/super_odometry:/root/ros2_ws/src/install/super_odometry_msgs:/root/ros2_ws/src/install/sensor_scan_generation:/root/ros2_ws/src/install/rviz_2d_overlay_plugins:/root/ros2_ws/src/install/rviz_2d_overlay_msgs:/root/ros2_ws/src/install/livox_ros_driver2:/root/ros2_ws/src/install/goalpoint_rviz_plugin:/root/ros2_ws/src/install/go2_h264_repub:/root/ros2_ws/src/install/transform_sensors:/root/ros2_ws/src/install/ros_tcp_endpoint:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/src/install/unitree_go/lib:/root/ros2_ws/src/install/unitree_api/lib:/root/ros2_ws/src/install/visibility_graph_msg/lib:/root/ros2_ws/src/install/go2_sport_api/lib:/root/ros2_ws/src/install/super_odometry/lib:/root/ros2_ws/src/install/super_odometry_msgs/lib:/root/ros2_ws/src/install/rviz_2d_overlay_plugins/lib:/root/ros2_ws/src/install/rviz_2d_overlay_msgs/lib:/root/ros2_ws/src/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /root/ros2_ws/src/utilities/unitree_pkgs/go2_sport_api -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/go2_sport_api
+[0.707s] Invoking command in '/root/ros2_ws/src/build/go2_sport_api': CMAKE_PREFIX_PATH=/root/ros2_ws/src/install/unitree_go:/root/ros2_ws/src/install/unitree_api:/root/ros2_ws/src/install/waypoint_rviz_plugin:/root/ros2_ws/src/install/waypoint_example:/root/ros2_ws/src/install/visualization_tools:/root/ros2_ws/src/install/graph_decoder:/root/ros2_ws/src/install/far_planner:/root/ros2_ws/src/install/boundary_handler:/root/ros2_ws/src/install/visibility_graph_msg:/root/ros2_ws/src/install/vehicle_simulator:/root/ros2_ws/src/install/local_planner:/root/ros2_ws/src/install/calibrate_imu:/root/ros2_ws/src/install/go2_sport_api:/root/ros2_ws/src/install/point_lio_unilidar:/root/ros2_ws/src/install/terrain_analysis_ext:/root/ros2_ws/src/install/terrain_analysis:/root/ros2_ws/src/install/teleop_rviz_plugin_plus:/root/ros2_ws/src/install/teleop_rviz_plugin:/root/ros2_ws/src/install/super_odometry:/root/ros2_ws/src/install/super_odometry_msgs:/root/ros2_ws/src/install/sensor_scan_generation:/root/ros2_ws/src/install/rviz_2d_overlay_plugins:/root/ros2_ws/src/install/rviz_2d_overlay_msgs:/root/ros2_ws/src/install/livox_ros_driver2:/root/ros2_ws/src/install/goalpoint_rviz_plugin:/root/ros2_ws/src/install/go2_h264_repub:/root/ros2_ws/src/install/transform_sensors:/root/ros2_ws/src/install/ros_tcp_endpoint:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/src/install/unitree_go/lib:/root/ros2_ws/src/install/unitree_api/lib:/root/ros2_ws/src/install/visibility_graph_msg/lib:/root/ros2_ws/src/install/go2_sport_api/lib:/root/ros2_ws/src/install/super_odometry/lib:/root/ros2_ws/src/install/super_odometry_msgs/lib:/root/ros2_ws/src/install/rviz_2d_overlay_plugins/lib:/root/ros2_ws/src/install/rviz_2d_overlay_msgs/lib:/root/ros2_ws/src/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /root/ros2_ws/src/build/go2_sport_api -- -j24 -l24
+[0.761s] [35m[1mConsolidate compiler generated dependencies of target vel_ctrl[0m
+[0.766s] [35m[1mConsolidate compiler generated dependencies of target go2_sport_api[0m
+[0.783s] [ 40%] Built target go2_sport_api
+[0.784s] [100%] Built target vel_ctrl
+[0.794s] Invoked command in '/root/ros2_ws/src/build/go2_sport_api' returned '0': CMAKE_PREFIX_PATH=/root/ros2_ws/src/install/unitree_go:/root/ros2_ws/src/install/unitree_api:/root/ros2_ws/src/install/waypoint_rviz_plugin:/root/ros2_ws/src/install/waypoint_example:/root/ros2_ws/src/install/visualization_tools:/root/ros2_ws/src/install/graph_decoder:/root/ros2_ws/src/install/far_planner:/root/ros2_ws/src/install/boundary_handler:/root/ros2_ws/src/install/visibility_graph_msg:/root/ros2_ws/src/install/vehicle_simulator:/root/ros2_ws/src/install/local_planner:/root/ros2_ws/src/install/calibrate_imu:/root/ros2_ws/src/install/go2_sport_api:/root/ros2_ws/src/install/point_lio_unilidar:/root/ros2_ws/src/install/terrain_analysis_ext:/root/ros2_ws/src/install/terrain_analysis:/root/ros2_ws/src/install/teleop_rviz_plugin_plus:/root/ros2_ws/src/install/teleop_rviz_plugin:/root/ros2_ws/src/install/super_odometry:/root/ros2_ws/src/install/super_odometry_msgs:/root/ros2_ws/src/install/sensor_scan_generation:/root/ros2_ws/src/install/rviz_2d_overlay_plugins:/root/ros2_ws/src/install/rviz_2d_overlay_msgs:/root/ros2_ws/src/install/livox_ros_driver2:/root/ros2_ws/src/install/goalpoint_rviz_plugin:/root/ros2_ws/src/install/go2_h264_repub:/root/ros2_ws/src/install/transform_sensors:/root/ros2_ws/src/install/ros_tcp_endpoint:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/src/install/unitree_go/lib:/root/ros2_ws/src/install/unitree_api/lib:/root/ros2_ws/src/install/visibility_graph_msg/lib:/root/ros2_ws/src/install/go2_sport_api/lib:/root/ros2_ws/src/install/super_odometry/lib:/root/ros2_ws/src/install/super_odometry_msgs/lib:/root/ros2_ws/src/install/rviz_2d_overlay_plugins/lib:/root/ros2_ws/src/install/rviz_2d_overlay_msgs/lib:/root/ros2_ws/src/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /root/ros2_ws/src/build/go2_sport_api -- -j24 -l24
+[0.796s] Invoking command in '/root/ros2_ws/src/build/go2_sport_api': CMAKE_PREFIX_PATH=/root/ros2_ws/src/install/unitree_go:/root/ros2_ws/src/install/unitree_api:/root/ros2_ws/src/install/waypoint_rviz_plugin:/root/ros2_ws/src/install/waypoint_example:/root/ros2_ws/src/install/visualization_tools:/root/ros2_ws/src/install/graph_decoder:/root/ros2_ws/src/install/far_planner:/root/ros2_ws/src/install/boundary_handler:/root/ros2_ws/src/install/visibility_graph_msg:/root/ros2_ws/src/install/vehicle_simulator:/root/ros2_ws/src/install/local_planner:/root/ros2_ws/src/install/calibrate_imu:/root/ros2_ws/src/install/go2_sport_api:/root/ros2_ws/src/install/point_lio_unilidar:/root/ros2_ws/src/install/terrain_analysis_ext:/root/ros2_ws/src/install/terrain_analysis:/root/ros2_ws/src/install/teleop_rviz_plugin_plus:/root/ros2_ws/src/install/teleop_rviz_plugin:/root/ros2_ws/src/install/super_odometry:/root/ros2_ws/src/install/super_odometry_msgs:/root/ros2_ws/src/install/sensor_scan_generation:/root/ros2_ws/src/install/rviz_2d_overlay_plugins:/root/ros2_ws/src/install/rviz_2d_overlay_msgs:/root/ros2_ws/src/install/livox_ros_driver2:/root/ros2_ws/src/install/goalpoint_rviz_plugin:/root/ros2_ws/src/install/go2_h264_repub:/root/ros2_ws/src/install/transform_sensors:/root/ros2_ws/src/install/ros_tcp_endpoint:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/src/install/unitree_go/lib:/root/ros2_ws/src/install/unitree_api/lib:/root/ros2_ws/src/install/visibility_graph_msg/lib:/root/ros2_ws/src/install/go2_sport_api/lib:/root/ros2_ws/src/install/super_odometry/lib:/root/ros2_ws/src/install/super_odometry_msgs/lib:/root/ros2_ws/src/install/rviz_2d_overlay_plugins/lib:/root/ros2_ws/src/install/rviz_2d_overlay_msgs/lib:/root/ros2_ws/src/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /root/ros2_ws/src/build/go2_sport_api
+[0.810s] -- Install configuration: ""
+[0.810s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/include/include
+[0.810s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/include/include/nlohmann
+[0.810s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/include/include/nlohmann/detail
+[0.810s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/include/include/nlohmann/detail/abi_macros.hpp
+[0.810s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/include/include/nlohmann/detail/hash.hpp
+[0.810s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/include/include/nlohmann/detail/string_escape.hpp
+[0.810s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/include/include/nlohmann/detail/output
+[0.810s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/include/include/nlohmann/detail/output/output_adapters.hpp
+[0.810s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/include/include/nlohmann/detail/output/binary_writer.hpp
+[0.810s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/include/include/nlohmann/detail/output/serializer.hpp
+[0.810s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/include/include/nlohmann/detail/value_t.hpp
+[0.810s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/include/include/nlohmann/detail/exceptions.hpp
+[0.810s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/include/include/nlohmann/detail/conversions
+[0.810s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/include/include/nlohmann/detail/conversions/to_json.hpp
+[0.810s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/include/include/nlohmann/detail/conversions/to_chars.hpp
+[0.810s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/include/include/nlohmann/detail/conversions/from_json.hpp
+[0.810s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/include/include/nlohmann/detail/iterators
+[0.810s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/include/include/nlohmann/detail/iterators/json_reverse_iterator.hpp
+[0.810s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/include/include/nlohmann/detail/iterators/internal_iterator.hpp
+[0.810s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/include/include/nlohmann/detail/iterators/iterator_traits.hpp
+[0.811s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/include/include/nlohmann/detail/iterators/iteration_proxy.hpp
+[0.811s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/include/include/nlohmann/detail/iterators/iter_impl.hpp
+[0.811s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/include/include/nlohmann/detail/iterators/primitive_iterator.hpp
+[0.811s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/include/include/nlohmann/detail/json_pointer.hpp
+[0.811s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/include/include/nlohmann/detail/json_custom_base_class.hpp
+[0.811s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/include/include/nlohmann/detail/macro_unscope.hpp
+[0.811s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/include/include/nlohmann/detail/json_ref.hpp
+[0.811s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/include/include/nlohmann/detail/string_concat.hpp
+[0.811s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/include/include/nlohmann/detail/macro_scope.hpp
+[0.811s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/include/include/nlohmann/detail/input
+[0.811s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/include/include/nlohmann/detail/input/position_t.hpp
+[0.811s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/include/include/nlohmann/detail/input/json_sax.hpp
+[0.811s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/include/include/nlohmann/detail/input/binary_reader.hpp
+[0.811s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/include/include/nlohmann/detail/input/parser.hpp
+[0.811s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/include/include/nlohmann/detail/input/input_adapters.hpp
+[0.811s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/include/include/nlohmann/detail/input/lexer.hpp
+[0.811s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/include/include/nlohmann/detail/meta
+[0.811s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/include/include/nlohmann/detail/meta/type_traits.hpp
+[0.811s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/include/include/nlohmann/detail/meta/detected.hpp
+[0.811s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/include/include/nlohmann/detail/meta/identity_tag.hpp
+[0.811s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/include/include/nlohmann/detail/meta/std_fs.hpp
+[0.811s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/include/include/nlohmann/detail/meta/cpp_future.hpp
+[0.811s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/include/include/nlohmann/detail/meta/void_t.hpp
+[0.811s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/include/include/nlohmann/detail/meta/call_std
+[0.811s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/include/include/nlohmann/detail/meta/call_std/begin.hpp
+[0.811s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/include/include/nlohmann/detail/meta/call_std/end.hpp
+[0.812s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/include/include/nlohmann/detail/meta/is_sax.hpp
+[0.812s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/include/include/nlohmann/ordered_map.hpp
+[0.812s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/include/include/nlohmann/byte_container_with_subtype.hpp
+[0.812s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/include/include/nlohmann/adl_serializer.hpp
+[0.812s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/include/include/nlohmann/json.hpp
+[0.812s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/include/include/nlohmann/json_fwd.hpp
+[0.812s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/include/include/nlohmann/thirdparty
+[0.814s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/include/include/nlohmann/thirdparty/hedley
+[0.814s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/include/include/nlohmann/thirdparty/hedley/hedley_undef.hpp
+[0.814s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/include/include/nlohmann/thirdparty/hedley/hedley.hpp
+[0.814s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/include/include/common
+[0.814s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/include/include/common/motor_crc.h
+[0.814s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/include/include/common/ros2_sport_client.h
+[0.814s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/lib/go2_sport_api/vel_ctrl
+[0.814s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/lib/libgo2_sport_api.so
+[0.814s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/share/go2_sport_api/environment/library_path.sh
+[0.814s] -- Installing: /root/ros2_ws/src/install/go2_sport_api/share/go2_sport_api/environment/library_path.dsv
+[0.814s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/share/ament_index/resource_index/package_run_dependencies/go2_sport_api
+[0.814s] -- Installing: /root/ros2_ws/src/install/go2_sport_api/share/ament_index/resource_index/parent_prefix_path/go2_sport_api
+[0.816s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/share/go2_sport_api/environment/ament_prefix_path.sh
+[0.816s] -- Installing: /root/ros2_ws/src/install/go2_sport_api/share/go2_sport_api/environment/ament_prefix_path.dsv
+[0.816s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/share/go2_sport_api/environment/path.sh
+[0.816s] -- Installing: /root/ros2_ws/src/install/go2_sport_api/share/go2_sport_api/environment/path.dsv
+[0.816s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/share/go2_sport_api/local_setup.bash
+[0.816s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/share/go2_sport_api/local_setup.sh
+[0.816s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/share/go2_sport_api/local_setup.zsh
+[0.816s] -- Installing: /root/ros2_ws/src/install/go2_sport_api/share/go2_sport_api/local_setup.dsv
+[0.816s] -- Installing: /root/ros2_ws/src/install/go2_sport_api/share/go2_sport_api/package.dsv
+[0.816s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/share/ament_index/resource_index/packages/go2_sport_api
+[0.816s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/share/go2_sport_api/cmake/export_go2_sport_apiExport.cmake
+[0.816s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/share/go2_sport_api/cmake/export_go2_sport_apiExport-noconfig.cmake
+[0.817s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/share/go2_sport_api/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.817s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/share/go2_sport_api/cmake/ament_cmake_export_libraries-extras.cmake
+[0.817s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/share/go2_sport_api/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.817s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/share/go2_sport_api/cmake/ament_cmake_export_targets-extras.cmake
+[0.817s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/share/go2_sport_api/cmake/go2_sport_apiConfig.cmake
+[0.817s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/share/go2_sport_api/cmake/go2_sport_apiConfig-version.cmake
+[0.817s] -- Up-to-date: /root/ros2_ws/src/install/go2_sport_api/share/go2_sport_api/package.xml
+[0.819s] Invoked command in '/root/ros2_ws/src/build/go2_sport_api' returned '0': CMAKE_PREFIX_PATH=/root/ros2_ws/src/install/unitree_go:/root/ros2_ws/src/install/unitree_api:/root/ros2_ws/src/install/waypoint_rviz_plugin:/root/ros2_ws/src/install/waypoint_example:/root/ros2_ws/src/install/visualization_tools:/root/ros2_ws/src/install/graph_decoder:/root/ros2_ws/src/install/far_planner:/root/ros2_ws/src/install/boundary_handler:/root/ros2_ws/src/install/visibility_graph_msg:/root/ros2_ws/src/install/vehicle_simulator:/root/ros2_ws/src/install/local_planner:/root/ros2_ws/src/install/calibrate_imu:/root/ros2_ws/src/install/go2_sport_api:/root/ros2_ws/src/install/point_lio_unilidar:/root/ros2_ws/src/install/terrain_analysis_ext:/root/ros2_ws/src/install/terrain_analysis:/root/ros2_ws/src/install/teleop_rviz_plugin_plus:/root/ros2_ws/src/install/teleop_rviz_plugin:/root/ros2_ws/src/install/super_odometry:/root/ros2_ws/src/install/super_odometry_msgs:/root/ros2_ws/src/install/sensor_scan_generation:/root/ros2_ws/src/install/rviz_2d_overlay_plugins:/root/ros2_ws/src/install/rviz_2d_overlay_msgs:/root/ros2_ws/src/install/livox_ros_driver2:/root/ros2_ws/src/install/goalpoint_rviz_plugin:/root/ros2_ws/src/install/go2_h264_repub:/root/ros2_ws/src/install/transform_sensors:/root/ros2_ws/src/install/ros_tcp_endpoint:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/src/install/unitree_go/lib:/root/ros2_ws/src/install/unitree_api/lib:/root/ros2_ws/src/install/visibility_graph_msg/lib:/root/ros2_ws/src/install/go2_sport_api/lib:/root/ros2_ws/src/install/super_odometry/lib:/root/ros2_ws/src/install/super_odometry_msgs/lib:/root/ros2_ws/src/install/rviz_2d_overlay_plugins/lib:/root/ros2_ws/src/install/rviz_2d_overlay_msgs/lib:/root/ros2_ws/src/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /root/ros2_ws/src/build/go2_sport_api

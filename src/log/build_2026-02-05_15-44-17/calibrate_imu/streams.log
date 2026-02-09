@@ -1,0 +1,94 @@
+[0.026s] Invoking command in '/root/ros2_ws/src/build/calibrate_imu': AMENT_PREFIX_PATH=/root/ros2_ws/src/install/go2_sport_api:/root/ros2_ws/src/install/unitree_go:/root/ros2_ws/src/install/unitree_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/src/install/go2_sport_api:/root/ros2_ws/src/install/unitree_go:/root/ros2_ws/src/install/unitree_api:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/src/install/go2_sport_api/lib:/root/ros2_ws/src/install/unitree_go/lib:/root/ros2_ws/src/install/unitree_api/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/src/install/unitree_go/local/lib/python3.10/dist-packages:/root/ros2_ws/src/install/unitree_api/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/ros2_ws/src/utilities/calibrate_imu -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/calibrate_imu
+[0.126s] -- The C compiler identification is GNU 11.4.0
+[0.233s] -- The CXX compiler identification is GNU 11.4.0
+[0.243s] -- Detecting C compiler ABI info
+[0.383s] -- Detecting C compiler ABI info - done
+[0.397s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.398s] -- Detecting C compile features
+[0.399s] -- Detecting C compile features - done
+[0.404s] -- Detecting CXX compiler ABI info
+[0.542s] -- Detecting CXX compiler ABI info - done
+[0.557s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.558s] -- Detecting CXX compile features
+[0.559s] -- Detecting CXX compile features - done
+[0.565s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.818s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.018s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[1.234s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.242s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.255s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.272s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.294s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.355s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.361s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.487s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.529s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.604s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.620s] -- Looking for pthread.h
+[1.729s] -- Looking for pthread.h - found
+[1.729s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.902s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.906s] -- Found Threads: TRUE  
+[2.048s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.108s] -- Found unitree_api: 0.0.0 (/root/ros2_ws/src/install/unitree_api/share/unitree_api/cmake)
+[2.125s] -- Found go2_sport_api: 0.0.0 (/root/ros2_ws/src/install/go2_sport_api/share/go2_sport_api/cmake)
+[2.159s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.349s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.366s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.366s] -- Configured cppcheck include dirs: /root/ros2_ws/src/utilities/calibrate_imu/include;/root/ros2_ws/src/utilities/calibrate_imu/include/nlohmann
+[2.366s] -- Configured cppcheck exclude dirs and/or files: 
+[2.374s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.374s] -- Configured cpplint exclude dirs and/or files: 
+[2.378s] -- Added test 'lint_cmake' to check CMake code style
+[2.393s] -- Added test 'uncrustify' to check C / C++ code style
+[2.393s] -- Configured uncrustify additional arguments: 
+[2.395s] -- Added test 'xmllint' to check XML markup files
+[2.402s] -- Configuring done
+[2.428s] [33mCMake Warning:
+[2.428s]   Manually-specified variables were not used by the project:
+[2.428s] 
+[2.428s]     HUMBLE_ROS
+[2.429s]     ROS_EDITION
+[2.431s] 
+[2.431s] [0m
+[2.443s] -- Generating done
+[2.444s] -- Build files have been written to: /root/ros2_ws/src/build/calibrate_imu
+[2.453s] Invoked command in '/root/ros2_ws/src/build/calibrate_imu' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/src/install/go2_sport_api:/root/ros2_ws/src/install/unitree_go:/root/ros2_ws/src/install/unitree_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/src/install/go2_sport_api:/root/ros2_ws/src/install/unitree_go:/root/ros2_ws/src/install/unitree_api:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/src/install/go2_sport_api/lib:/root/ros2_ws/src/install/unitree_go/lib:/root/ros2_ws/src/install/unitree_api/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/src/install/unitree_go/local/lib/python3.10/dist-packages:/root/ros2_ws/src/install/unitree_api/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/ros2_ws/src/utilities/calibrate_imu -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/calibrate_imu
+[2.454s] Invoking command in '/root/ros2_ws/src/build/calibrate_imu': AMENT_PREFIX_PATH=/root/ros2_ws/src/install/go2_sport_api:/root/ros2_ws/src/install/unitree_go:/root/ros2_ws/src/install/unitree_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/src/install/go2_sport_api:/root/ros2_ws/src/install/unitree_go:/root/ros2_ws/src/install/unitree_api:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/src/install/go2_sport_api/lib:/root/ros2_ws/src/install/unitree_go/lib:/root/ros2_ws/src/install/unitree_api/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/src/install/unitree_go/local/lib/python3.10/dist-packages:/root/ros2_ws/src/install/unitree_api/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros2_ws/src/build/calibrate_imu -- -j24 -l24
+[2.571s] [ 50%] [32mBuilding CXX object CMakeFiles/calibrate_imu.dir/src/calibrate_imu.cpp.o[0m
+[6.195s] [01m[K/root/ros2_ws/src/utilities/calibrate_imu/src/calibrate_imu.cpp:[m[K In function ‘[01m[Kvoid estimate_bias()[m[K’:
+[6.195s] [01m[K/root/ros2_ws/src/utilities/calibrate_imu/src/calibrate_imu.cpp:87:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knegative_rot_count[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[6.196s]    87 |     int [01;35m[Knegative_rot_count[m[K = 0;
+[6.196s]       |         [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[6.196s] [01m[K/root/ros2_ws/src/utilities/calibrate_imu/src/calibrate_imu.cpp:93:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kang_rot_x_mean_negative[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[6.196s]    93 |     double [01;35m[Kang_rot_x_mean_negative[m[K = 0;
+[6.196s]       |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.196s] [01m[K/root/ros2_ws/src/utilities/calibrate_imu/src/calibrate_imu.cpp:94:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kang_rot_y_mean_negative[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[6.196s]    94 |     double [01;35m[Kang_rot_y_mean_negative[m[K = 0;
+[6.196s]       |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.196s] [01m[K/root/ros2_ws/src/utilities/calibrate_imu/src/calibrate_imu.cpp:95:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kang_rot_z_mean_negative[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[6.196s]    95 |     double [01;35m[Kang_rot_z_mean_negative[m[K = 0;
+[6.196s]       |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[13.272s] [100%] [32m[1mLinking CXX executable calibrate_imu[0m
+[13.686s] [100%] Built target calibrate_imu
+[13.700s] Invoked command in '/root/ros2_ws/src/build/calibrate_imu' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/src/install/go2_sport_api:/root/ros2_ws/src/install/unitree_go:/root/ros2_ws/src/install/unitree_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/src/install/go2_sport_api:/root/ros2_ws/src/install/unitree_go:/root/ros2_ws/src/install/unitree_api:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/src/install/go2_sport_api/lib:/root/ros2_ws/src/install/unitree_go/lib:/root/ros2_ws/src/install/unitree_api/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/src/install/unitree_go/local/lib/python3.10/dist-packages:/root/ros2_ws/src/install/unitree_api/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros2_ws/src/build/calibrate_imu -- -j24 -l24
+[13.701s] Invoking command in '/root/ros2_ws/src/build/calibrate_imu': AMENT_PREFIX_PATH=/root/ros2_ws/src/install/go2_sport_api:/root/ros2_ws/src/install/unitree_go:/root/ros2_ws/src/install/unitree_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/src/install/go2_sport_api:/root/ros2_ws/src/install/unitree_go:/root/ros2_ws/src/install/unitree_api:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/src/install/go2_sport_api/lib:/root/ros2_ws/src/install/unitree_go/lib:/root/ros2_ws/src/install/unitree_api/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/src/install/unitree_go/local/lib/python3.10/dist-packages:/root/ros2_ws/src/install/unitree_api/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ros2_ws/src/build/calibrate_imu
+[13.710s] -- Install configuration: ""
+[13.710s] -- Installing: /root/ros2_ws/src/install/calibrate_imu/lib/calibrate_imu/calibrate_imu
+[13.714s] -- Set runtime path of "/root/ros2_ws/src/install/calibrate_imu/lib/calibrate_imu/calibrate_imu" to ""
+[13.714s] -- Installing: /root/ros2_ws/src/install/calibrate_imu/share/ament_index/resource_index/package_run_dependencies/calibrate_imu
+[13.714s] -- Installing: /root/ros2_ws/src/install/calibrate_imu/share/ament_index/resource_index/parent_prefix_path/calibrate_imu
+[13.715s] -- Installing: /root/ros2_ws/src/install/calibrate_imu/share/calibrate_imu/environment/ament_prefix_path.sh
+[13.715s] -- Installing: /root/ros2_ws/src/install/calibrate_imu/share/calibrate_imu/environment/ament_prefix_path.dsv
+[13.715s] -- Installing: /root/ros2_ws/src/install/calibrate_imu/share/calibrate_imu/environment/path.sh
+[13.715s] -- Installing: /root/ros2_ws/src/install/calibrate_imu/share/calibrate_imu/environment/path.dsv
+[13.715s] -- Installing: /root/ros2_ws/src/install/calibrate_imu/share/calibrate_imu/local_setup.bash
+[13.715s] -- Installing: /root/ros2_ws/src/install/calibrate_imu/share/calibrate_imu/local_setup.sh
+[13.715s] -- Installing: /root/ros2_ws/src/install/calibrate_imu/share/calibrate_imu/local_setup.zsh
+[13.715s] -- Installing: /root/ros2_ws/src/install/calibrate_imu/share/calibrate_imu/local_setup.dsv
+[13.716s] -- Installing: /root/ros2_ws/src/install/calibrate_imu/share/calibrate_imu/package.dsv
+[13.716s] -- Installing: /root/ros2_ws/src/install/calibrate_imu/share/ament_index/resource_index/packages/calibrate_imu
+[13.716s] -- Installing: /root/ros2_ws/src/install/calibrate_imu/share/calibrate_imu/cmake/calibrate_imuConfig.cmake
+[13.716s] -- Installing: /root/ros2_ws/src/install/calibrate_imu/share/calibrate_imu/cmake/calibrate_imuConfig-version.cmake
+[13.716s] -- Installing: /root/ros2_ws/src/install/calibrate_imu/share/calibrate_imu/package.xml
+[13.719s] Invoked command in '/root/ros2_ws/src/build/calibrate_imu' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/src/install/go2_sport_api:/root/ros2_ws/src/install/unitree_go:/root/ros2_ws/src/install/unitree_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/src/install/go2_sport_api:/root/ros2_ws/src/install/unitree_go:/root/ros2_ws/src/install/unitree_api:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/src/install/go2_sport_api/lib:/root/ros2_ws/src/install/unitree_go/lib:/root/ros2_ws/src/install/unitree_api/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/src/install/unitree_go/local/lib/python3.10/dist-packages:/root/ros2_ws/src/install/unitree_api/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ros2_ws/src/build/calibrate_imu

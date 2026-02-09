@@ -1,0 +1,107 @@
+[0.438s] Invoking command in '/root/ros2_ws/src/build/waypoint_example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/base_autonomy/waypoint_example -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/waypoint_example
+[2.064s] -- The C compiler identification is GNU 11.4.0
+[2.064s] -- The CXX compiler identification is GNU 11.4.0
+[2.064s] -- Detecting C compiler ABI info
+[2.064s] -- Detecting C compiler ABI info - done
+[2.064s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.064s] -- Detecting C compile features
+[2.064s] -- Detecting C compile features - done
+[2.064s] -- Detecting CXX compiler ABI info
+[2.064s] -- Detecting CXX compiler ABI info - done
+[2.064s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.064s] -- Detecting CXX compile features
+[2.064s] -- Detecting CXX compile features - done
+[2.064s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.064s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.068s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.068s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[2.068s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.068s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.068s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.068s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.069s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.069s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.069s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.069s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.069s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.069s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.069s] -- Looking for pthread.h
+[2.069s] -- Looking for pthread.h - found
+[2.069s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.069s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.069s] -- Found Threads: TRUE  
+[2.143s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.186s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.258s] -- Found tf2_ros: 0.25.18 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.587s] -- Found tf2_geometry_msgs: 0.25.18 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[2.655s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.658s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.662s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.677s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[2.795s] -- Checking for module 'eigen3'
+[2.816s] --   Found eigen3, version 3.4.0
+[2.882s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[2.883s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.099s] -- Checking for module 'flann'
+[3.138s] --   Found flann, version 1.9.1
+[3.282s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[3.286s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[7.633s] -- Checking for module 'libusb-1.0'
+[7.695s] --   Found libusb-1.0, version 1.0.25
+[7.843s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[7.850s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[8.035s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[8.713s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[8.739s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[8.771s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[9.099s] -- Found Qhull version 8.0.2
+[9.490s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[9.873s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[9.874s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[9.875s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[9.880s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[9.880s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[9.881s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[9.881s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[9.881s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[9.881s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[9.881s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[9.882s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[9.884s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[9.885s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[9.888s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[9.888s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[9.888s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[9.889s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[9.890s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[9.892s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[9.898s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[9.898s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[9.899s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[9.903s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[9.909s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[9.913s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[9.930s] -- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+[10.026s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[10.328s] -- Added test 'copyright' to check source files copyright and LICENSE
+[10.329s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[10.329s] -- Configured cppcheck include dirs: 
+[10.329s] -- Configured cppcheck exclude dirs and/or files: 
+[10.336s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[10.336s] -- Configured cpplint exclude dirs and/or files: 
+[10.336s] -- Added test 'lint_cmake' to check CMake code style
+[10.336s] -- Added test 'uncrustify' to check C / C++ code style
+[10.336s] -- Configured uncrustify additional arguments: 
+[10.340s] -- Added test 'xmllint' to check XML markup files
+[10.341s] -- Configuring done
+[10.483s] -- Generating done
+[10.516s] -- Build files have been written to: /root/ros2_ws/src/build/waypoint_example
+[10.573s] Invoked command in '/root/ros2_ws/src/build/waypoint_example' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/base_autonomy/waypoint_example -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/waypoint_example
+[10.573s] Invoking command in '/root/ros2_ws/src/build/waypoint_example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/src/build/waypoint_example -- -j24 -l24
+[13.242s] [ 50%] [32mBuilding CXX object CMakeFiles/waypointExample.dir/src/waypointExample.cpp.o[0m
+[13.295s] In file included from [01m[K/root/ros2_ws/src/base_autonomy/waypoint_example/src/waypointExample.cpp:20[m[K:
+[13.295s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K-Wcpp[m[K]
+[13.295s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[13.295s]       |  [01;35m[K^~~~~~~[m[K
+[28.765s] [100%] [32m[1mLinking CXX executable waypointExample[0m
+[29.045s] [100%] Built target waypointExample

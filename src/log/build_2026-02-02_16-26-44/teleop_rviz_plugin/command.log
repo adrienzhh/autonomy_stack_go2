@@ -1,0 +1,6 @@
+Invoking command in '/root/ros2_ws/src/build/teleop_rviz_plugin': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/utilities/teleop_rviz_plugin -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/teleop_rviz_plugin
+Invoked command in '/root/ros2_ws/src/build/teleop_rviz_plugin' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/utilities/teleop_rviz_plugin -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/teleop_rviz_plugin
+Invoking command in '/root/ros2_ws/src/build/teleop_rviz_plugin': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/src/build/teleop_rviz_plugin -- -j24 -l24
+Invoked command in '/root/ros2_ws/src/build/teleop_rviz_plugin' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/src/build/teleop_rviz_plugin -- -j24 -l24
+Invoking command in '/root/ros2_ws/src/build/teleop_rviz_plugin': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/src/build/teleop_rviz_plugin
+Invoked command in '/root/ros2_ws/src/build/teleop_rviz_plugin' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/src/build/teleop_rviz_plugin

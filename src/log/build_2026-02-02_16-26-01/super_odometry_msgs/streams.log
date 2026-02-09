@@ -1,0 +1,136 @@
+[0.217s] Invoking command in '/root/ros2_ws/src/build/super_odometry_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/slam/SuperOdom/super_odometry_msgs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/super_odometry_msgs
+[0.475s] -- The C compiler identification is GNU 11.4.0
+[0.475s] -- The CXX compiler identification is GNU 11.4.0
+[0.475s] -- Detecting C compiler ABI info
+[0.475s] -- Detecting C compiler ABI info - done
+[0.475s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.475s] -- Detecting C compile features
+[0.475s] -- Detecting C compile features - done
+[0.476s] -- Detecting CXX compiler ABI info
+[0.476s] -- Detecting CXX compiler ABI info - done
+[0.476s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.476s] -- Detecting CXX compile features
+[0.476s] -- Detecting CXX compile features - done
+[0.476s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.637s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.710s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.802s] -- Found builtin_interfaces: 1.2.2 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.891s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.906s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.927s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.948s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.979s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.004s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.023s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[1.043s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.066s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.097s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.470s] -- Found ament_cmake_cppcheck: 0.12.14 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[1.473s] -- Found ament_cmake_cpplint: 0.12.14 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[1.480s] -- Found ament_cmake_uncrustify: 0.12.14 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[1.486s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.186s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.575s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.628s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.644s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.708s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.708s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.708s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.708s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.752s] -- Found PythonExtra: .so  
+[3.149s] -- Using numpy include directory: /usr/local/lib/python3.10/dist-packages/numpy/core/include
+[3.222s] -- Found ament_cmake_flake8: 0.12.14 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[3.233s] -- Found ament_cmake_pep257: 0.12.14 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[3.254s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.351s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.351s] -- Added test 'lint_cmake' to check CMake code style
+[3.351s] -- Added test 'xmllint' to check XML markup files
+[3.371s] -- Configuring done
+[3.572s] -- Generating done
+[3.596s] -- Build files have been written to: /root/ros2_ws/src/build/super_odometry_msgs
+[3.628s] Invoked command in '/root/ros2_ws/src/build/super_odometry_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/slam/SuperOdom/super_odometry_msgs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/super_odometry_msgs
+[3.629s] Invoking command in '/root/ros2_ws/src/build/super_odometry_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/src/build/super_odometry_msgs -- -j24 -l24
+[5.437s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.437s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.437s] [  4%] Built target ament_cmake_python_symlink_super_odometry_msgs
+[5.437s] running egg_info
+[5.437s] creating super_odometry_msgs.egg-info
+[5.437s] writing super_odometry_msgs.egg-info/PKG-INFO
+[5.437s] writing dependency_links to super_odometry_msgs.egg-info/dependency_links.txt
+[5.437s] writing top-level names to super_odometry_msgs.egg-info/top_level.txt
+[5.437s] writing manifest file 'super_odometry_msgs.egg-info/SOURCES.txt'
+[5.437s] [  6%] [32mBuilding C object CMakeFiles/super_odometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/super_odometry_msgs/msg/detail/optimization_stats__functions.c.o[0m
+[5.437s] [  8%] [32mBuilding C object CMakeFiles/super_odometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/super_odometry_msgs/msg/detail/laser_feature__functions.c.o[0m
+[5.437s] [ 10%] [32mBuilding C object CMakeFiles/super_odometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/super_odometry_msgs/msg/detail/iteration_stats__functions.c.o[0m
+[5.437s] [ 10%] Built target super_odometry_msgs__cpp
+[5.437s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.438s] [ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.438s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.438s] reading manifest file 'super_odometry_msgs.egg-info/SOURCES.txt'
+[5.438s] writing manifest file 'super_odometry_msgs.egg-info/SOURCES.txt'
+[5.442s] /usr/local/lib/python3.10/dist-packages/setuptools_scm/_integration/setuptools.py:24: RuntimeWarning: 
+[5.442s] ERROR: setuptools==59.6.0 is used in combination with setuptools-scm>=8.x
+[5.442s] 
+[5.442s] Your build configuration is incomplete and previously worked by accident!
+[5.442s] setuptools-scm requires setuptools>=61 (recommended: >=80)
+[5.442s] 
+[5.442s] Suggested workaround if applicable:
+[5.442s]  - migrating from the deprecated setup_requires mechanism to pep517/518
+[5.442s]    and using a pyproject.toml to declare build dependencies
+[5.442s]    which are reliably pre-installed before running the build tools
+[5.442s] 
+[5.443s]   warnings.warn(
+[5.443s] listing git files failed - pretending there aren't any
+[5.605s] [ 17%] Built target ament_cmake_python_build_super_odometry_msgs_egg
+[5.760s] [ 19%] [32m[1mLinking C shared library libsuper_odometry_msgs__rosidl_generator_c.so[0m
+[6.016s] [ 19%] Built target super_odometry_msgs__rosidl_generator_c
+[6.092s] [ 21%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.102s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.107s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.848s] [ 27%] [32mBuilding CXX object CMakeFiles/super_odometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/super_odometry_msgs/msg/laser_feature__type_support.cpp.o[0m
+[6.848s] [ 29%] [32mBuilding CXX object CMakeFiles/super_odometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/super_odometry_msgs/msg/iteration_stats__type_support.cpp.o[0m
+[6.849s] [ 31%] [32mBuilding CXX object CMakeFiles/super_odometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/super_odometry_msgs/msg/optimization_stats__type_support.cpp.o[0m
+[6.953s] [ 34%] [32mBuilding CXX object CMakeFiles/super_odometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/super_odometry_msgs/msg/detail/iteration_stats__type_support.cpp.o[0m
+[6.971s] [ 36%] [32mBuilding CXX object CMakeFiles/super_odometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/super_odometry_msgs/msg/detail/optimization_stats__type_support.cpp.o[0m
+[7.004s] [ 38%] [32mBuilding CXX object CMakeFiles/super_odometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/super_odometry_msgs/msg/detail/laser_feature__type_support.cpp.o[0m
+[7.194s] [ 40%] [32mBuilding C object CMakeFiles/super_odometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/super_odometry_msgs/msg/detail/iteration_stats__type_support.c.o[0m
+[7.207s] [ 42%] [32mBuilding C object CMakeFiles/super_odometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/super_odometry_msgs/msg/detail/optimization_stats__type_support.c.o[0m
+[7.248s] [ 44%] [32mBuilding C object CMakeFiles/super_odometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/super_odometry_msgs/msg/detail/laser_feature__type_support.c.o[0m
+[7.289s] [ 48%] [32mBuilding CXX object CMakeFiles/super_odometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/super_odometry_msgs/msg/detail/optimization_stats__type_support_c.cpp.o[0m
+[7.290s] [ 48%] [32mBuilding CXX object CMakeFiles/super_odometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/super_odometry_msgs/msg/detail/laser_feature__type_support_c.cpp.o[0m
+[7.296s] [ 51%] [32mBuilding CXX object CMakeFiles/super_odometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/super_odometry_msgs/msg/detail/iteration_stats__type_support_c.cpp.o[0m
+[7.450s] [ 53%] [32m[1mLinking C shared library libsuper_odometry_msgs__rosidl_typesupport_introspection_c.so[0m
+[7.589s] [ 53%] Built target super_odometry_msgs__rosidl_typesupport_introspection_c
+[7.593s] [ 57%] [32mBuilding CXX object CMakeFiles/super_odometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/super_odometry_msgs/msg/detail/dds_fastrtps/laser_feature__type_support.cpp.o[0m
+[7.595s] [ 57%] [32mBuilding CXX object CMakeFiles/super_odometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/super_odometry_msgs/msg/detail/dds_fastrtps/iteration_stats__type_support.cpp.o[0m
+[7.611s] [ 59%] [32mBuilding CXX object CMakeFiles/super_odometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/super_odometry_msgs/msg/detail/dds_fastrtps/optimization_stats__type_support.cpp.o[0m
+[8.285s] [ 61%] [32mBuilding CXX object CMakeFiles/super_odometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/super_odometry_msgs/msg/optimization_stats__type_support.cpp.o[0m
+[8.293s] [ 63%] [32mBuilding CXX object CMakeFiles/super_odometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/super_odometry_msgs/msg/laser_feature__type_support.cpp.o[0m
+[8.293s] [ 65%] [32mBuilding CXX object CMakeFiles/super_odometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/super_odometry_msgs/msg/iteration_stats__type_support.cpp.o[0m
+[8.350s] [ 68%] [32m[1mLinking CXX shared library libsuper_odometry_msgs__rosidl_typesupport_cpp.so[0m
+[8.473s] [ 70%] [32m[1mLinking CXX shared library libsuper_odometry_msgs__rosidl_typesupport_c.so[0m
+[8.506s] [ 70%] Built target super_odometry_msgs__rosidl_typesupport_cpp
+[8.624s] [ 70%] Built target super_odometry_msgs__rosidl_typesupport_c
+[8.686s] [ 72%] [32m[1mLinking CXX shared library libsuper_odometry_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[8.806s] [ 72%] Built target super_odometry_msgs__rosidl_typesupport_introspection_cpp
+[9.245s] [ 74%] [32m[1mLinking CXX shared library libsuper_odometry_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[9.477s] [ 76%] [32m[1mLinking CXX shared library libsuper_odometry_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[9.603s] [ 76%] Built target super_odometry_msgs__rosidl_typesupport_fastrtps_cpp
+[9.875s] [ 76%] Built target super_odometry_msgs__rosidl_typesupport_fastrtps_c
+[9.945s] [ 76%] Built target super_odometry_msgs
+[10.024s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[11.673s] [ 78%] Built target super_odometry_msgs__py
+[11.755s] [ 80%] [32mBuilding C object CMakeFiles/super_odometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/super_odometry_msgs/msg/_iteration_stats_s.c.o[0m
+[11.767s] [ 82%] [32mBuilding C object CMakeFiles/super_odometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/super_odometry_msgs/msg/_optimization_stats_s.c.o[0m
+[11.803s] [ 85%] [32mBuilding C object CMakeFiles/super_odometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/super_odometry_msgs/msg/_laser_feature_s.c.o[0m
+[12.722s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/super_odometry_msgs/libsuper_odometry_msgs__rosidl_generator_py.so[0m
+[12.953s] [ 87%] Built target super_odometry_msgs__rosidl_generator_py
+[13.041s] [ 89%] [32mBuilding C object CMakeFiles/super_odometry_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/super_odometry_msgs/_super_odometry_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[13.041s] [ 91%] [32mBuilding C object CMakeFiles/super_odometry_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/super_odometry_msgs/_super_odometry_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[13.049s] [ 93%] [32mBuilding C object CMakeFiles/super_odometry_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/super_odometry_msgs/_super_odometry_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[13.476s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/super_odometry_msgs/super_odometry_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[13.704s] [ 95%] Built target super_odometry_msgs__rosidl_typesupport_c__pyext
+[13.802s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/super_odometry_msgs/super_odometry_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[13.938s] [100%] [32m[1mLinking C shared library rosidl_generator_py/super_odometry_msgs/super_odometry_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[13.944s] [100%] Built target super_odometry_msgs__rosidl_typesupport_fastrtps_c__pyext
+[14.062s] [100%] Built target super_odometry_msgs__rosidl_typesupport_introspection_c__pyext

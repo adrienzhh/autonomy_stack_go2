@@ -1,0 +1,256 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found image_transport: 3.1.12 (/opt/ros/humble/share/image_transport/cmake)
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Found tf2: 0.25.18 (/opt/ros/humble/share/tf2/cmake)
+-- Found tf2_ros: 0.25.18 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found tf2_geometry_msgs: 0.25.18 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found super_odometry_msgs: 0.0.0 (/root/ros2_ws/src/install/super_odometry_msgs/share/super_odometry_msgs/cmake)
+-- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+-- Found Eigen: /usr/include/eigen3 (found suitable version "3.4.0", minimum required is "3.1") 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+-- Checking for module 'flann'
+--   Found flann, version 1.9.1
+-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+-- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+-- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+-- Found MPI: TRUE (found version "3.1") found components: C 
+-- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+-- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+-- Found X11: /usr/include   
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+-- Looking for gethostbyname
+-- Looking for gethostbyname - found
+-- Looking for connect
+-- Looking for connect - found
+-- Looking for remove
+-- Looking for remove - found
+-- Looking for shmat
+-- Looking for shmat - found
+-- Looking for IceConnectionNumber in ICE
+-- Looking for IceConnectionNumber in ICE - found
+-- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+-- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+-- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+-- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+-- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+-- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+-- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+-- Found utf8cpp: /usr/include/utf8cpp  
+-- Checking for module 'libusb-1.0'
+--   Found libusb-1.0, version 1.0.25
+-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+-- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Found Qhull version 8.0.2
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- looking for PCL_COMMON
+-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+-- looking for PCL_KDTREE
+-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+-- looking for PCL_OCTREE
+-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+-- looking for PCL_SEARCH
+-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+-- looking for PCL_SAMPLE_CONSENSUS
+-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+-- looking for PCL_FILTERS
+-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+-- looking for PCL_2D
+-- Found PCL_2D: /usr/include/pcl-1.12  
+-- looking for PCL_GEOMETRY
+-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+-- looking for PCL_IO
+-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+-- looking for PCL_FEATURES
+-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+-- looking for PCL_ML
+-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+-- looking for PCL_SEGMENTATION
+-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+-- looking for PCL_VISUALIZATION
+-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+-- looking for PCL_SURFACE
+-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+-- looking for PCL_REGISTRATION
+-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+-- looking for PCL_KEYPOINTS
+-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+-- looking for PCL_TRACKING
+-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+-- looking for PCL_RECOGNITION
+-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+-- looking for PCL_STEREO
+-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+-- looking for PCL_APPS
+-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+-- looking for PCL_IN_HAND_SCANNER
+-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+-- looking for PCL_MODELER
+-- Found PCL_MODELER: /usr/include/pcl-1.12  
+-- looking for PCL_POINT_CLOUD_EDITOR
+-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+-- looking for PCL_OUTOFCORE
+-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+-- looking for PCL_PEOPLE
+-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+-- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+-- Found required Ceres dependency: Eigen version 3.4.0 in /usr/include/eigen3
+-- Found required Ceres dependency: glog
+-- Found required Ceres dependency: gflags
+-- Found Ceres version: 2.0.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]
+-- GTSAM include directory:  /usr/local/lib/cmake/GTSAM/../../../include
+-- Found livox_ros_driver2: 1.0.0 (/root/ros2_ws/src/install/livox_ros_driver2/share/livox_ros_driver2/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/ros2_ws/src/build/super_odometry
+[  5%] [32mBuilding CXX object CMakeFiles/SuperOdomLib.dir/src/ImuPreintegration/imuPreintegration.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/SuperOdomLib.dir/src/FeatureExtraction/featureExtraction.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/SuperOdomLib.dir/src/LidarProcess/LidarSlam.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/SuperOdomLib.dir/src/LaserMapping/lidarOptimization.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/SuperOdomLib.dir/src/LaserMapping/laserMapping.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/SuperOdomLib.dir/src/LaserMapping/LocalMap.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/SuperOdomLib.dir/src/LidarProcess/pose_local_parameterization.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/SuperOdomLib.dir/src/utils/superodom_utils.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/SuperOdomLib.dir/src/parameter/parameter.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/SuperOdomLib.dir/src/LidarProcess/SE3AbsolutatePoseFactor.cpp.o[0m
+[ 64%] [32m[1mLinking CXX shared library libSuperOdomLib.so[0m
+[ 64%] Built target SuperOdomLib
+[ 70%] [32mBuilding CXX object CMakeFiles/imu_preintegration_node.dir/src/imuPreintegration_node.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/feature_extraction_node.dir/src/featureExtraction_node.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/laser_mapping_node.dir/src/laserMapping_node.cpp.o[0m
+[ 88%] [32m[1mLinking CXX executable feature_extraction_node[0m
+[ 88%] Built target feature_extraction_node
+[ 94%] [32m[1mLinking CXX executable laser_mapping_node[0m
+[ 94%] Built target laser_mapping_node
+[100%] [32m[1mLinking CXX executable imu_preintegration_node[0m
+[100%] Built target imu_preintegration_node
+-- Install configuration: "Release"
+-- Installing: /root/ros2_ws/src/install/super_odometry/share/super_odometry/environment/library_path.sh
+-- Installing: /root/ros2_ws/src/install/super_odometry/share/super_odometry/environment/library_path.dsv
+-- Installing: /root/ros2_ws/src/install/super_odometry/include
+-- Installing: /root/ros2_ws/src/install/super_odometry/include/super_odometry
+-- Installing: /root/ros2_ws/src/install/super_odometry/include/super_odometry/ImuPreintegration
+-- Installing: /root/ros2_ws/src/install/super_odometry/include/super_odometry/ImuPreintegration/imuPreintegration.h
+-- Installing: /root/ros2_ws/src/install/super_odometry/include/super_odometry/container
+-- Installing: /root/ros2_ws/src/install/super_odometry/include/super_odometry/container/MapRingBuffer.h
+-- Installing: /root/ros2_ws/src/install/super_odometry/include/super_odometry/sensor_data
+-- Installing: /root/ros2_ws/src/install/super_odometry/include/super_odometry/sensor_data/imu
+-- Installing: /root/ros2_ws/src/install/super_odometry/include/super_odometry/sensor_data/imu/imu_data.h
+-- Installing: /root/ros2_ws/src/install/super_odometry/include/super_odometry/sensor_data/pointcloud
+-- Installing: /root/ros2_ws/src/install/super_odometry/include/super_odometry/sensor_data/pointcloud/point_os.h
+-- Installing: /root/ros2_ws/src/install/super_odometry/include/super_odometry/sensor_data/pointcloud/LidarPoint.h
+-- Installing: /root/ros2_ws/src/install/super_odometry/include/super_odometry/tic_toc.h
+-- Installing: /root/ros2_ws/src/install/super_odometry/include/super_odometry/LidarProcess
+-- Installing: /root/ros2_ws/src/install/super_odometry/include/super_odometry/LidarProcess/factor
+-- Installing: /root/ros2_ws/src/install/super_odometry/include/super_odometry/LidarProcess/factor/pose_local_parameterization.h
+-- Installing: /root/ros2_ws/src/install/super_odometry/include/super_odometry/LidarProcess/factor/SE3AbsolutatePoseFactor.h
+-- Installing: /root/ros2_ws/src/install/super_odometry/include/super_odometry/LidarProcess/factor/lidarOptimization.h
+-- Installing: /root/ros2_ws/src/install/super_odometry/include/super_odometry/LidarProcess/LidarSlam.h
+-- Installing: /root/ros2_ws/src/install/super_odometry/include/super_odometry/LidarProcess/LocalMap.h
+-- Installing: /root/ros2_ws/src/install/super_odometry/include/super_odometry/utils
+-- Installing: /root/ros2_ws/src/install/super_odometry/include/super_odometry/utils/EigenTypes.h
+-- Installing: /root/ros2_ws/src/install/super_odometry/include/super_odometry/utils/Twist.h
+-- Installing: /root/ros2_ws/src/install/super_odometry/include/super_odometry/utils/superodom_utils.h
+-- Installing: /root/ros2_ws/src/install/super_odometry/include/super_odometry/utils/sophus_utils.hpp
+-- Installing: /root/ros2_ws/src/install/super_odometry/include/super_odometry/utils/utility.h
+-- Installing: /root/ros2_ws/src/install/super_odometry/include/super_odometry/LaserMapping
+-- Installing: /root/ros2_ws/src/install/super_odometry/include/super_odometry/LaserMapping/laserMapping.h
+-- Installing: /root/ros2_ws/src/install/super_odometry/include/super_odometry/FeatureExtraction
+-- Installing: /root/ros2_ws/src/install/super_odometry/include/super_odometry/FeatureExtraction/featureExtraction.h
+-- Installing: /root/ros2_ws/src/install/super_odometry/include/super_odometry/config
+-- Installing: /root/ros2_ws/src/install/super_odometry/include/super_odometry/config/parameter.h
+-- Installing: /root/ros2_ws/src/install/super_odometry/include/super_odometry/flann
+-- Installing: /root/ros2_ws/src/install/super_odometry/include/super_odometry/flann/nanoflann.h
+-- Installing: /root/ros2_ws/src/install/super_odometry/include/super_odometry/flann/octree.h
+-- Installing: /root/ros2_ws/src/install/super_odometry/include/super_odometry/LocalMap.h
+-- Installing: /root/ros2_ws/src/install/super_odometry/include/utility.h
+-- Installing: /root/ros2_ws/src/install/super_odometry/lib/libSuperOdomLib.so
+-- Set runtime path of "/root/ros2_ws/src/install/super_odometry/lib/libSuperOdomLib.so" to ""
+-- Installing: /root/ros2_ws/src/install/super_odometry/lib/super_odometry/imu_preintegration_node
+-- Set runtime path of "/root/ros2_ws/src/install/super_odometry/lib/super_odometry/imu_preintegration_node" to ""
+-- Installing: /root/ros2_ws/src/install/super_odometry/lib/super_odometry/feature_extraction_node
+-- Set runtime path of "/root/ros2_ws/src/install/super_odometry/lib/super_odometry/feature_extraction_node" to ""
+-- Installing: /root/ros2_ws/src/install/super_odometry/lib/super_odometry/laser_mapping_node
+-- Set runtime path of "/root/ros2_ws/src/install/super_odometry/lib/super_odometry/laser_mapping_node" to ""
+-- Installing: /root/ros2_ws/src/install/super_odometry/share/super_odometry//config
+-- Installing: /root/ros2_ws/src/install/super_odometry/share/super_odometry//config/ouster
+-- Installing: /root/ros2_ws/src/install/super_odometry/share/super_odometry//config/ouster/os1_128_calibration.yaml
+-- Installing: /root/ros2_ws/src/install/super_odometry/share/super_odometry//config/livox
+-- Installing: /root/ros2_ws/src/install/super_odometry/share/super_odometry//config/livox/livox_mid360_calibration.yaml
+-- Installing: /root/ros2_ws/src/install/super_odometry/share/super_odometry//config/os1_128.yaml
+-- Installing: /root/ros2_ws/src/install/super_odometry/share/super_odometry//config/vlp_16.yaml
+-- Installing: /root/ros2_ws/src/install/super_odometry/share/super_odometry//config/velodyne
+-- Installing: /root/ros2_ws/src/install/super_odometry/share/super_odometry//config/velodyne/vlp_16_calibration.yaml
+-- Installing: /root/ros2_ws/src/install/super_odometry/share/super_odometry//config/livox_mid360.yaml
+-- Installing: /root/ros2_ws/src/install/super_odometry/share/super_odometry//launch
+-- Installing: /root/ros2_ws/src/install/super_odometry/share/super_odometry//launch/livox_mid360.launch.py
+-- Installing: /root/ros2_ws/src/install/super_odometry/share/super_odometry//launch/superodom_autonomy_sim.launch.py
+-- Installing: /root/ros2_ws/src/install/super_odometry/share/super_odometry//launch/os1_128.launch.py
+-- Installing: /root/ros2_ws/src/install/super_odometry/share/super_odometry//launch/vlp_16.launch.py
+-- Installing: /root/ros2_ws/src/install/super_odometry/share/super_odometry//launch/superodom_autonomy.launch.py
+-- Installing: /root/ros2_ws/src/install/super_odometry/share/ament_index/resource_index/package_run_dependencies/super_odometry
+-- Installing: /root/ros2_ws/src/install/super_odometry/share/ament_index/resource_index/parent_prefix_path/super_odometry
+-- Installing: /root/ros2_ws/src/install/super_odometry/share/super_odometry/environment/ament_prefix_path.sh
+-- Installing: /root/ros2_ws/src/install/super_odometry/share/super_odometry/environment/ament_prefix_path.dsv
+-- Installing: /root/ros2_ws/src/install/super_odometry/share/super_odometry/environment/path.sh
+-- Installing: /root/ros2_ws/src/install/super_odometry/share/super_odometry/environment/path.dsv
+-- Installing: /root/ros2_ws/src/install/super_odometry/share/super_odometry/local_setup.bash
+-- Installing: /root/ros2_ws/src/install/super_odometry/share/super_odometry/local_setup.sh
+-- Installing: /root/ros2_ws/src/install/super_odometry/share/super_odometry/local_setup.zsh
+-- Installing: /root/ros2_ws/src/install/super_odometry/share/super_odometry/local_setup.dsv
+-- Installing: /root/ros2_ws/src/install/super_odometry/share/super_odometry/package.dsv
+-- Installing: /root/ros2_ws/src/install/super_odometry/share/ament_index/resource_index/packages/super_odometry
+-- Installing: /root/ros2_ws/src/install/super_odometry/share/super_odometry/cmake/export_super_odometryExport.cmake
+-- Installing: /root/ros2_ws/src/install/super_odometry/share/super_odometry/cmake/export_super_odometryExport-release.cmake
+-- Installing: /root/ros2_ws/src/install/super_odometry/share/super_odometry/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /root/ros2_ws/src/install/super_odometry/share/super_odometry/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /root/ros2_ws/src/install/super_odometry/share/super_odometry/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /root/ros2_ws/src/install/super_odometry/share/super_odometry/cmake/super_odometryConfig.cmake
+-- Installing: /root/ros2_ws/src/install/super_odometry/share/super_odometry/cmake/super_odometryConfig-version.cmake
+-- Installing: /root/ros2_ws/src/install/super_odometry/share/super_odometry/package.xml

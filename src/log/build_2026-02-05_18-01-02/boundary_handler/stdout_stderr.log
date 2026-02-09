@@ -1,0 +1,25 @@
+[35m[1mConsolidate compiler generated dependencies of target boundary_handler[0m
+[100%] Built target boundary_handler
+-- Install configuration: "Release"
+-- Up-to-date: /root/ros2_ws/src/install/boundary_handler/lib/boundary_handler/boundary_handler
+-- Up-to-date: /root/ros2_ws/src/install/boundary_handler/share/boundary_handler/launch
+-- Up-to-date: /root/ros2_ws/src/install/boundary_handler/share/boundary_handler/launch/boundary_handler.launch
+-- Up-to-date: /root/ros2_ws/src/install/boundary_handler/share/boundary_handler/rviz
+-- Up-to-date: /root/ros2_ws/src/install/boundary_handler/share/boundary_handler/rviz/default.rviz
+-- Up-to-date: /root/ros2_ws/src/install/boundary_handler/share/boundary_handler/config
+-- Up-to-date: /root/ros2_ws/src/install/boundary_handler/share/boundary_handler/config/default.yaml
+-- Up-to-date: /root/ros2_ws/src/install/boundary_handler/share/ament_index/resource_index/package_run_dependencies/boundary_handler
+-- Up-to-date: /root/ros2_ws/src/install/boundary_handler/share/ament_index/resource_index/parent_prefix_path/boundary_handler
+-- Up-to-date: /root/ros2_ws/src/install/boundary_handler/share/boundary_handler/environment/ament_prefix_path.sh
+-- Up-to-date: /root/ros2_ws/src/install/boundary_handler/share/boundary_handler/environment/ament_prefix_path.dsv
+-- Up-to-date: /root/ros2_ws/src/install/boundary_handler/share/boundary_handler/environment/path.sh
+-- Up-to-date: /root/ros2_ws/src/install/boundary_handler/share/boundary_handler/environment/path.dsv
+-- Up-to-date: /root/ros2_ws/src/install/boundary_handler/share/boundary_handler/local_setup.bash
+-- Up-to-date: /root/ros2_ws/src/install/boundary_handler/share/boundary_handler/local_setup.sh
+-- Up-to-date: /root/ros2_ws/src/install/boundary_handler/share/boundary_handler/local_setup.zsh
+-- Up-to-date: /root/ros2_ws/src/install/boundary_handler/share/boundary_handler/local_setup.dsv
+-- Installing: /root/ros2_ws/src/install/boundary_handler/share/boundary_handler/package.dsv
+-- Up-to-date: /root/ros2_ws/src/install/boundary_handler/share/ament_index/resource_index/packages/boundary_handler
+-- Up-to-date: /root/ros2_ws/src/install/boundary_handler/share/boundary_handler/cmake/boundary_handlerConfig.cmake
+-- Up-to-date: /root/ros2_ws/src/install/boundary_handler/share/boundary_handler/cmake/boundary_handlerConfig-version.cmake
+-- Up-to-date: /root/ros2_ws/src/install/boundary_handler/share/boundary_handler/package.xml

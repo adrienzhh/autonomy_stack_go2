@@ -1,0 +1,25 @@
+[0.350s] Invoking command in '/root/ros2_ws/src/build/terrain_analysis': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/src/build/terrain_analysis -- -j24 -l24
+[0.684s] [35m[1mConsolidate compiler generated dependencies of target terrainAnalysis[0m
+[0.684s] [100%] Built target terrainAnalysis
+[0.703s] Invoked command in '/root/ros2_ws/src/build/terrain_analysis' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/src/build/terrain_analysis -- -j24 -l24
+[0.704s] Invoking command in '/root/ros2_ws/src/build/terrain_analysis': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/src/build/terrain_analysis
+[0.731s] -- Install configuration: ""
+[0.731s] -- Up-to-date: /root/ros2_ws/src/install/terrain_analysis/lib/terrain_analysis/terrainAnalysis
+[0.731s] -- Up-to-date: /root/ros2_ws/src/install/terrain_analysis/share/terrain_analysis/launch
+[0.731s] -- Up-to-date: /root/ros2_ws/src/install/terrain_analysis/share/terrain_analysis/launch/terrain_analysis.launch
+[0.731s] -- Up-to-date: /root/ros2_ws/src/install/terrain_analysis/share/ament_index/resource_index/package_run_dependencies/terrain_analysis
+[0.732s] -- Up-to-date: /root/ros2_ws/src/install/terrain_analysis/share/ament_index/resource_index/parent_prefix_path/terrain_analysis
+[0.733s] -- Up-to-date: /root/ros2_ws/src/install/terrain_analysis/share/terrain_analysis/environment/ament_prefix_path.sh
+[0.733s] -- Up-to-date: /root/ros2_ws/src/install/terrain_analysis/share/terrain_analysis/environment/ament_prefix_path.dsv
+[0.733s] -- Up-to-date: /root/ros2_ws/src/install/terrain_analysis/share/terrain_analysis/environment/path.sh
+[0.733s] -- Up-to-date: /root/ros2_ws/src/install/terrain_analysis/share/terrain_analysis/environment/path.dsv
+[0.733s] -- Up-to-date: /root/ros2_ws/src/install/terrain_analysis/share/terrain_analysis/local_setup.bash
+[0.733s] -- Up-to-date: /root/ros2_ws/src/install/terrain_analysis/share/terrain_analysis/local_setup.sh
+[0.733s] -- Up-to-date: /root/ros2_ws/src/install/terrain_analysis/share/terrain_analysis/local_setup.zsh
+[0.734s] -- Up-to-date: /root/ros2_ws/src/install/terrain_analysis/share/terrain_analysis/local_setup.dsv
+[0.734s] -- Installing: /root/ros2_ws/src/install/terrain_analysis/share/terrain_analysis/package.dsv
+[0.734s] -- Up-to-date: /root/ros2_ws/src/install/terrain_analysis/share/ament_index/resource_index/packages/terrain_analysis
+[0.734s] -- Up-to-date: /root/ros2_ws/src/install/terrain_analysis/share/terrain_analysis/cmake/terrain_analysisConfig.cmake
+[0.734s] -- Up-to-date: /root/ros2_ws/src/install/terrain_analysis/share/terrain_analysis/cmake/terrain_analysisConfig-version.cmake
+[0.734s] -- Up-to-date: /root/ros2_ws/src/install/terrain_analysis/share/terrain_analysis/package.xml
+[0.838s] Invoked command in '/root/ros2_ws/src/build/terrain_analysis' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/src/build/terrain_analysis

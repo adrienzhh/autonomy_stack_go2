@@ -1,0 +1,131 @@
+[0.428s] Invoking command in '/root/ros2_ws/src/build/teleop_rviz_plugin_plus': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/utilities/teleop_rviz_plugin_plus -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/teleop_rviz_plugin_plus
+[0.491s] -- The C compiler identification is GNU 11.4.0
+[0.585s] -- The CXX compiler identification is GNU 11.4.0
+[0.597s] -- Detecting C compiler ABI info
+[0.674s] -- Detecting C compiler ABI info - done
+[0.687s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.688s] -- Detecting C compile features
+[0.689s] -- Detecting C compile features - done
+[0.692s] -- Detecting CXX compiler ABI info
+[0.790s] -- Detecting CXX compiler ABI info - done
+[0.799s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.799s] -- Detecting CXX compile features
+[0.800s] -- Detecting CXX compile features - done
+[0.809s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.059s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.210s] -- Found pluginlib: 5.1.3 (/opt/ros/humble/share/pluginlib/cmake)
+[1.326s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[1.416s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.424s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.436s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.458s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.481s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.555s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.561s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.605s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.668s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.672s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.692s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.695s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.706s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.716s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.736s] -- Looking for pthread.h
+[1.817s] -- Looking for pthread.h - found
+[1.819s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.922s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.928s] -- Found Threads: TRUE  
+[2.024s] -- Found rviz2: 11.2.25 (/opt/ros/humble/share/rviz2/cmake)
+[2.029s] -- Found rviz_common: 11.2.25 (/opt/ros/humble/share/rviz_common/cmake)
+[2.042s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[2.059s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[2.065s] -- Found OGRE
+[2.065s] --   static     : OFF
+[2.065s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[2.065s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[2.065s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[2.065s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[2.065s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[2.065s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[2.066s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[2.066s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[2.066s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[2.066s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[2.066s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[2.066s] -- Could not find freeimage library
+[2.084s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[2.087s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[2.222s] -- Found X11: /usr/include   
+[2.223s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[2.391s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[2.392s] -- Looking for gethostbyname
+[2.498s] -- Looking for gethostbyname - found
+[2.498s] -- Looking for connect
+[2.601s] -- Looking for connect - found
+[2.601s] -- Looking for remove
+[2.677s] -- Looking for remove - found
+[2.680s] -- Looking for shmat
+[2.852s] -- Looking for shmat - found
+[2.852s] -- Looking for IceConnectionNumber in ICE
+[3.014s] -- Looking for IceConnectionNumber in ICE - found
+[3.338s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[3.482s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.482s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.872s] -- Found rviz_default_plugins: 11.2.25 (/opt/ros/humble/share/rviz_default_plugins/cmake)
+[4.184s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.532s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.533s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.534s] -- Configured cppcheck include dirs: 
+[4.534s] -- Configured cppcheck exclude dirs and/or files: 
+[4.534s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.534s] -- Configured cpplint exclude dirs and/or files: 
+[4.535s] -- Added test 'lint_cmake' to check CMake code style
+[4.536s] -- Added test 'uncrustify' to check C / C++ code style
+[4.536s] -- Configured uncrustify additional arguments: 
+[4.537s] -- Added test 'xmllint' to check XML markup files
+[4.538s] -- Configuring done
+[4.644s] -- Generating done
+[4.652s] [33mCMake Warning:
+[4.652s]   Manually-specified variables were not used by the project:
+[4.652s] 
+[4.653s]     HUMBLE_ROS
+[4.653s]     ROS_EDITION
+[4.653s] 
+[4.653s] [0m
+[4.662s] -- Build files have been written to: /root/ros2_ws/src/build/teleop_rviz_plugin_plus
+[4.706s] Invoked command in '/root/ros2_ws/src/build/teleop_rviz_plugin_plus' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/utilities/teleop_rviz_plugin_plus -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/teleop_rviz_plugin_plus
+[4.711s] Invoking command in '/root/ros2_ws/src/build/teleop_rviz_plugin_plus': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/src/build/teleop_rviz_plugin_plus -- -j24 -l24
+[9.156s] [ 11%] [34m[1mAutomatic MOC for target teleop_rviz_plugin_plus[0m
+[9.156s] [ 11%] Built target teleop_rviz_plugin_plus_autogen
+[9.156s] [ 22%] [34m[1mGenerating src/moc_drive_widget.cpp[0m
+[9.156s] [ 33%] [34m[1mGenerating src/moc_teleop_panel.cpp[0m
+[9.156s] [ 44%] [32mBuilding CXX object CMakeFiles/teleop_rviz_plugin_plus.dir/src/drive_widget.cpp.o[0m
+[9.156s] [ 55%] [32mBuilding CXX object CMakeFiles/teleop_rviz_plugin_plus.dir/src/teleop_panel.cpp.o[0m
+[9.156s] [ 77%] [32mBuilding CXX object CMakeFiles/teleop_rviz_plugin_plus.dir/teleop_rviz_plugin_plus_autogen/mocs_compilation.cpp.o[0m
+[9.156s] [ 66%] [32mBuilding CXX object CMakeFiles/teleop_rviz_plugin_plus.dir/src/moc_teleop_panel.cpp.o[0m
+[9.156s] [ 88%] [32mBuilding CXX object CMakeFiles/teleop_rviz_plugin_plus.dir/src/moc_drive_widget.cpp.o[0m
+[22.489s] [100%] [32m[1mLinking CXX shared library libteleop_rviz_plugin_plus.so[0m
+[28.027s] [100%] Built target teleop_rviz_plugin_plus
+[28.063s] Invoked command in '/root/ros2_ws/src/build/teleop_rviz_plugin_plus' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/src/build/teleop_rviz_plugin_plus -- -j24 -l24
+[28.065s] Invoking command in '/root/ros2_ws/src/build/teleop_rviz_plugin_plus': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/src/build/teleop_rviz_plugin_plus
+[34.889s] -- Install configuration: ""
+[34.889s] -- Installing: /root/ros2_ws/src/install/teleop_rviz_plugin_plus/share/teleop_rviz_plugin_plus/plugin_description.xml
+[34.889s] -- Installing: /root/ros2_ws/src/install/teleop_rviz_plugin_plus/lib/teleop_rviz_plugin_plus/libteleop_rviz_plugin_plus.so
+[34.889s] -- Set runtime path of "/root/ros2_ws/src/install/teleop_rviz_plugin_plus/lib/teleop_rviz_plugin_plus/libteleop_rviz_plugin_plus.so" to ""
+[34.889s] -- Installing: /root/ros2_ws/src/install/teleop_rviz_plugin_plus/share/ament_index/resource_index/package_run_dependencies/teleop_rviz_plugin_plus
+[34.889s] -- Installing: /root/ros2_ws/src/install/teleop_rviz_plugin_plus/share/ament_index/resource_index/parent_prefix_path/teleop_rviz_plugin_plus
+[34.889s] -- Installing: /root/ros2_ws/src/install/teleop_rviz_plugin_plus/share/teleop_rviz_plugin_plus/environment/ament_prefix_path.sh
+[34.890s] -- Installing: /root/ros2_ws/src/install/teleop_rviz_plugin_plus/share/teleop_rviz_plugin_plus/environment/ament_prefix_path.dsv
+[34.890s] -- Installing: /root/ros2_ws/src/install/teleop_rviz_plugin_plus/share/teleop_rviz_plugin_plus/environment/path.sh
+[34.890s] -- Installing: /root/ros2_ws/src/install/teleop_rviz_plugin_plus/share/teleop_rviz_plugin_plus/environment/path.dsv
+[34.890s] -- Installing: /root/ros2_ws/src/install/teleop_rviz_plugin_plus/share/teleop_rviz_plugin_plus/local_setup.bash
+[34.890s] -- Installing: /root/ros2_ws/src/install/teleop_rviz_plugin_plus/share/teleop_rviz_plugin_plus/local_setup.sh
+[34.890s] -- Installing: /root/ros2_ws/src/install/teleop_rviz_plugin_plus/share/teleop_rviz_plugin_plus/local_setup.zsh
+[34.893s] -- Installing: /root/ros2_ws/src/install/teleop_rviz_plugin_plus/share/teleop_rviz_plugin_plus/local_setup.dsv
+[34.893s] -- Installing: /root/ros2_ws/src/install/teleop_rviz_plugin_plus/share/teleop_rviz_plugin_plus/package.dsv
+[34.893s] -- Installing: /root/ros2_ws/src/install/teleop_rviz_plugin_plus/share/ament_index/resource_index/packages/teleop_rviz_plugin_plus
+[34.899s] -- Installing: /root/ros2_ws/src/install/teleop_rviz_plugin_plus/share/ament_index/resource_index/rviz_common__pluginlib__plugin/teleop_rviz_plugin_plus
+[34.900s] -- Installing: /root/ros2_ws/src/install/teleop_rviz_plugin_plus/share/teleop_rviz_plugin_plus/cmake/ament_cmake_export_dependencies-extras.cmake
+[34.900s] -- Installing: /root/ros2_ws/src/install/teleop_rviz_plugin_plus/share/teleop_rviz_plugin_plus/cmake/teleop_rviz_plugin_plusConfig.cmake
+[34.900s] -- Installing: /root/ros2_ws/src/install/teleop_rviz_plugin_plus/share/teleop_rviz_plugin_plus/cmake/teleop_rviz_plugin_plusConfig-version.cmake
+[34.900s] -- Installing: /root/ros2_ws/src/install/teleop_rviz_plugin_plus/share/teleop_rviz_plugin_plus/package.xml
+[35.166s] Invoked command in '/root/ros2_ws/src/build/teleop_rviz_plugin_plus' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/src/build/teleop_rviz_plugin_plus

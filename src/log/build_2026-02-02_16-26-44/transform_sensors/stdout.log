@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/transform_sensors/transform_sensors.egg-info
+writing ../../build/transform_sensors/transform_sensors.egg-info/PKG-INFO
+writing dependency_links to ../../build/transform_sensors/transform_sensors.egg-info/dependency_links.txt
+writing entry points to ../../build/transform_sensors/transform_sensors.egg-info/entry_points.txt
+writing requirements to ../../build/transform_sensors/transform_sensors.egg-info/requires.txt
+writing top-level names to ../../build/transform_sensors/transform_sensors.egg-info/top_level.txt
+writing manifest file '../../build/transform_sensors/transform_sensors.egg-info/SOURCES.txt'
+reading manifest file '../../build/transform_sensors/transform_sensors.egg-info/SOURCES.txt'
+writing manifest file '../../build/transform_sensors/transform_sensors.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/ros2_ws/src/build/transform_sensors/build
+creating /root/ros2_ws/src/build/transform_sensors/build/lib
+creating /root/ros2_ws/src/build/transform_sensors/build/lib/transform_sensors
+copying transform_sensors/__init__.py -> /root/ros2_ws/src/build/transform_sensors/build/lib/transform_sensors
+copying transform_sensors/transform_everything.py -> /root/ros2_ws/src/build/transform_sensors/build/lib/transform_sensors
+running install
+running install_lib
+creating /root/ros2_ws/src/install/transform_sensors/lib/python3.10/site-packages/transform_sensors
+copying /root/ros2_ws/src/build/transform_sensors/build/lib/transform_sensors/__init__.py -> /root/ros2_ws/src/install/transform_sensors/lib/python3.10/site-packages/transform_sensors
+copying /root/ros2_ws/src/build/transform_sensors/build/lib/transform_sensors/transform_everything.py -> /root/ros2_ws/src/install/transform_sensors/lib/python3.10/site-packages/transform_sensors
+byte-compiling /root/ros2_ws/src/install/transform_sensors/lib/python3.10/site-packages/transform_sensors/__init__.py to __init__.cpython-310.pyc
+byte-compiling /root/ros2_ws/src/install/transform_sensors/lib/python3.10/site-packages/transform_sensors/transform_everything.py to transform_everything.cpython-310.pyc
+running install_data
+creating /root/ros2_ws/src/install/transform_sensors/share/ament_index
+creating /root/ros2_ws/src/install/transform_sensors/share/ament_index/resource_index
+creating /root/ros2_ws/src/install/transform_sensors/share/ament_index/resource_index/packages
+copying resource/transform_sensors -> /root/ros2_ws/src/install/transform_sensors/share/ament_index/resource_index/packages
+copying package.xml -> /root/ros2_ws/src/install/transform_sensors/share/transform_sensors
+running install_egg_info
+Copying ../../build/transform_sensors/transform_sensors.egg-info to /root/ros2_ws/src/install/transform_sensors/lib/python3.10/site-packages/transform_sensors-0.0.0-py3.10.egg-info
+running install_scripts
+Installing transform_everything script to /root/ros2_ws/src/install/transform_sensors/lib/transform_sensors
+writing list of installed files to '/root/ros2_ws/src/build/transform_sensors/install.log'

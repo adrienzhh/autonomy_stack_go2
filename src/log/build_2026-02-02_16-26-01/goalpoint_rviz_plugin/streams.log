@@ -1,0 +1,102 @@
+[0.420s] Invoking command in '/root/ros2_ws/src/build/goalpoint_rviz_plugin': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/utilities/goalpoint_rviz_plugin -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/goalpoint_rviz_plugin
+[0.476s] -- The C compiler identification is GNU 11.4.0
+[0.530s] -- The CXX compiler identification is GNU 11.4.0
+[0.543s] -- Detecting C compiler ABI info
+[0.627s] -- Detecting C compiler ABI info - done
+[0.634s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.635s] -- Detecting C compile features
+[0.635s] -- Detecting C compile features - done
+[0.639s] -- Detecting CXX compiler ABI info
+[0.755s] -- Detecting CXX compiler ABI info - done
+[0.763s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.764s] -- Detecting CXX compile features
+[0.764s] -- Detecting CXX compile features - done
+[0.776s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.019s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.101s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.189s] -- Found pluginlib: 5.1.3 (/opt/ros/humble/share/pluginlib/cmake)
+[1.408s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[1.468s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.488s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.517s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.539s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.563s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.642s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.645s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.676s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.727s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.731s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.745s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.749s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.760s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.774s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.792s] -- Looking for pthread.h
+[1.870s] -- Looking for pthread.h - found
+[1.871s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.009s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.015s] -- Found Threads: TRUE  
+[2.137s] -- Found rviz2: 11.2.25 (/opt/ros/humble/share/rviz2/cmake)
+[2.139s] -- Found rviz_common: 11.2.25 (/opt/ros/humble/share/rviz_common/cmake)
+[2.151s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[2.179s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[2.183s] -- Found OGRE
+[2.183s] --   static     : OFF
+[2.183s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[2.183s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[2.183s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[2.183s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[2.183s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[2.184s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[2.184s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[2.184s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[2.185s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[2.185s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[2.185s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[2.185s] -- Could not find freeimage library
+[2.199s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[2.202s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[2.320s] -- Found X11: /usr/include   
+[2.324s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[2.460s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[2.460s] -- Looking for gethostbyname
+[2.586s] -- Looking for gethostbyname - found
+[2.586s] -- Looking for connect
+[2.729s] -- Looking for connect - found
+[2.729s] -- Looking for remove
+[2.894s] -- Looking for remove - found
+[2.894s] -- Looking for shmat
+[3.080s] -- Looking for shmat - found
+[3.080s] -- Looking for IceConnectionNumber in ICE
+[3.293s] -- Looking for IceConnectionNumber in ICE - found
+[3.583s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[3.803s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.804s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.315s] -- Found rviz_default_plugins: 11.2.25 (/opt/ros/humble/share/rviz_default_plugins/cmake)
+[4.731s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.147s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.148s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.149s] -- Configured cppcheck include dirs: /root/ros2_ws/src/utilities/goalpoint_rviz_plugin/include
+[5.149s] -- Configured cppcheck exclude dirs and/or files: 
+[5.152s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.152s] -- Configured cpplint exclude dirs and/or files: 
+[5.156s] -- Added test 'lint_cmake' to check CMake code style
+[5.161s] -- Added test 'uncrustify' to check C / C++ code style
+[5.173s] -- Configured uncrustify additional arguments: 
+[5.173s] -- Added test 'xmllint' to check XML markup files
+[5.187s] -- Configuring done
+[5.346s] -- Generating done
+[5.368s] -- Build files have been written to: /root/ros2_ws/src/build/goalpoint_rviz_plugin
+[5.436s] Invoked command in '/root/ros2_ws/src/build/goalpoint_rviz_plugin' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/utilities/goalpoint_rviz_plugin -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/goalpoint_rviz_plugin
+[5.450s] Invoking command in '/root/ros2_ws/src/build/goalpoint_rviz_plugin': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/src/build/goalpoint_rviz_plugin -- -j24 -l24
+[10.493s] [ 16%] [34m[1mAutomatic MOC for target goalpoint_rviz_plugin[0m
+[10.493s] [ 16%] Built target goalpoint_rviz_plugin_autogen
+[10.494s] [ 33%] [34m[1mGenerating include/moc_goalpoint_tool.cpp[0m
+[10.494s] [ 50%] [32mBuilding CXX object CMakeFiles/goalpoint_rviz_plugin.dir/include/moc_goalpoint_tool.cpp.o[0m
+[10.494s] [ 66%] [32mBuilding CXX object CMakeFiles/goalpoint_rviz_plugin.dir/goalpoint_rviz_plugin_autogen/mocs_compilation.cpp.o[0m
+[10.494s] [ 83%] [32mBuilding CXX object CMakeFiles/goalpoint_rviz_plugin.dir/src/goalpoint_tool.cpp.o[0m
+[15.634s] [01m[K/root/ros2_ws/src/utilities/goalpoint_rviz_plugin/src/goalpoint_tool.cpp:[m[K In member function ‘[01m[Kvirtual void goalpoint_rviz_plugin::GoalpointTool::onPoseSet(double, double, double)[m[K’:
+[15.634s] [01m[K/root/ros2_ws/src/utilities/goalpoint_rviz_plugin/src/goalpoint_tool.cpp:52:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktheta[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[15.634s]    52 | void GoalpointTool::onPoseSet(double x, double y, [01;35m[Kdouble theta[m[K)
+[15.634s]       |                                                   [01;35m[K~~~~~~~^~~~~[m[K
+[24.376s] [100%] [32m[1mLinking CXX shared library libgoalpoint_rviz_plugin.so[0m
+[25.015s] [100%] Built target goalpoint_rviz_plugin

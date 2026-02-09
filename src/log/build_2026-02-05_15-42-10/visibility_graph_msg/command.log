@@ -1,0 +1,1 @@
+Invoking command in '/root/ros2_ws/src/build/visibility_graph_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/route_planner/visibility_graph_msg -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/visibility_graph_msg

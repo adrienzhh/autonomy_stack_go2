@@ -1,0 +1,20 @@
+In file included from [01m[K/root/ros2_ws/src/base_autonomy/visualization_tools/src/visualizationTools.cpp:19[m[K:
+[01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K-Wcpp[m[K]
+   35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+/usr/local/lib/python3.10/dist-packages/setuptools_scm/_integration/setuptools.py:24: RuntimeWarning: 
+ERROR: setuptools==59.6.0 is used in combination with setuptools-scm>=8.x
+
+Your build configuration is incomplete and previously worked by accident!
+setuptools-scm requires setuptools>=61 (recommended: >=80)
+
+Suggested workaround if applicable:
+ - migrating from the deprecated setup_requires mechanism to pep517/518
+   and using a pyproject.toml to declare build dependencies
+   which are reliably pre-installed before running the build tools
+
+  warnings.warn(
+listing git files failed - pretending there aren't any
+gmake[2]: *** [CMakeFiles/visualizationTools.dir/build.make:76: CMakeFiles/visualizationTools.dir/src/visualizationTools.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/visualizationTools.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

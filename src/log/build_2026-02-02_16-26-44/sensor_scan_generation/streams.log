@@ -1,0 +1,136 @@
+[0.427s] Invoking command in '/root/ros2_ws/src/build/sensor_scan_generation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/base_autonomy/sensor_scan_generation -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/sensor_scan_generation
+[0.479s] -- The C compiler identification is GNU 11.4.0
+[0.568s] -- The CXX compiler identification is GNU 11.4.0
+[0.582s] -- Detecting C compiler ABI info
+[0.666s] -- Detecting C compiler ABI info - done
+[0.690s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.692s] -- Detecting C compile features
+[0.693s] -- Detecting C compile features - done
+[0.705s] -- Detecting CXX compiler ABI info
+[0.832s] -- Detecting CXX compiler ABI info - done
+[0.862s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.865s] -- Detecting CXX compile features
+[0.866s] -- Detecting CXX compile features - done
+[0.878s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.089s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.296s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[1.421s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.434s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.448s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.470s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.498s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.568s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.574s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.698s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.750s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.831s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.853s] -- Looking for pthread.h
+[1.982s] -- Looking for pthread.h - found
+[1.988s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.079s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.082s] -- Found Threads: TRUE  
+[2.211s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.346s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.382s] -- Found tf2_ros: 0.25.18 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.638s] -- Found tf2_geometry_msgs: 0.25.18 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[2.692s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.693s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.693s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.694s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[2.842s] -- Checking for module 'eigen3'
+[2.876s] --   Found eigen3, version 3.4.0
+[2.994s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[2.994s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.193s] -- Checking for module 'flann'
+[3.218s] --   Found flann, version 1.9.1
+[3.320s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[3.320s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[6.790s] -- Checking for module 'libusb-1.0'
+[6.839s] --   Found libusb-1.0, version 1.0.25
+[7.028s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[7.028s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[7.256s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[7.798s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[7.819s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[7.843s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[8.297s] -- Found Qhull version 8.0.2
+[8.755s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[9.264s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[9.270s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[9.272s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[9.277s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[9.282s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[9.284s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[9.285s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[9.294s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[9.294s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[9.296s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[9.302s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[9.306s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[9.313s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[9.313s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[9.318s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[9.321s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[9.323s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[9.325s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[9.327s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[9.329s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[9.336s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[9.336s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[9.343s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[9.343s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[9.347s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[9.376s] -- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+[9.477s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[9.855s] -- Added test 'copyright' to check source files copyright and LICENSE
+[9.857s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.858s] -- Configured cppcheck include dirs: 
+[9.858s] -- Configured cppcheck exclude dirs and/or files: 
+[9.859s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[9.859s] -- Configured cpplint exclude dirs and/or files: 
+[9.860s] -- Added test 'lint_cmake' to check CMake code style
+[9.862s] -- Added test 'uncrustify' to check C / C++ code style
+[9.862s] -- Configured uncrustify additional arguments: 
+[9.863s] -- Added test 'xmllint' to check XML markup files
+[9.865s] -- Configuring done
+[9.962s] -- Generating done
+[9.986s] [33mCMake Warning:
+[9.986s]   Manually-specified variables were not used by the project:
+[9.986s] 
+[9.986s]     HUMBLE_ROS
+[9.986s]     ROS_EDITION
+[9.986s] 
+[9.986s] [0m
+[9.987s] -- Build files have been written to: /root/ros2_ws/src/build/sensor_scan_generation
+[10.030s] Invoked command in '/root/ros2_ws/src/build/sensor_scan_generation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/base_autonomy/sensor_scan_generation -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/sensor_scan_generation
+[10.032s] Invoking command in '/root/ros2_ws/src/build/sensor_scan_generation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/src/build/sensor_scan_generation -- -j24 -l24
+[11.451s] [ 50%] [32mBuilding CXX object CMakeFiles/sensorScanGeneration.dir/src/sensorScanGeneration.cpp.o[0m
+[11.539s] In file included from [01m[K/root/ros2_ws/src/base_autonomy/sensor_scan_generation/src/sensorScanGeneration.cpp:13[m[K:
+[11.539s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K-Wcpp[m[K]
+[11.539s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[11.539s]       |  [01;35m[K^~~~~~~[m[K
+[50.845s] [100%] [32m[1mLinking CXX executable sensorScanGeneration[0m
+[53.009s] [100%] Built target sensorScanGeneration
+[53.027s] Invoked command in '/root/ros2_ws/src/build/sensor_scan_generation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/src/build/sensor_scan_generation -- -j24 -l24
+[53.029s] Invoking command in '/root/ros2_ws/src/build/sensor_scan_generation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/src/build/sensor_scan_generation
+[53.041s] -- Install configuration: ""
+[53.041s] -- Installing: /root/ros2_ws/src/install/sensor_scan_generation/lib/sensor_scan_generation/sensorScanGeneration
+[53.049s] -- Set runtime path of "/root/ros2_ws/src/install/sensor_scan_generation/lib/sensor_scan_generation/sensorScanGeneration" to ""
+[53.049s] -- Installing: /root/ros2_ws/src/install/sensor_scan_generation/share/sensor_scan_generation/launch
+[53.049s] -- Installing: /root/ros2_ws/src/install/sensor_scan_generation/share/sensor_scan_generation/launch/sensor_scan_generation.launch
+[53.050s] -- Installing: /root/ros2_ws/src/install/sensor_scan_generation/share/ament_index/resource_index/package_run_dependencies/sensor_scan_generation
+[53.050s] -- Installing: /root/ros2_ws/src/install/sensor_scan_generation/share/ament_index/resource_index/parent_prefix_path/sensor_scan_generation
+[53.050s] -- Installing: /root/ros2_ws/src/install/sensor_scan_generation/share/sensor_scan_generation/environment/ament_prefix_path.sh
+[53.050s] -- Installing: /root/ros2_ws/src/install/sensor_scan_generation/share/sensor_scan_generation/environment/ament_prefix_path.dsv
+[53.051s] -- Installing: /root/ros2_ws/src/install/sensor_scan_generation/share/sensor_scan_generation/environment/path.sh
+[53.051s] -- Installing: /root/ros2_ws/src/install/sensor_scan_generation/share/sensor_scan_generation/environment/path.dsv
+[53.051s] -- Installing: /root/ros2_ws/src/install/sensor_scan_generation/share/sensor_scan_generation/local_setup.bash
+[53.051s] -- Installing: /root/ros2_ws/src/install/sensor_scan_generation/share/sensor_scan_generation/local_setup.sh
+[53.051s] -- Installing: /root/ros2_ws/src/install/sensor_scan_generation/share/sensor_scan_generation/local_setup.zsh
+[53.052s] -- Installing: /root/ros2_ws/src/install/sensor_scan_generation/share/sensor_scan_generation/local_setup.dsv
+[53.052s] -- Installing: /root/ros2_ws/src/install/sensor_scan_generation/share/sensor_scan_generation/package.dsv
+[53.052s] -- Installing: /root/ros2_ws/src/install/sensor_scan_generation/share/ament_index/resource_index/packages/sensor_scan_generation
+[53.052s] -- Installing: /root/ros2_ws/src/install/sensor_scan_generation/share/sensor_scan_generation/cmake/sensor_scan_generationConfig.cmake
+[53.052s] -- Installing: /root/ros2_ws/src/install/sensor_scan_generation/share/sensor_scan_generation/cmake/sensor_scan_generationConfig-version.cmake
+[53.053s] -- Installing: /root/ros2_ws/src/install/sensor_scan_generation/share/sensor_scan_generation/package.xml
+[53.055s] Invoked command in '/root/ros2_ws/src/build/sensor_scan_generation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/src/build/sensor_scan_generation

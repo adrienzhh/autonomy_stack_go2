@@ -1,0 +1,174 @@
+[0.596s] Invoking command in '/root/ros2_ws/src/build/visualization_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/base_autonomy/visualization_tools -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/visualization_tools
+[0.660s] -- The C compiler identification is GNU 11.4.0
+[0.724s] -- The CXX compiler identification is GNU 11.4.0
+[0.736s] -- Detecting C compiler ABI info
+[0.837s] -- Detecting C compiler ABI info - done
+[0.851s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.852s] -- Detecting C compile features
+[0.853s] -- Detecting C compile features - done
+[0.859s] -- Detecting CXX compiler ABI info
+[0.989s] -- Detecting CXX compiler ABI info - done
+[0.997s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.997s] -- Detecting CXX compile features
+[0.998s] -- Detecting CXX compile features - done
+[1.007s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.210s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.370s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[1.478s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.492s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.510s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.531s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.562s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.653s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.661s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.789s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.840s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.938s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.959s] -- Looking for pthread.h
+[2.051s] -- Looking for pthread.h - found
+[2.051s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.173s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.175s] -- Found Threads: TRUE  
+[2.393s] -- Found rclpy: 3.3.19 (/opt/ros/humble/share/rclpy/cmake)
+[2.399s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.441s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.478s] -- Found tf2_ros: 0.25.18 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.732s] -- Found tf2_geometry_msgs: 0.25.18 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[2.757s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.757s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.758s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.775s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[2.841s] -- Checking for module 'eigen3'
+[2.866s] --   Found eigen3, version 3.4.0
+[2.967s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[2.968s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.220s] -- Checking for module 'flann'
+[3.252s] --   Found flann, version 1.9.1
+[3.388s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[3.389s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[6.947s] -- Checking for module 'libusb-1.0'
+[7.017s] --   Found libusb-1.0, version 1.0.25
+[7.221s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[7.224s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[7.436s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[8.121s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[8.142s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[8.159s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[8.539s] -- Found Qhull version 8.0.2
+[8.826s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[9.386s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[9.387s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[9.396s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[9.397s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[9.403s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[9.406s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[9.409s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[9.409s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[9.413s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[9.419s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[9.427s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[9.427s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[9.430s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[9.435s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[9.443s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[9.450s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[9.450s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[9.452s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[9.457s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[9.469s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[9.469s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[9.479s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[9.479s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[9.480s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[9.480s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[9.496s] -- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+[10.047s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[10.593s] -- Added test 'copyright' to check source files copyright and LICENSE
+[10.602s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[10.602s] -- Configured cppcheck include dirs: 
+[10.602s] -- Configured cppcheck exclude dirs and/or files: 
+[10.608s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[10.612s] -- Configured cpplint exclude dirs and/or files: 
+[10.618s] -- Added test 'flake8' to check Python code syntax and style conventions
+[10.618s] -- Added test 'lint_cmake' to check CMake code style
+[10.631s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[10.631s] -- Added test 'uncrustify' to check C / C++ code style
+[10.631s] -- Configured uncrustify additional arguments: 
+[10.631s] -- Added test 'xmllint' to check XML markup files
+[10.637s] -- Configuring done
+[10.869s] -- Generating done
+[10.875s] [33mCMake Warning:
+[10.876s]   Manually-specified variables were not used by the project:
+[10.876s] 
+[10.876s]     HUMBLE_ROS
+[10.876s]     ROS_EDITION
+[10.876s] 
+[10.876s] [0m
+[10.923s] -- Build files have been written to: /root/ros2_ws/src/build/visualization_tools
+[11.267s] Invoked command in '/root/ros2_ws/src/build/visualization_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/base_autonomy/visualization_tools -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/visualization_tools
+[11.268s] Invoking command in '/root/ros2_ws/src/build/visualization_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/src/build/visualization_tools -- -j24 -l24
+[12.402s] [ 50%] [32mBuilding CXX object CMakeFiles/visualizationTools.dir/src/visualizationTools.cpp.o[0m
+[12.402s] [ 50%] Built target ament_cmake_python_copy_visualization_tools
+[12.405s] running egg_info
+[12.413s] creating visualization_tools.egg-info
+[12.413s] writing visualization_tools.egg-info/PKG-INFO
+[12.413s] writing dependency_links to visualization_tools.egg-info/dependency_links.txt
+[12.413s] writing top-level names to visualization_tools.egg-info/top_level.txt
+[12.414s] writing manifest file 'visualization_tools.egg-info/SOURCES.txt'
+[12.414s] /usr/local/lib/python3.10/dist-packages/setuptools_scm/_integration/setuptools.py:24: RuntimeWarning: 
+[12.416s] ERROR: setuptools==59.6.0 is used in combination with setuptools-scm>=8.x
+[12.416s] 
+[12.416s] Your build configuration is incomplete and previously worked by accident!
+[12.416s] setuptools-scm requires setuptools>=61 (recommended: >=80)
+[12.416s] 
+[12.416s] Suggested workaround if applicable:
+[12.416s]  - migrating from the deprecated setup_requires mechanism to pep517/518
+[12.416s]    and using a pyproject.toml to declare build dependencies
+[12.416s]    which are reliably pre-installed before running the build tools
+[12.416s] 
+[12.416s]   warnings.warn(
+[12.417s] listing git files failed - pretending there aren't any
+[13.294s] reading manifest file 'visualization_tools.egg-info/SOURCES.txt'
+[13.297s] writing manifest file 'visualization_tools.egg-info/SOURCES.txt'
+[13.403s] [ 50%] Built target ament_cmake_python_build_visualization_tools_egg
+[13.407s] In file included from [01m[K/root/ros2_ws/src/base_autonomy/visualization_tools/src/visualizationTools.cpp:19[m[K:
+[13.407s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K-Wcpp[m[K]
+[13.407s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[13.407s]       |  [01;35m[K^~~~~~~[m[K
+[46.965s] [100%] [32m[1mLinking CXX executable visualizationTools[0m
+[48.944s] [100%] Built target visualizationTools
+[48.965s] Invoked command in '/root/ros2_ws/src/build/visualization_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/src/build/visualization_tools -- -j24 -l24
+[48.970s] Invoking command in '/root/ros2_ws/src/build/visualization_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/src/build/visualization_tools
+[48.984s] -- Install configuration: ""
+[48.985s] -- Installing: /root/ros2_ws/src/install/visualization_tools/lib/visualization_tools/visualizationTools
+[48.995s] -- Set runtime path of "/root/ros2_ws/src/install/visualization_tools/lib/visualization_tools/visualizationTools" to ""
+[48.995s] -- Installing: /root/ros2_ws/src/install/visualization_tools/share/visualization_tools/launch
+[48.996s] -- Installing: /root/ros2_ws/src/install/visualization_tools/share/visualization_tools/launch/visualization_tools.launch
+[48.996s] -- Installing: /root/ros2_ws/src/install/visualization_tools/share/visualization_tools/environment/pythonpath.sh
+[48.996s] -- Installing: /root/ros2_ws/src/install/visualization_tools/share/visualization_tools/environment/pythonpath.dsv
+[48.996s] -- Installing: /root/ros2_ws/src/install/visualization_tools/local/lib/python3.10/dist-packages/visualization_tools-0.0.1-py3.10.egg-info
+[48.996s] -- Installing: /root/ros2_ws/src/install/visualization_tools/local/lib/python3.10/dist-packages/visualization_tools-0.0.1-py3.10.egg-info/PKG-INFO
+[48.996s] -- Installing: /root/ros2_ws/src/install/visualization_tools/local/lib/python3.10/dist-packages/visualization_tools-0.0.1-py3.10.egg-info/dependency_links.txt
+[48.996s] -- Installing: /root/ros2_ws/src/install/visualization_tools/local/lib/python3.10/dist-packages/visualization_tools-0.0.1-py3.10.egg-info/SOURCES.txt
+[48.996s] -- Installing: /root/ros2_ws/src/install/visualization_tools/local/lib/python3.10/dist-packages/visualization_tools-0.0.1-py3.10.egg-info/top_level.txt
+[48.997s] -- Installing: /root/ros2_ws/src/install/visualization_tools/local/lib/python3.10/dist-packages/visualization_tools
+[48.997s] -- Installing: /root/ros2_ws/src/install/visualization_tools/local/lib/python3.10/dist-packages/visualization_tools/__init__.py
+[49.072s] Listing '/root/ros2_ws/src/install/visualization_tools/local/lib/python3.10/dist-packages/visualization_tools'...
+[49.072s] Compiling '/root/ros2_ws/src/install/visualization_tools/local/lib/python3.10/dist-packages/visualization_tools/__init__.py'...
+[49.084s] -- Installing: /root/ros2_ws/src/install/visualization_tools/lib/visualization_tools/realTimePlot.py
+[49.084s] -- Installing: /root/ros2_ws/src/install/visualization_tools/share/ament_index/resource_index/package_run_dependencies/visualization_tools
+[49.086s] -- Installing: /root/ros2_ws/src/install/visualization_tools/share/ament_index/resource_index/parent_prefix_path/visualization_tools
+[49.086s] -- Installing: /root/ros2_ws/src/install/visualization_tools/share/visualization_tools/environment/ament_prefix_path.sh
+[49.086s] -- Installing: /root/ros2_ws/src/install/visualization_tools/share/visualization_tools/environment/ament_prefix_path.dsv
+[49.087s] -- Installing: /root/ros2_ws/src/install/visualization_tools/share/visualization_tools/environment/path.sh
+[49.087s] -- Installing: /root/ros2_ws/src/install/visualization_tools/share/visualization_tools/environment/path.dsv
+[49.087s] -- Installing: /root/ros2_ws/src/install/visualization_tools/share/visualization_tools/local_setup.bash
+[49.087s] -- Installing: /root/ros2_ws/src/install/visualization_tools/share/visualization_tools/local_setup.sh
+[49.088s] -- Installing: /root/ros2_ws/src/install/visualization_tools/share/visualization_tools/local_setup.zsh
+[49.088s] -- Installing: /root/ros2_ws/src/install/visualization_tools/share/visualization_tools/local_setup.dsv
+[49.088s] -- Installing: /root/ros2_ws/src/install/visualization_tools/share/visualization_tools/package.dsv
+[49.091s] -- Installing: /root/ros2_ws/src/install/visualization_tools/share/ament_index/resource_index/packages/visualization_tools
+[49.091s] -- Installing: /root/ros2_ws/src/install/visualization_tools/share/visualization_tools/cmake/visualization_toolsConfig.cmake
+[49.091s] -- Installing: /root/ros2_ws/src/install/visualization_tools/share/visualization_tools/cmake/visualization_toolsConfig-version.cmake
+[49.091s] -- Installing: /root/ros2_ws/src/install/visualization_tools/share/visualization_tools/package.xml
+[49.093s] Invoked command in '/root/ros2_ws/src/build/visualization_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/src/build/visualization_tools

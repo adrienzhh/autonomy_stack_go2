@@ -1,0 +1,27 @@
+[0.285s] Invoking command in '/root/ros2_ws/src/build/teleop_rviz_plugin': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/src/build/teleop_rviz_plugin -- -j24 -l24
+[0.605s] [ 11%] [34m[1mAutomatic MOC for target teleop_rviz_plugin[0m
+[0.605s] [ 11%] Built target teleop_rviz_plugin_autogen
+[0.605s] [100%] Built target teleop_rviz_plugin
+[0.633s] Invoked command in '/root/ros2_ws/src/build/teleop_rviz_plugin' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/src/build/teleop_rviz_plugin -- -j24 -l24
+[0.637s] Invoking command in '/root/ros2_ws/src/build/teleop_rviz_plugin': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/src/build/teleop_rviz_plugin
+[0.700s] -- Install configuration: ""
+[0.700s] -- Up-to-date: /root/ros2_ws/src/install/teleop_rviz_plugin/share/teleop_rviz_plugin/plugin_description.xml
+[0.700s] -- Up-to-date: /root/ros2_ws/src/install/teleop_rviz_plugin/lib/teleop_rviz_plugin/libteleop_rviz_plugin.so
+[0.700s] -- Up-to-date: /root/ros2_ws/src/install/teleop_rviz_plugin/share/ament_index/resource_index/package_run_dependencies/teleop_rviz_plugin
+[0.700s] -- Up-to-date: /root/ros2_ws/src/install/teleop_rviz_plugin/share/ament_index/resource_index/parent_prefix_path/teleop_rviz_plugin
+[0.700s] -- Up-to-date: /root/ros2_ws/src/install/teleop_rviz_plugin/share/teleop_rviz_plugin/environment/ament_prefix_path.sh
+[0.700s] -- Up-to-date: /root/ros2_ws/src/install/teleop_rviz_plugin/share/teleop_rviz_plugin/environment/ament_prefix_path.dsv
+[0.700s] -- Up-to-date: /root/ros2_ws/src/install/teleop_rviz_plugin/share/teleop_rviz_plugin/environment/path.sh
+[0.700s] -- Up-to-date: /root/ros2_ws/src/install/teleop_rviz_plugin/share/teleop_rviz_plugin/environment/path.dsv
+[0.700s] -- Up-to-date: /root/ros2_ws/src/install/teleop_rviz_plugin/share/teleop_rviz_plugin/local_setup.bash
+[0.700s] -- Up-to-date: /root/ros2_ws/src/install/teleop_rviz_plugin/share/teleop_rviz_plugin/local_setup.sh
+[0.700s] -- Up-to-date: /root/ros2_ws/src/install/teleop_rviz_plugin/share/teleop_rviz_plugin/local_setup.zsh
+[0.700s] -- Up-to-date: /root/ros2_ws/src/install/teleop_rviz_plugin/share/teleop_rviz_plugin/local_setup.dsv
+[0.700s] -- Installing: /root/ros2_ws/src/install/teleop_rviz_plugin/share/teleop_rviz_plugin/package.dsv
+[0.700s] -- Up-to-date: /root/ros2_ws/src/install/teleop_rviz_plugin/share/ament_index/resource_index/packages/teleop_rviz_plugin
+[0.700s] -- Up-to-date: /root/ros2_ws/src/install/teleop_rviz_plugin/share/ament_index/resource_index/rviz_common__pluginlib__plugin/teleop_rviz_plugin
+[0.700s] -- Up-to-date: /root/ros2_ws/src/install/teleop_rviz_plugin/share/teleop_rviz_plugin/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.700s] -- Up-to-date: /root/ros2_ws/src/install/teleop_rviz_plugin/share/teleop_rviz_plugin/cmake/teleop_rviz_pluginConfig.cmake
+[0.700s] -- Up-to-date: /root/ros2_ws/src/install/teleop_rviz_plugin/share/teleop_rviz_plugin/cmake/teleop_rviz_pluginConfig-version.cmake
+[0.700s] -- Up-to-date: /root/ros2_ws/src/install/teleop_rviz_plugin/share/teleop_rviz_plugin/package.xml
+[0.766s] Invoked command in '/root/ros2_ws/src/build/teleop_rviz_plugin' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/src/build/teleop_rviz_plugin

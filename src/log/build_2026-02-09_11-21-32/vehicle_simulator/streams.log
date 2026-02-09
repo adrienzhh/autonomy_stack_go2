@@ -1,0 +1,45 @@
+[0.006s] Invoking command in '/root/ros2_ws/src/build/vehicle_simulator': AMENT_PREFIX_PATH=/root/ros2_ws/src/install/ros_tcp_endpoint:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble PYTHONPATH=/root/ros2_ws/src/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros2_ws/src/build/vehicle_simulator -- -j24 -l24
+[0.052s] [ 50%] Built target sim_image_repub
+[0.057s] [100%] Built target vehicleSimulator
+[0.066s] Invoked command in '/root/ros2_ws/src/build/vehicle_simulator' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/src/install/ros_tcp_endpoint:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble PYTHONPATH=/root/ros2_ws/src/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros2_ws/src/build/vehicle_simulator -- -j24 -l24
+[0.067s] Invoking command in '/root/ros2_ws/src/build/vehicle_simulator': AMENT_PREFIX_PATH=/root/ros2_ws/src/install/ros_tcp_endpoint:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble PYTHONPATH=/root/ros2_ws/src/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ros2_ws/src/build/vehicle_simulator
+[0.072s] -- Install configuration: ""
+[0.072s] -- Up-to-date: /root/ros2_ws/src/install/vehicle_simulator/lib/vehicle_simulator/vehicleSimulator
+[0.073s] -- Up-to-date: /root/ros2_ws/src/install/vehicle_simulator/lib/vehicle_simulator/sim_image_repub
+[0.073s] -- Up-to-date: /root/ros2_ws/src/install/vehicle_simulator/share/vehicle_simulator/launch
+[0.073s] -- Up-to-date: /root/ros2_ws/src/install/vehicle_simulator/share/vehicle_simulator/launch/vehicle_simulator.launch
+[0.073s] -- Installing: /root/ros2_ws/src/install/vehicle_simulator/share/vehicle_simulator/launch/system_simulation_superodom.launch.py
+[0.073s] -- Installing: /root/ros2_ws/src/install/vehicle_simulator/share/vehicle_simulator/launch/system_real_robot_with_route_planner_superodom.launch.py
+[0.074s] -- Up-to-date: /root/ros2_ws/src/install/vehicle_simulator/share/vehicle_simulator/launch/system_real_robot_with_route_planner_superodom.launch
+[0.074s] -- Installing: /root/ros2_ws/src/install/vehicle_simulator/share/vehicle_simulator/launch/system_real_robot_superodom.launch.py
+[0.074s] -- Installing: /root/ros2_ws/src/install/vehicle_simulator/share/vehicle_simulator/launch/system_simulation_with_route_planner_superodom.launch.py
+[0.074s] -- Up-to-date: /root/ros2_ws/src/install/vehicle_simulator/share/vehicle_simulator/launch/system_simulation_with_route_planner_superodom.launch
+[0.074s] -- Up-to-date: /root/ros2_ws/src/install/vehicle_simulator/share/vehicle_simulator/launch/system_simulation_with_route_planner.launch
+[0.074s] -- Up-to-date: /root/ros2_ws/src/install/vehicle_simulator/share/vehicle_simulator/launch/system_real_robot.launch
+[0.074s] -- Up-to-date: /root/ros2_ws/src/install/vehicle_simulator/share/vehicle_simulator/launch/system_simulation_superodom.launch
+[0.074s] -- Up-to-date: /root/ros2_ws/src/install/vehicle_simulator/share/vehicle_simulator/launch/system_real_robot_with_route_planner.launch
+[0.074s] -- Up-to-date: /root/ros2_ws/src/install/vehicle_simulator/share/vehicle_simulator/launch/system_real_robot_superodom.launch
+[0.074s] -- Up-to-date: /root/ros2_ws/src/install/vehicle_simulator/share/vehicle_simulator/launch/system_simulation.launch
+[0.074s] -- Up-to-date: /root/ros2_ws/src/install/vehicle_simulator/share/vehicle_simulator/mesh
+[0.074s] -- Up-to-date: /root/ros2_ws/src/install/vehicle_simulator/share/vehicle_simulator/mesh/unity
+[0.074s] -- Up-to-date: /root/ros2_ws/src/install/vehicle_simulator/share/vehicle_simulator/mesh/unity/readme.txt
+[0.074s] -- Up-to-date: /root/ros2_ws/src/install/vehicle_simulator/share/vehicle_simulator/rviz
+[0.074s] -- Up-to-date: /root/ros2_ws/src/install/vehicle_simulator/share/vehicle_simulator/rviz/vehicle_simulator.rviz
+[0.074s] -- Up-to-date: /root/ros2_ws/src/install/vehicle_simulator/share/vehicle_simulator/log
+[0.074s] -- Up-to-date: /root/ros2_ws/src/install/vehicle_simulator/share/vehicle_simulator/log/readme.txt
+[0.074s] -- Up-to-date: /root/ros2_ws/src/install/vehicle_simulator/share/ament_index/resource_index/package_run_dependencies/vehicle_simulator
+[0.075s] -- Up-to-date: /root/ros2_ws/src/install/vehicle_simulator/share/ament_index/resource_index/parent_prefix_path/vehicle_simulator
+[0.076s] -- Up-to-date: /root/ros2_ws/src/install/vehicle_simulator/share/vehicle_simulator/environment/ament_prefix_path.sh
+[0.076s] -- Up-to-date: /root/ros2_ws/src/install/vehicle_simulator/share/vehicle_simulator/environment/ament_prefix_path.dsv
+[0.076s] -- Up-to-date: /root/ros2_ws/src/install/vehicle_simulator/share/vehicle_simulator/environment/path.sh
+[0.076s] -- Up-to-date: /root/ros2_ws/src/install/vehicle_simulator/share/vehicle_simulator/environment/path.dsv
+[0.076s] -- Up-to-date: /root/ros2_ws/src/install/vehicle_simulator/share/vehicle_simulator/local_setup.bash
+[0.076s] -- Up-to-date: /root/ros2_ws/src/install/vehicle_simulator/share/vehicle_simulator/local_setup.sh
+[0.076s] -- Up-to-date: /root/ros2_ws/src/install/vehicle_simulator/share/vehicle_simulator/local_setup.zsh
+[0.076s] -- Up-to-date: /root/ros2_ws/src/install/vehicle_simulator/share/vehicle_simulator/local_setup.dsv
+[0.076s] -- Installing: /root/ros2_ws/src/install/vehicle_simulator/share/vehicle_simulator/package.dsv
+[0.076s] -- Up-to-date: /root/ros2_ws/src/install/vehicle_simulator/share/ament_index/resource_index/packages/vehicle_simulator
+[0.076s] -- Up-to-date: /root/ros2_ws/src/install/vehicle_simulator/share/vehicle_simulator/cmake/vehicle_simulatorConfig.cmake
+[0.076s] -- Up-to-date: /root/ros2_ws/src/install/vehicle_simulator/share/vehicle_simulator/cmake/vehicle_simulatorConfig-version.cmake
+[0.077s] -- Up-to-date: /root/ros2_ws/src/install/vehicle_simulator/share/vehicle_simulator/package.xml
+[0.078s] Invoked command in '/root/ros2_ws/src/build/vehicle_simulator' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/src/install/ros_tcp_endpoint:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble PYTHONPATH=/root/ros2_ws/src/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ros2_ws/src/build/vehicle_simulator

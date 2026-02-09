@@ -1,0 +1,88 @@
+[0.034s] Invoking command in '/root/ros2_ws/src/build/super_odometry': AMENT_PREFIX_PATH=/root/ros2_ws/src/install/super_odometry_msgs:/root/ros2_ws/src/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/src/install/super_odometry_msgs:/root/ros2_ws/src/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/src/install/super_odometry_msgs/lib:/root/ros2_ws/src/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/src/install/super_odometry_msgs/local/lib/python3.10/dist-packages:/root/ros2_ws/src/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros2_ws/src/build/super_odometry -- -j24 -l24
+[0.147s] [ 64%] Built target SuperOdomLib
+[0.188s] [ 76%] Built target feature_extraction_node
+[0.190s] [ 88%] Built target imu_preintegration_node
+[0.192s] [100%] Built target laser_mapping_node
+[0.227s] Invoked command in '/root/ros2_ws/src/build/super_odometry' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/src/install/super_odometry_msgs:/root/ros2_ws/src/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/src/install/super_odometry_msgs:/root/ros2_ws/src/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/src/install/super_odometry_msgs/lib:/root/ros2_ws/src/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/src/install/super_odometry_msgs/local/lib/python3.10/dist-packages:/root/ros2_ws/src/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros2_ws/src/build/super_odometry -- -j24 -l24
+[0.228s] Invoking command in '/root/ros2_ws/src/build/super_odometry': AMENT_PREFIX_PATH=/root/ros2_ws/src/install/super_odometry_msgs:/root/ros2_ws/src/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/src/install/super_odometry_msgs:/root/ros2_ws/src/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/src/install/super_odometry_msgs/lib:/root/ros2_ws/src/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/src/install/super_odometry_msgs/local/lib/python3.10/dist-packages:/root/ros2_ws/src/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ros2_ws/src/build/super_odometry
+[0.236s] -- Install configuration: "Release"
+[0.238s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry/environment/library_path.sh
+[0.238s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry/environment/library_path.dsv
+[0.238s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/include
+[0.238s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry
+[0.238s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/ImuPreintegration
+[0.238s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/ImuPreintegration/imuPreintegration.h
+[0.238s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/container
+[0.238s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/container/MapRingBuffer.h
+[0.239s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/sensor_data
+[0.239s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/sensor_data/imu
+[0.239s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/sensor_data/imu/imu_data.h
+[0.239s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/sensor_data/pointcloud
+[0.239s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/sensor_data/pointcloud/point_os.h
+[0.239s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/sensor_data/pointcloud/LidarPoint.h
+[0.239s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/tic_toc.h
+[0.239s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/LidarProcess
+[0.239s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/LidarProcess/factor
+[0.239s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/LidarProcess/factor/pose_local_parameterization.h
+[0.239s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/LidarProcess/factor/SE3AbsolutatePoseFactor.h
+[0.239s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/LidarProcess/factor/lidarOptimization.h
+[0.239s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/LidarProcess/LidarSlam.h
+[0.239s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/LidarProcess/LocalMap.h
+[0.239s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/utils
+[0.239s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/utils/EigenTypes.h
+[0.239s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/utils/Twist.h
+[0.239s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/utils/superodom_utils.h
+[0.239s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/utils/sophus_utils.hpp
+[0.239s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/utils/utility.h
+[0.239s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/LaserMapping
+[0.239s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/LaserMapping/laserMapping.h
+[0.239s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/FeatureExtraction
+[0.239s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/FeatureExtraction/featureExtraction.h
+[0.239s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/config
+[0.239s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/config/parameter.h
+[0.239s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/flann
+[0.239s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/flann/nanoflann.h
+[0.240s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/flann/octree.h
+[0.240s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/LocalMap.h
+[0.240s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/utility.h
+[0.240s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/lib/libSuperOdomLib.so
+[0.240s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/lib/super_odometry/imu_preintegration_node
+[0.240s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/lib/super_odometry/feature_extraction_node
+[0.240s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/lib/super_odometry/laser_mapping_node
+[0.240s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry//config
+[0.240s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry//config/ouster
+[0.244s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry//config/ouster/os1_128_calibration.yaml
+[0.244s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry//config/livox
+[0.244s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry//config/livox/livox_mid360_calibration.yaml
+[0.244s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry//config/os1_128.yaml
+[0.245s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry//config/vlp_16.yaml
+[0.245s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry//config/velodyne
+[0.245s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry//config/velodyne/vlp_16_calibration.yaml
+[0.245s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry//config/livox_mid360.yaml
+[0.245s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry//launch
+[0.245s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry//launch/livox_mid360.launch.py
+[0.245s] -- Installing: /root/ros2_ws/src/install/super_odometry/share/super_odometry//launch/superodom_autonomy_sim.launch.py
+[0.245s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry//launch/os1_128.launch.py
+[0.245s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry//launch/vlp_16.launch.py
+[0.245s] -- Installing: /root/ros2_ws/src/install/super_odometry/share/super_odometry//launch/superodom_autonomy.launch.py
+[0.249s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/ament_index/resource_index/package_run_dependencies/super_odometry
+[0.249s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/ament_index/resource_index/parent_prefix_path/super_odometry
+[0.249s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry/environment/ament_prefix_path.sh
+[0.249s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry/environment/ament_prefix_path.dsv
+[0.249s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry/environment/path.sh
+[0.249s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry/environment/path.dsv
+[0.249s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry/local_setup.bash
+[0.250s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry/local_setup.sh
+[0.250s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry/local_setup.zsh
+[0.250s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry/local_setup.dsv
+[0.250s] -- Installing: /root/ros2_ws/src/install/super_odometry/share/super_odometry/package.dsv
+[0.250s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/ament_index/resource_index/packages/super_odometry
+[0.250s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry/cmake/export_super_odometryExport.cmake
+[0.250s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry/cmake/export_super_odometryExport-release.cmake
+[0.250s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry/cmake/ament_cmake_export_targets-extras.cmake
+[0.250s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.250s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry/cmake/ament_cmake_export_libraries-extras.cmake
+[0.250s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry/cmake/super_odometryConfig.cmake
+[0.253s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry/cmake/super_odometryConfig-version.cmake
+[0.258s] -- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry/package.xml
+[0.259s] Invoked command in '/root/ros2_ws/src/build/super_odometry' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/src/install/super_odometry_msgs:/root/ros2_ws/src/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/src/install/super_odometry_msgs:/root/ros2_ws/src/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/src/install/super_odometry_msgs/lib:/root/ros2_ws/src/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/src/install/super_odometry_msgs/local/lib/python3.10/dist-packages:/root/ros2_ws/src/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ros2_ws/src/build/super_odometry

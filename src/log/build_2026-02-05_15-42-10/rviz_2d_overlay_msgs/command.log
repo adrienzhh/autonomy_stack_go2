@@ -1,0 +1,1 @@
+Invoking command in '/root/ros2_ws/src/build/rviz_2d_overlay_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/slam/rviz_2d_overlay_plugins/rviz_2d_overlay_msgs -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/rviz_2d_overlay_msgs

@@ -1,0 +1,317 @@
+[0.072s] Invoking command in '/root/ros2_ws/src/build/far_planner': AMENT_PREFIX_PATH=/root/ros2_ws/src/install/visibility_graph_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/src/install/visibility_graph_msg:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/src/install/visibility_graph_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/src/install/visibility_graph_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/ros2_ws/src/route_planner/far_planner -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/far_planner
+[1.380s] -- The C compiler identification is GNU 11.4.0
+[1.380s] -- The CXX compiler identification is GNU 11.4.0
+[1.380s] -- Detecting C compiler ABI info
+[1.380s] -- Detecting C compiler ABI info - done
+[1.381s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.381s] -- Detecting C compile features
+[1.381s] -- Detecting C compile features - done
+[1.381s] -- Detecting CXX compiler ABI info
+[1.381s] -- Detecting CXX compiler ABI info - done
+[1.381s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.381s] -- Detecting CXX compile features
+[1.381s] -- Detecting CXX compile features - done
+[1.381s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.004s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.671s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[3.055s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.125s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.193s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.296s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.421s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.693s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.705s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.049s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.160s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.370s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.398s] -- Looking for pthread.h
+[4.571s] -- Looking for pthread.h - found
+[4.575s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.900s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.907s] -- Found Threads: TRUE  
+[5.216s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[5.249s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[5.346s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[5.390s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[5.502s] -- Checking for module 'eigen3'
+[5.538s] --   Found eigen3, version 3.4.0
+[5.669s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[5.669s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[5.799s] -- Checking for module 'flann'
+[5.846s] --   Found flann, version 1.9.1
+[6.003s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[6.004s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[9.049s] -- Checking for module 'libusb-1.0'
+[9.107s] --   Found libusb-1.0, version 1.0.25
+[9.210s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[9.211s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[9.408s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[9.749s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[9.768s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[9.779s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[10.263s] -- Found Qhull version 8.0.2
+[10.545s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[10.798s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[10.801s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[10.804s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[10.805s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[10.810s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[10.813s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[10.813s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[10.815s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[10.815s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[10.818s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[10.823s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[10.823s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[10.824s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[10.832s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[10.832s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[10.835s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[10.839s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[10.839s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[10.841s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[10.843s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[10.847s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[10.848s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[10.849s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[10.849s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[10.855s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[10.857s] [33mCMake Warning (dev) at CMakeLists.txt:24 (find_package):
+[10.857s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[10.857s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[10.857s]   command to set the policy and suppress this warning.
+[10.857s] 
+[10.857s]   CMake variable PCL_ROOT is set to:
+[10.857s] 
+[10.861s]     /usr
+[10.861s] 
+[10.861s]   For compatibility, CMake is ignoring the variable.
+[10.861s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[10.861s] [0m
+[10.929s] -- Found OpenCV: /usr (found version "4.5.4") 
+[10.934s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[10.992s] -- Found tf2: 0.25.18 (/opt/ros/humble/share/tf2/cmake)
+[11.035s] -- Found tf2_ros: 0.25.18 (/opt/ros/humble/share/tf2_ros/cmake)
+[11.190s] -- Found tf2_geometry_msgs: 0.25.18 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[11.203s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[11.207s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[11.207s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[11.210s] -- Found tf2_sensor_msgs: 0.25.18 (/opt/ros/humble/share/tf2_sensor_msgs/cmake)
+[11.216s] -- Found visibility_graph_msg: 0.0.1 (/root/ros2_ws/src/install/visibility_graph_msg/share/visibility_graph_msg/cmake)
+[11.572s] -- Configuring done
+[11.872s] -- Generating done
+[11.887s] [33mCMake Warning:
+[11.887s]   Manually-specified variables were not used by the project:
+[11.887s] 
+[11.887s]     HUMBLE_ROS
+[11.888s]     ROS_EDITION
+[11.888s] 
+[11.888s] [0m
+[11.958s] -- Build files have been written to: /root/ros2_ws/src/build/far_planner
+[12.089s] Invoked command in '/root/ros2_ws/src/build/far_planner' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/src/install/visibility_graph_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/src/install/visibility_graph_msg:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/src/install/visibility_graph_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/src/install/visibility_graph_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/ros2_ws/src/route_planner/far_planner -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/far_planner
+[12.132s] Invoking command in '/root/ros2_ws/src/build/far_planner': AMENT_PREFIX_PATH=/root/ros2_ws/src/install/visibility_graph_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/src/install/visibility_graph_msg:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/src/install/visibility_graph_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/src/install/visibility_graph_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros2_ws/src/build/far_planner -- -j24 -l24
+[15.381s] [  8%] [32mBuilding CXX object CMakeFiles/far_planner.dir/src/far_planner.cpp.o[0m
+[15.381s] [ 16%] [32mBuilding CXX object CMakeFiles/far_planner.dir/src/graph_planner.cpp.o[0m
+[15.381s] [ 25%] [32mBuilding CXX object CMakeFiles/far_planner.dir/src/dynamic_graph.cpp.o[0m
+[15.381s] [ 33%] [32mBuilding CXX object CMakeFiles/far_planner.dir/src/utility.cpp.o[0m
+[15.381s] [ 41%] [32mBuilding CXX object CMakeFiles/far_planner.dir/src/planner_visualizer.cpp.o[0m
+[15.381s] [ 50%] [32mBuilding CXX object CMakeFiles/far_planner.dir/src/contour_graph.cpp.o[0m
+[15.381s] [ 58%] [32mBuilding CXX object CMakeFiles/far_planner.dir/src/scan_handler.cpp.o[0m
+[15.381s] [ 66%] [32mBuilding CXX object CMakeFiles/far_planner.dir/src/map_handler.cpp.o[0m
+[15.382s] [ 83%] [32mBuilding CXX object CMakeFiles/far_planner.dir/src/graph_msger.cpp.o[0m
+[15.382s] [ 75%] [32mBuilding CXX object CMakeFiles/far_planner.dir/src/contour_detector.cpp.o[0m
+[15.382s] [ 91%] [32mBuilding CXX object CMakeFiles/far_planner.dir/src/terrain_planner.cpp.o[0m
+[15.382s] In file included from [01m[K/root/ros2_ws/src/route_planner/far_planner/include/far_planner/utility.h:23[m[K,
+[15.382s]                  from [01m[K/root/ros2_ws/src/route_planner/far_planner/include/far_planner/terrain_planner.h:4[m[K,
+[15.382s]                  from [01m[K/root/ros2_ws/src/route_planner/far_planner/src/terrain_planner.cpp:8[m[K:
+[15.382s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K-Wcpp[m[K]
+[15.382s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[15.383s]       |  [01;35m[K^~~~~~~[m[K
+[16.135s] In file included from [01m[K/root/ros2_ws/src/route_planner/far_planner/include/far_planner/utility.h:23[m[K,
+[16.135s]                  from [01m[K/root/ros2_ws/src/route_planner/far_planner/include/far_planner/map_handler.h:4[m[K,
+[16.135s]                  from [01m[K/root/ros2_ws/src/route_planner/far_planner/src/map_handler.cpp:9[m[K:
+[16.135s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K-Wcpp[m[K]
+[16.136s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[16.136s]       |  [01;35m[K^~~~~~~[m[K
+[16.366s] In file included from [01m[K/root/ros2_ws/src/route_planner/far_planner/include/far_planner/utility.h:23[m[K,
+[16.366s]                  from [01m[K/root/ros2_ws/src/route_planner/far_planner/include/far_planner/dynamic_graph.h:4[m[K,
+[16.366s]                  from [01m[K/root/ros2_ws/src/route_planner/far_planner/src/dynamic_graph.cpp:9[m[K:
+[16.366s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K-Wcpp[m[K]
+[16.366s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[16.367s]       |  [01;35m[K^~~~~~~[m[K
+[16.502s] In file included from [01m[K/root/ros2_ws/src/route_planner/far_planner/include/far_planner/utility.h:23[m[K,
+[16.502s]                  from [01m[K/root/ros2_ws/src/route_planner/far_planner/include/far_planner/contour_graph.h:4[m[K,
+[16.502s]                  from [01m[K/root/ros2_ws/src/route_planner/far_planner/src/contour_graph.cpp:9[m[K:
+[16.502s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K-Wcpp[m[K]
+[16.502s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[16.503s]       |  [01;35m[K^~~~~~~[m[K
+[16.754s] In file included from [01m[K/root/ros2_ws/src/route_planner/far_planner/include/far_planner/utility.h:23[m[K,
+[16.755s]                  from [01m[K/root/ros2_ws/src/route_planner/far_planner/src/utility.cpp:9[m[K:
+[16.755s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K-Wcpp[m[K]
+[16.755s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[16.755s]       |  [01;35m[K^~~~~~~[m[K
+[17.412s] In file included from [01m[K/root/ros2_ws/src/route_planner/far_planner/include/far_planner/utility.h:58[m[K,
+[17.412s]                  from [01m[K/root/ros2_ws/src/route_planner/far_planner/include/far_planner/terrain_planner.h:4[m[K,
+[17.412s]                  from [01m[K/root/ros2_ws/src/route_planner/far_planner/src/terrain_planner.cpp:8[m[K:
+[17.412s] [01m[K/opt/ros/humble/include/tf2_sensor_msgs/tf2_sensor_msgs.h:32:2:[m[K [01;35m[Kwarning: [m[K#warning is a GCC extension
+[17.412s]    32 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_sensor_msgs/tf2_sensor_msgs.hpp instead
+[17.413s]       |  [01;35m[K^~~~~~~[m[K
+[17.413s] [01m[K/opt/ros/humble/include/tf2_sensor_msgs/tf2_sensor_msgs.h:32:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_sensor_msgs/tf2_sensor_msgs.hpp instead [[01;35m[K-Wcpp[m[K]
+[17.493s] In file included from [01m[K/root/ros2_ws/src/route_planner/far_planner/include/far_planner/utility.h:23[m[K,
+[17.493s]                  from [01m[K/root/ros2_ws/src/route_planner/far_planner/include/far_planner/graph_msger.h:4[m[K,
+[17.493s]                  from [01m[K/root/ros2_ws/src/route_planner/far_planner/src/graph_msger.cpp:9[m[K:
+[17.494s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K-Wcpp[m[K]
+[17.494s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[17.494s]       |  [01;35m[K^~~~~~~[m[K
+[18.011s] In file included from [01m[K/root/ros2_ws/src/route_planner/far_planner/include/far_planner/utility.h:58[m[K,
+[18.011s]                  from [01m[K/root/ros2_ws/src/route_planner/far_planner/include/far_planner/contour_graph.h:4[m[K,
+[18.011s]                  from [01m[K/root/ros2_ws/src/route_planner/far_planner/src/contour_graph.cpp:9[m[K:
+[18.012s] [01m[K/opt/ros/humble/include/tf2_sensor_msgs/tf2_sensor_msgs.h:32:2:[m[K [01;35m[Kwarning: [m[K#warning is a GCC extension
+[18.012s]    32 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_sensor_msgs/tf2_sensor_msgs.hpp instead
+[18.012s]       |  [01;35m[K^~~~~~~[m[K
+[18.012s] [01m[K/opt/ros/humble/include/tf2_sensor_msgs/tf2_sensor_msgs.h:32:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_sensor_msgs/tf2_sensor_msgs.hpp instead [[01;35m[K-Wcpp[m[K]
+[18.276s] In file included from [01m[K/root/ros2_ws/src/route_planner/far_planner/include/far_planner/utility.h:23[m[K,
+[18.276s]                  from [01m[K/root/ros2_ws/src/route_planner/far_planner/include/far_planner/contour_detector.h:4[m[K,
+[18.276s]                  from [01m[K/root/ros2_ws/src/route_planner/far_planner/src/contour_detector.cpp:7[m[K:
+[18.276s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K-Wcpp[m[K]
+[18.276s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[18.277s]       |  [01;35m[K^~~~~~~[m[K
+[18.333s] In file included from [01m[K/root/ros2_ws/src/route_planner/far_planner/include/far_planner/utility.h:23[m[K,
+[18.333s]                  from [01m[K/root/ros2_ws/src/route_planner/far_planner/include/far_planner/planner_visualizer.h:4[m[K,
+[18.333s]                  from [01m[K/root/ros2_ws/src/route_planner/far_planner/src/planner_visualizer.cpp:9[m[K:
+[18.333s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K-Wcpp[m[K]
+[18.333s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[18.334s]       |  [01;35m[K^~~~~~~[m[K
+[18.409s] In file included from [01m[K/root/ros2_ws/src/route_planner/far_planner/include/far_planner/utility.h:58[m[K,
+[18.409s]                  from [01m[K/root/ros2_ws/src/route_planner/far_planner/include/far_planner/dynamic_graph.h:4[m[K,
+[18.409s]                  from [01m[K/root/ros2_ws/src/route_planner/far_planner/src/dynamic_graph.cpp:9[m[K:
+[18.409s] [01m[K/opt/ros/humble/include/tf2_sensor_msgs/tf2_sensor_msgs.h:32:2:[m[K [01;35m[Kwarning: [m[K#warning is a GCC extension
+[18.409s]    32 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_sensor_msgs/tf2_sensor_msgs.hpp instead
+[18.409s]       |  [01;35m[K^~~~~~~[m[K
+[18.409s] [01m[K/opt/ros/humble/include/tf2_sensor_msgs/tf2_sensor_msgs.h:32:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_sensor_msgs/tf2_sensor_msgs.hpp instead [[01;35m[K-Wcpp[m[K]
+[18.439s] In file included from [01m[K/root/ros2_ws/src/route_planner/far_planner/include/far_planner/utility.h:58[m[K,
+[18.439s]                  from [01m[K/root/ros2_ws/src/route_planner/far_planner/include/far_planner/map_handler.h:4[m[K,
+[18.439s]                  from [01m[K/root/ros2_ws/src/route_planner/far_planner/src/map_handler.cpp:9[m[K:
+[18.439s] [01m[K/opt/ros/humble/include/tf2_sensor_msgs/tf2_sensor_msgs.h:32:2:[m[K [01;35m[Kwarning: [m[K#warning is a GCC extension
+[18.440s]    32 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_sensor_msgs/tf2_sensor_msgs.hpp instead
+[18.440s]       |  [01;35m[K^~~~~~~[m[K
+[18.440s] [01m[K/opt/ros/humble/include/tf2_sensor_msgs/tf2_sensor_msgs.h:32:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_sensor_msgs/tf2_sensor_msgs.hpp instead [[01;35m[K-Wcpp[m[K]
+[18.525s] In file included from [01m[K/root/ros2_ws/src/route_planner/far_planner/include/far_planner/utility.h:23[m[K,
+[18.526s]                  from [01m[K/root/ros2_ws/src/route_planner/far_planner/include/far_planner/scan_handler.h:4[m[K,
+[18.526s]                  from [01m[K/root/ros2_ws/src/route_planner/far_planner/src/scan_handler.cpp:8[m[K:
+[18.526s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K-Wcpp[m[K]
+[18.526s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[18.526s]       |  [01;35m[K^~~~~~~[m[K
+[19.057s] In file included from [01m[K/root/ros2_ws/src/route_planner/far_planner/include/far_planner/utility.h:58[m[K,
+[19.057s]                  from [01m[K/root/ros2_ws/src/route_planner/far_planner/src/utility.cpp:9[m[K:
+[19.057s] [01m[K/opt/ros/humble/include/tf2_sensor_msgs/tf2_sensor_msgs.h:32:2:[m[K [01;35m[Kwarning: [m[K#warning is a GCC extension
+[19.057s]    32 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_sensor_msgs/tf2_sensor_msgs.hpp instead
+[19.057s]       |  [01;35m[K^~~~~~~[m[K
+[19.058s] [01m[K/opt/ros/humble/include/tf2_sensor_msgs/tf2_sensor_msgs.h:32:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_sensor_msgs/tf2_sensor_msgs.hpp instead [[01;35m[K-Wcpp[m[K]
+[19.118s] In file included from [01m[K/root/ros2_ws/src/route_planner/far_planner/include/far_planner/utility.h:23[m[K,
+[19.118s]                  from [01m[K/root/ros2_ws/src/route_planner/far_planner/include/far_planner/graph_planner.h:4[m[K,
+[19.118s]                  from [01m[K/root/ros2_ws/src/route_planner/far_planner/src/graph_planner.cpp:9[m[K:
+[19.118s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K-Wcpp[m[K]
+[19.118s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[19.118s]       |  [01;35m[K^~~~~~~[m[K
+[19.172s] In file included from [01m[K/root/ros2_ws/src/route_planner/far_planner/include/far_planner/utility.h:23[m[K,
+[19.172s]                  from [01m[K/root/ros2_ws/src/route_planner/far_planner/include/far_planner/far_planner.h:4[m[K,
+[19.172s]                  from [01m[K/root/ros2_ws/src/route_planner/far_planner/src/far_planner.cpp:9[m[K:
+[19.173s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K-Wcpp[m[K]
+[19.173s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[19.173s]       |  [01;35m[K^~~~~~~[m[K
+[19.422s] In file included from [01m[K/root/ros2_ws/src/route_planner/far_planner/include/far_planner/utility.h:58[m[K,
+[19.422s]                  from [01m[K/root/ros2_ws/src/route_planner/far_planner/include/far_planner/graph_msger.h:4[m[K,
+[19.422s]                  from [01m[K/root/ros2_ws/src/route_planner/far_planner/src/graph_msger.cpp:9[m[K:
+[19.422s] [01m[K/opt/ros/humble/include/tf2_sensor_msgs/tf2_sensor_msgs.h:32:2:[m[K [01;35m[Kwarning: [m[K#warning is a GCC extension
+[19.422s]    32 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_sensor_msgs/tf2_sensor_msgs.hpp instead
+[19.423s]       |  [01;35m[K^~~~~~~[m[K
+[19.423s] [01m[K/opt/ros/humble/include/tf2_sensor_msgs/tf2_sensor_msgs.h:32:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_sensor_msgs/tf2_sensor_msgs.hpp instead [[01;35m[K-Wcpp[m[K]
+[20.196s] In file included from [01m[K/root/ros2_ws/src/route_planner/far_planner/include/far_planner/utility.h:58[m[K,
+[20.196s]                  from [01m[K/root/ros2_ws/src/route_planner/far_planner/include/far_planner/planner_visualizer.h:4[m[K,
+[20.196s]                  from [01m[K/root/ros2_ws/src/route_planner/far_planner/src/planner_visualizer.cpp:9[m[K:
+[20.196s] [01m[K/opt/ros/humble/include/tf2_sensor_msgs/tf2_sensor_msgs.h:32:2:[m[K [01;35m[Kwarning: [m[K#warning is a GCC extension
+[20.196s]    32 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_sensor_msgs/tf2_sensor_msgs.hpp instead
+[20.197s]       |  [01;35m[K^~~~~~~[m[K
+[20.197s] [01m[K/opt/ros/humble/include/tf2_sensor_msgs/tf2_sensor_msgs.h:32:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_sensor_msgs/tf2_sensor_msgs.hpp instead [[01;35m[K-Wcpp[m[K]
+[20.321s] In file included from [01m[K/root/ros2_ws/src/route_planner/far_planner/include/far_planner/utility.h:58[m[K,
+[20.321s]                  from [01m[K/root/ros2_ws/src/route_planner/far_planner/include/far_planner/scan_handler.h:4[m[K,
+[20.321s]                  from [01m[K/root/ros2_ws/src/route_planner/far_planner/src/scan_handler.cpp:8[m[K:
+[20.321s] [01m[K/opt/ros/humble/include/tf2_sensor_msgs/tf2_sensor_msgs.h:32:2:[m[K [01;35m[Kwarning: [m[K#warning is a GCC extension
+[20.321s]    32 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_sensor_msgs/tf2_sensor_msgs.hpp instead
+[20.321s]       |  [01;35m[K^~~~~~~[m[K
+[20.321s] [01m[K/opt/ros/humble/include/tf2_sensor_msgs/tf2_sensor_msgs.h:32:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_sensor_msgs/tf2_sensor_msgs.hpp instead [[01;35m[K-Wcpp[m[K]
+[21.472s] In file included from [01m[K/root/ros2_ws/src/route_planner/far_planner/include/far_planner/utility.h:58[m[K,
+[21.472s]                  from [01m[K/root/ros2_ws/src/route_planner/far_planner/include/far_planner/graph_planner.h:4[m[K,
+[21.472s]                  from [01m[K/root/ros2_ws/src/route_planner/far_planner/src/graph_planner.cpp:9[m[K:
+[21.472s] [01m[K/opt/ros/humble/include/tf2_sensor_msgs/tf2_sensor_msgs.h:32:2:[m[K [01;35m[Kwarning: [m[K#warning is a GCC extension
+[21.472s]    32 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_sensor_msgs/tf2_sensor_msgs.hpp instead
+[21.473s]       |  [01;35m[K^~~~~~~[m[K
+[21.473s] [01m[K/opt/ros/humble/include/tf2_sensor_msgs/tf2_sensor_msgs.h:32:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_sensor_msgs/tf2_sensor_msgs.hpp instead [[01;35m[K-Wcpp[m[K]
+[21.857s] In file included from [01m[K/root/ros2_ws/src/route_planner/far_planner/include/far_planner/utility.h:58[m[K,
+[21.857s]                  from [01m[K/root/ros2_ws/src/route_planner/far_planner/include/far_planner/contour_detector.h:4[m[K,
+[21.861s]                  from [01m[K/root/ros2_ws/src/route_planner/far_planner/src/contour_detector.cpp:7[m[K:
+[21.861s] [01m[K/opt/ros/humble/include/tf2_sensor_msgs/tf2_sensor_msgs.h:32:2:[m[K [01;35m[Kwarning: [m[K#warning is a GCC extension
+[21.861s]    32 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_sensor_msgs/tf2_sensor_msgs.hpp instead
+[21.861s]       |  [01;35m[K^~~~~~~[m[K
+[21.861s] [01m[K/opt/ros/humble/include/tf2_sensor_msgs/tf2_sensor_msgs.h:32:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_sensor_msgs/tf2_sensor_msgs.hpp instead [[01;35m[K-Wcpp[m[K]
+[22.483s] In file included from [01m[K/root/ros2_ws/src/route_planner/far_planner/include/far_planner/utility.h:58[m[K,
+[22.483s]                  from [01m[K/root/ros2_ws/src/route_planner/far_planner/include/far_planner/far_planner.h:4[m[K,
+[22.483s]                  from [01m[K/root/ros2_ws/src/route_planner/far_planner/src/far_planner.cpp:9[m[K:
+[22.483s] [01m[K/opt/ros/humble/include/tf2_sensor_msgs/tf2_sensor_msgs.h:32:2:[m[K [01;35m[Kwarning: [m[K#warning is a GCC extension
+[22.483s]    32 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_sensor_msgs/tf2_sensor_msgs.hpp instead
+[22.484s]       |  [01;35m[K^~~~~~~[m[K
+[22.484s] [01m[K/opt/ros/humble/include/tf2_sensor_msgs/tf2_sensor_msgs.h:32:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_sensor_msgs/tf2_sensor_msgs.hpp instead [[01;35m[K-Wcpp[m[K]
+[33.262s] In file included from [01m[K/root/ros2_ws/src/route_planner/far_planner/src/far_planner.cpp:9[m[K:
+[33.262s] [01m[K/root/ros2_ws/src/route_planner/far_planner/include/far_planner/far_planner.h:[m[K In member function ‘[01m[Kvoid FARMaster::ResetGraphCallBack(std_msgs::msg::Empty_<std::allocator<void> >::SharedPtr)[m[K’:
+[33.263s] [01m[K/root/ros2_ws/src/route_planner/far_planner/include/far_planner/far_planner.h:154:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[33.267s]   154 |     inline void ResetGraphCallBack([01;35m[Kconst std_msgs::msg::Empty::SharedPtr msg[m[K) {
+[33.267s]       |                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[33.280s] [01m[K/root/ros2_ws/src/route_planner/far_planner/include/far_planner/far_planner.h:[m[K In member function ‘[01m[Kvoid FARMaster::ReadFileCommand(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[33.280s] [01m[K/root/ros2_ws/src/route_planner/far_planner/include/far_planner/far_planner.h:193:72:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[33.280s]   193 |     inline void ReadFileCommand([01;35m[Kconst std_msgs::msg::String::SharedPtr msg[m[K) {
+[33.281s]       |                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[33.281s] [01m[K/root/ros2_ws/src/route_planner/far_planner/include/far_planner/far_planner.h:[m[K In member function ‘[01m[Kvoid FARMaster::SaveFileCommand(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[33.281s] [01m[K/root/ros2_ws/src/route_planner/far_planner/include/far_planner/far_planner.h:200:72:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[33.281s]   200 |     inline void SaveFileCommand([01;35m[Kconst std_msgs::msg::String::SharedPtr msg[m[K) {
+[33.281s]       |                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[34.525s] [01m[K/root/ros2_ws/src/route_planner/far_planner/src/contour_detector.cpp:[m[K In member function ‘[01m[Kvoid ContourDetector::ShowCornerImage(const cv::Mat&, const PointCloudPtr&)[m[K’:
+[34.525s] [01m[K/root/ros2_ws/src/route_planner/far_planner/src/contour_detector.cpp:94:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kimg_mat[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[34.525s]    94 | void ContourDetector::ShowCornerImage([01;35m[Kconst cv::Mat& img_mat[m[K, const PointCloudPtr& pc) {
+[34.525s]       |                                       [01;35m[K~~~~~~~~~~~~~~~^~~~~~~[m[K
+[67.825s] [100%] [32m[1mLinking CXX executable far_planner[0m
+[69.030s] [100%] Built target far_planner
+[69.041s] Invoked command in '/root/ros2_ws/src/build/far_planner' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/src/install/visibility_graph_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/src/install/visibility_graph_msg:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/src/install/visibility_graph_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/src/install/visibility_graph_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros2_ws/src/build/far_planner -- -j24 -l24
+[69.043s] Invoking command in '/root/ros2_ws/src/build/far_planner': AMENT_PREFIX_PATH=/root/ros2_ws/src/install/visibility_graph_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/src/install/visibility_graph_msg:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/src/install/visibility_graph_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/src/install/visibility_graph_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ros2_ws/src/build/far_planner
+[69.053s] -- Install configuration: "Release"
+[69.054s] -- Installing: /root/ros2_ws/src/install/far_planner/lib/far_planner/far_planner
+[69.054s] -- Set runtime path of "/root/ros2_ws/src/install/far_planner/lib/far_planner/far_planner" to ""
+[69.054s] -- Installing: /root/ros2_ws/src/install/far_planner/share/far_planner/launch
+[69.054s] -- Installing: /root/ros2_ws/src/install/far_planner/share/far_planner/launch/far_planner.launch
+[69.054s] -- Installing: /root/ros2_ws/src/install/far_planner/share/far_planner/rviz
+[69.054s] -- Installing: /root/ros2_ws/src/install/far_planner/share/far_planner/rviz/matterport.rviz
+[69.054s] -- Installing: /root/ros2_ws/src/install/far_planner/share/far_planner/rviz/default.rviz
+[69.054s] -- Installing: /root/ros2_ws/src/install/far_planner/share/far_planner/config
+[69.054s] -- Installing: /root/ros2_ws/src/install/far_planner/share/far_planner/config/default.yaml
+[69.054s] -- Installing: /root/ros2_ws/src/install/far_planner/share/far_planner/config/matterport.yaml
+[69.054s] -- Installing: /root/ros2_ws/src/install/far_planner/share/far_planner/data
+[69.054s] -- Installing: /root/ros2_ws/src/install/far_planner/share/far_planner/data/boundary_graph.vgh
+[69.054s] -- Installing: /root/ros2_ws/src/install/far_planner/share/far_planner/data/indoor.vgh
+[69.054s] -- Installing: /root/ros2_ws/src/install/far_planner/share/far_planner/data/trajectory.txt
+[69.054s] -- Installing: /root/ros2_ws/src/install/far_planner/share/far_planner/data/boundary.ply
+[69.054s] -- Installing: /root/ros2_ws/src/install/far_planner/share/ament_index/resource_index/package_run_dependencies/far_planner
+[69.054s] -- Installing: /root/ros2_ws/src/install/far_planner/share/ament_index/resource_index/parent_prefix_path/far_planner
+[69.055s] -- Installing: /root/ros2_ws/src/install/far_planner/share/far_planner/environment/ament_prefix_path.sh
+[69.055s] -- Installing: /root/ros2_ws/src/install/far_planner/share/far_planner/environment/ament_prefix_path.dsv
+[69.055s] -- Installing: /root/ros2_ws/src/install/far_planner/share/far_planner/environment/path.sh
+[69.055s] -- Installing: /root/ros2_ws/src/install/far_planner/share/far_planner/environment/path.dsv
+[69.055s] -- Installing: /root/ros2_ws/src/install/far_planner/share/far_planner/local_setup.bash
+[69.055s] -- Installing: /root/ros2_ws/src/install/far_planner/share/far_planner/local_setup.sh
+[69.055s] -- Installing: /root/ros2_ws/src/install/far_planner/share/far_planner/local_setup.zsh
+[69.055s] -- Installing: /root/ros2_ws/src/install/far_planner/share/far_planner/local_setup.dsv
+[69.055s] -- Installing: /root/ros2_ws/src/install/far_planner/share/far_planner/package.dsv
+[69.055s] -- Installing: /root/ros2_ws/src/install/far_planner/share/ament_index/resource_index/packages/far_planner
+[69.055s] -- Installing: /root/ros2_ws/src/install/far_planner/share/far_planner/cmake/far_plannerConfig.cmake
+[69.055s] -- Installing: /root/ros2_ws/src/install/far_planner/share/far_planner/cmake/far_plannerConfig-version.cmake
+[69.055s] -- Installing: /root/ros2_ws/src/install/far_planner/share/far_planner/package.xml
+[69.057s] Invoked command in '/root/ros2_ws/src/build/far_planner' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/src/install/visibility_graph_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/src/install/visibility_graph_msg:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/src/install/visibility_graph_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/src/install/visibility_graph_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ros2_ws/src/build/far_planner

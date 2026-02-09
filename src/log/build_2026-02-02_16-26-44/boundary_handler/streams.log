@@ -1,0 +1,180 @@
+[0.083s] Invoking command in '/root/ros2_ws/src/build/boundary_handler': AMENT_PREFIX_PATH=/root/ros2_ws/src/install/visibility_graph_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/src/install/visibility_graph_msg:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/src/install/visibility_graph_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/src/install/visibility_graph_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/ros2_ws/src/route_planner/boundary_handler -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/boundary_handler
+[0.934s] -- The C compiler identification is GNU 11.4.0
+[0.934s] -- The CXX compiler identification is GNU 11.4.0
+[0.935s] -- Detecting C compiler ABI info
+[0.935s] -- Detecting C compiler ABI info - done
+[0.935s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.935s] -- Detecting C compile features
+[0.935s] -- Detecting C compile features - done
+[0.935s] -- Detecting CXX compiler ABI info
+[0.936s] -- Detecting CXX compiler ABI info - done
+[0.961s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.961s] -- Detecting CXX compile features
+[0.961s] -- Detecting CXX compile features - done
+[0.966s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.763s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.242s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[2.686s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.770s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.832s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.925s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.055s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.421s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.441s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.930s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.037s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.201s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.230s] -- Looking for pthread.h
+[4.449s] -- Looking for pthread.h - found
+[4.449s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.622s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.624s] -- Found Threads: TRUE  
+[4.841s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[4.895s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[5.015s] -- Found visibility_graph_msg: 0.0.1 (/root/ros2_ws/src/install/visibility_graph_msg/share/visibility_graph_msg/cmake)
+[5.120s] -- Checking for module 'eigen3'
+[5.160s] --   Found eigen3, version 3.4.0
+[5.259s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[5.259s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[5.344s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[5.409s] -- Checking for module 'flann'
+[5.441s] --   Found flann, version 1.9.1
+[5.592s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[5.592s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[5.735s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[5.778s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[6.360s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[6.361s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[6.377s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[6.431s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[6.529s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[6.624s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[6.902s] -- Found X11: /usr/include   
+[6.902s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[7.156s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[7.159s] -- Looking for gethostbyname
+[7.342s] -- Looking for gethostbyname - found
+[7.342s] -- Looking for connect
+[7.454s] -- Looking for connect - found
+[7.454s] -- Looking for remove
+[7.692s] -- Looking for remove - found
+[7.693s] -- Looking for shmat
+[7.935s] -- Looking for shmat - found
+[7.942s] -- Looking for IceConnectionNumber in ICE
+[8.238s] -- Looking for IceConnectionNumber in ICE - found
+[8.535s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[8.548s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[8.555s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[8.568s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[8.629s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[8.649s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[8.668s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[8.699s] -- Found utf8cpp: /usr/include/utf8cpp  
+[9.029s] -- Checking for module 'libusb-1.0'
+[9.074s] --   Found libusb-1.0, version 1.0.25
+[9.205s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[9.207s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[9.211s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[9.401s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[9.402s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[9.402s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[10.082s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[10.106s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[10.127s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[10.751s] -- Found Qhull version 8.0.2
+[11.054s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[11.635s] -- looking for PCL_COMMON
+[11.640s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[11.641s] -- looking for PCL_KDTREE
+[11.646s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[11.646s] -- looking for PCL_OCTREE
+[11.654s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[11.654s] -- looking for PCL_SEARCH
+[11.659s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[11.665s] -- looking for PCL_SAMPLE_CONSENSUS
+[11.665s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[11.665s] -- looking for PCL_FILTERS
+[11.668s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[11.668s] -- looking for PCL_2D
+[11.669s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[11.670s] -- looking for PCL_GEOMETRY
+[11.670s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[11.675s] -- looking for PCL_IO
+[11.676s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[11.683s] -- looking for PCL_FEATURES
+[11.683s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[11.683s] -- looking for PCL_ML
+[11.691s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[11.691s] -- looking for PCL_SEGMENTATION
+[11.691s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[11.691s] -- looking for PCL_VISUALIZATION
+[11.694s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[11.695s] -- looking for PCL_SURFACE
+[11.701s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[11.702s] -- looking for PCL_REGISTRATION
+[11.702s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[11.703s] -- looking for PCL_KEYPOINTS
+[11.708s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[11.708s] -- looking for PCL_TRACKING
+[11.714s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[11.714s] -- looking for PCL_RECOGNITION
+[11.715s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[11.721s] -- looking for PCL_STEREO
+[11.722s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[11.722s] -- looking for PCL_APPS
+[11.729s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[11.730s] -- looking for PCL_IN_HAND_SCANNER
+[11.730s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[11.730s] -- looking for PCL_MODELER
+[11.731s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[11.731s] -- looking for PCL_POINT_CLOUD_EDITOR
+[11.738s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[11.738s] -- looking for PCL_OUTOFCORE
+[11.738s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[11.738s] -- looking for PCL_PEOPLE
+[11.743s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[11.745s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[11.846s] -- Found OpenCV: /usr (found version "4.5.4") 
+[11.847s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[12.111s] -- Configuring done
+[12.281s] -- Generating done
+[12.282s] [33mCMake Warning:
+[12.282s]   Manually-specified variables were not used by the project:
+[12.282s] 
+[12.282s]     HUMBLE_ROS
+[12.282s]     ROS_EDITION
+[12.282s] 
+[12.282s] [0m
+[12.336s] -- Build files have been written to: /root/ros2_ws/src/build/boundary_handler
+[12.403s] Invoked command in '/root/ros2_ws/src/build/boundary_handler' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/src/install/visibility_graph_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/src/install/visibility_graph_msg:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/src/install/visibility_graph_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/src/install/visibility_graph_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/ros2_ws/src/route_planner/boundary_handler -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/boundary_handler
+[12.412s] Invoking command in '/root/ros2_ws/src/build/boundary_handler': AMENT_PREFIX_PATH=/root/ros2_ws/src/install/visibility_graph_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/src/install/visibility_graph_msg:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/src/install/visibility_graph_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/src/install/visibility_graph_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros2_ws/src/build/boundary_handler -- -j24 -l24
+[16.880s] [ 50%] [32mBuilding CXX object CMakeFiles/boundary_handler.dir/src/graph_extractor.cpp.o[0m
+[34.749s] [100%] [32m[1mLinking CXX executable boundary_handler[0m
+[35.428s] [100%] Built target boundary_handler
+[35.446s] Invoked command in '/root/ros2_ws/src/build/boundary_handler' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/src/install/visibility_graph_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/src/install/visibility_graph_msg:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/src/install/visibility_graph_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/src/install/visibility_graph_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros2_ws/src/build/boundary_handler -- -j24 -l24
+[35.448s] Invoking command in '/root/ros2_ws/src/build/boundary_handler': AMENT_PREFIX_PATH=/root/ros2_ws/src/install/visibility_graph_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/src/install/visibility_graph_msg:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/src/install/visibility_graph_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/src/install/visibility_graph_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ros2_ws/src/build/boundary_handler
+[35.460s] -- Install configuration: "Release"
+[35.460s] -- Installing: /root/ros2_ws/src/install/boundary_handler/lib/boundary_handler/boundary_handler
+[35.462s] -- Set runtime path of "/root/ros2_ws/src/install/boundary_handler/lib/boundary_handler/boundary_handler" to ""
+[35.462s] -- Installing: /root/ros2_ws/src/install/boundary_handler/share/boundary_handler/launch
+[35.462s] -- Installing: /root/ros2_ws/src/install/boundary_handler/share/boundary_handler/launch/boundary_handler.launch
+[35.462s] -- Installing: /root/ros2_ws/src/install/boundary_handler/share/boundary_handler/rviz
+[35.463s] -- Installing: /root/ros2_ws/src/install/boundary_handler/share/boundary_handler/rviz/default.rviz
+[35.463s] -- Installing: /root/ros2_ws/src/install/boundary_handler/share/boundary_handler/config
+[35.463s] -- Installing: /root/ros2_ws/src/install/boundary_handler/share/boundary_handler/config/default.yaml
+[35.463s] -- Installing: /root/ros2_ws/src/install/boundary_handler/share/ament_index/resource_index/package_run_dependencies/boundary_handler
+[35.463s] -- Installing: /root/ros2_ws/src/install/boundary_handler/share/ament_index/resource_index/parent_prefix_path/boundary_handler
+[35.464s] -- Installing: /root/ros2_ws/src/install/boundary_handler/share/boundary_handler/environment/ament_prefix_path.sh
+[35.464s] -- Installing: /root/ros2_ws/src/install/boundary_handler/share/boundary_handler/environment/ament_prefix_path.dsv
+[35.464s] -- Installing: /root/ros2_ws/src/install/boundary_handler/share/boundary_handler/environment/path.sh
+[35.464s] -- Installing: /root/ros2_ws/src/install/boundary_handler/share/boundary_handler/environment/path.dsv
+[35.464s] -- Installing: /root/ros2_ws/src/install/boundary_handler/share/boundary_handler/local_setup.bash
+[35.464s] -- Installing: /root/ros2_ws/src/install/boundary_handler/share/boundary_handler/local_setup.sh
+[35.465s] -- Installing: /root/ros2_ws/src/install/boundary_handler/share/boundary_handler/local_setup.zsh
+[35.465s] -- Installing: /root/ros2_ws/src/install/boundary_handler/share/boundary_handler/local_setup.dsv
+[35.465s] -- Installing: /root/ros2_ws/src/install/boundary_handler/share/boundary_handler/package.dsv
+[35.465s] -- Installing: /root/ros2_ws/src/install/boundary_handler/share/ament_index/resource_index/packages/boundary_handler
+[35.465s] -- Installing: /root/ros2_ws/src/install/boundary_handler/share/boundary_handler/cmake/boundary_handlerConfig.cmake
+[35.465s] -- Installing: /root/ros2_ws/src/install/boundary_handler/share/boundary_handler/cmake/boundary_handlerConfig-version.cmake
+[35.466s] -- Installing: /root/ros2_ws/src/install/boundary_handler/share/boundary_handler/package.xml
+[35.469s] Invoked command in '/root/ros2_ws/src/build/boundary_handler' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/src/install/visibility_graph_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/src/install/visibility_graph_msg:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/src/install/visibility_graph_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/src/install/visibility_graph_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ros2_ws/src/build/boundary_handler

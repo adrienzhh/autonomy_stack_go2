@@ -1,0 +1,56 @@
+[0.563s] Invoking command in '/root/ros2_ws/src/build/visualization_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/src/build/visualization_tools -- -j24 -l24
+[0.639s] [  0%] Built target ament_cmake_python_copy_visualization_tools
+[0.666s] [100%] Built target visualizationTools
+[0.940s] /usr/local/lib/python3.10/dist-packages/setuptools_scm/_integration/setuptools.py:24: RuntimeWarning: 
+[0.940s] ERROR: setuptools==59.6.0 is used in combination with setuptools-scm>=8.x
+[0.944s] 
+[0.944s] Your build configuration is incomplete and previously worked by accident!
+[0.944s] setuptools-scm requires setuptools>=61 (recommended: >=80)
+[0.944s] 
+[0.944s] Suggested workaround if applicable:
+[0.944s]  - migrating from the deprecated setup_requires mechanism to pep517/518
+[0.944s]    and using a pyproject.toml to declare build dependencies
+[0.944s]    which are reliably pre-installed before running the build tools
+[0.945s] 
+[0.945s]   warnings.warn(
+[0.955s] running egg_info
+[0.958s] writing visualization_tools.egg-info/PKG-INFO
+[0.958s] writing dependency_links to visualization_tools.egg-info/dependency_links.txt
+[0.958s] writing top-level names to visualization_tools.egg-info/top_level.txt
+[0.983s] listing git files failed - pretending there aren't any
+[1.030s] reading manifest file 'visualization_tools.egg-info/SOURCES.txt'
+[1.030s] writing manifest file 'visualization_tools.egg-info/SOURCES.txt'
+[1.058s] [100%] Built target ament_cmake_python_build_visualization_tools_egg
+[1.098s] Invoked command in '/root/ros2_ws/src/build/visualization_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/src/build/visualization_tools -- -j24 -l24
+[1.100s] Invoking command in '/root/ros2_ws/src/build/visualization_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/src/build/visualization_tools
+[1.104s] -- Install configuration: ""
+[1.104s] -- Up-to-date: /root/ros2_ws/src/install/visualization_tools/lib/visualization_tools/visualizationTools
+[1.106s] -- Up-to-date: /root/ros2_ws/src/install/visualization_tools/share/visualization_tools/launch
+[1.106s] -- Installing: /root/ros2_ws/src/install/visualization_tools/share/visualization_tools/launch/visualization_tools.launch
+[1.106s] -- Up-to-date: /root/ros2_ws/src/install/visualization_tools/share/visualization_tools/environment/pythonpath.sh
+[1.106s] -- Up-to-date: /root/ros2_ws/src/install/visualization_tools/share/visualization_tools/environment/pythonpath.dsv
+[1.106s] -- Up-to-date: /root/ros2_ws/src/install/visualization_tools/local/lib/python3.10/dist-packages/visualization_tools-0.0.1-py3.10.egg-info
+[1.106s] -- Installing: /root/ros2_ws/src/install/visualization_tools/local/lib/python3.10/dist-packages/visualization_tools-0.0.1-py3.10.egg-info/PKG-INFO
+[1.106s] -- Installing: /root/ros2_ws/src/install/visualization_tools/local/lib/python3.10/dist-packages/visualization_tools-0.0.1-py3.10.egg-info/dependency_links.txt
+[1.106s] -- Installing: /root/ros2_ws/src/install/visualization_tools/local/lib/python3.10/dist-packages/visualization_tools-0.0.1-py3.10.egg-info/SOURCES.txt
+[1.112s] -- Installing: /root/ros2_ws/src/install/visualization_tools/local/lib/python3.10/dist-packages/visualization_tools-0.0.1-py3.10.egg-info/top_level.txt
+[1.112s] -- Up-to-date: /root/ros2_ws/src/install/visualization_tools/local/lib/python3.10/dist-packages/visualization_tools
+[1.112s] -- Up-to-date: /root/ros2_ws/src/install/visualization_tools/local/lib/python3.10/dist-packages/visualization_tools/__init__.py
+[1.140s] Listing '/root/ros2_ws/src/install/visualization_tools/local/lib/python3.10/dist-packages/visualization_tools'...
+[1.148s] -- Up-to-date: /root/ros2_ws/src/install/visualization_tools/lib/visualization_tools/realTimePlot.py
+[1.148s] -- Up-to-date: /root/ros2_ws/src/install/visualization_tools/share/ament_index/resource_index/package_run_dependencies/visualization_tools
+[1.148s] -- Up-to-date: /root/ros2_ws/src/install/visualization_tools/share/ament_index/resource_index/parent_prefix_path/visualization_tools
+[1.148s] -- Up-to-date: /root/ros2_ws/src/install/visualization_tools/share/visualization_tools/environment/ament_prefix_path.sh
+[1.148s] -- Up-to-date: /root/ros2_ws/src/install/visualization_tools/share/visualization_tools/environment/ament_prefix_path.dsv
+[1.148s] -- Up-to-date: /root/ros2_ws/src/install/visualization_tools/share/visualization_tools/environment/path.sh
+[1.148s] -- Up-to-date: /root/ros2_ws/src/install/visualization_tools/share/visualization_tools/environment/path.dsv
+[1.148s] -- Up-to-date: /root/ros2_ws/src/install/visualization_tools/share/visualization_tools/local_setup.bash
+[1.148s] -- Up-to-date: /root/ros2_ws/src/install/visualization_tools/share/visualization_tools/local_setup.sh
+[1.148s] -- Up-to-date: /root/ros2_ws/src/install/visualization_tools/share/visualization_tools/local_setup.zsh
+[1.148s] -- Up-to-date: /root/ros2_ws/src/install/visualization_tools/share/visualization_tools/local_setup.dsv
+[1.148s] -- Installing: /root/ros2_ws/src/install/visualization_tools/share/visualization_tools/package.dsv
+[1.148s] -- Up-to-date: /root/ros2_ws/src/install/visualization_tools/share/ament_index/resource_index/packages/visualization_tools
+[1.148s] -- Up-to-date: /root/ros2_ws/src/install/visualization_tools/share/visualization_tools/cmake/visualization_toolsConfig.cmake
+[1.148s] -- Up-to-date: /root/ros2_ws/src/install/visualization_tools/share/visualization_tools/cmake/visualization_toolsConfig-version.cmake
+[1.148s] -- Up-to-date: /root/ros2_ws/src/install/visualization_tools/share/visualization_tools/package.xml
+[1.151s] Invoked command in '/root/ros2_ws/src/build/visualization_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/src/build/visualization_tools

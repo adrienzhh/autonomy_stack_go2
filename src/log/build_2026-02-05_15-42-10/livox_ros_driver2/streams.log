@@ -1,0 +1,102 @@
+[0.045s] Invoking command in '/root/ros2_ws/src/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/slam/livox_ros_driver2 -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/livox_ros_driver2
+[0.567s] -- The C compiler identification is GNU 11.4.0
+[0.567s] -- The CXX compiler identification is GNU 11.4.0
+[0.567s] -- Detecting C compiler ABI info
+[0.567s] -- Detecting C compiler ABI info - done
+[0.567s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.567s] -- Detecting C compile features
+[0.567s] -- Detecting C compile features - done
+[0.567s] -- Detecting CXX compiler ABI info
+[0.567s] -- Detecting CXX compiler ABI info - done
+[0.567s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.567s] -- Detecting CXX compile features
+[0.567s] -- Detecting CXX compile features - done
+[0.567s] -- livox_ros_driver2 version: 1.2.4
+[0.567s] -- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.606s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.928s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.977s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.117s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.465s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.490s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.659s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.707s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.791s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.812s] -- Looking for pthread.h
+[1.902s] -- Looking for pthread.h - found
+[1.902s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.986s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.990s] -- Found Threads: TRUE  
+[2.261s] -- Checking for module 'eigen3'
+[2.271s] --   Found eigen3, version 3.4.0
+[2.306s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[2.306s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.399s] -- Checking for module 'flann'
+[2.437s] --   Found flann, version 1.9.1
+[2.471s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[2.471s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[3.528s] -- Checking for module 'libusb-1.0'
+[3.537s] --   Found libusb-1.0, version 1.0.25
+[3.562s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[3.563s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.599s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.700s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.705s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.709s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.818s] -- Found Qhull version 8.0.2
+[3.921s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.015s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[4.016s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[4.024s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[4.025s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[4.025s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[4.026s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[4.026s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[4.026s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[4.027s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[4.027s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[4.028s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[4.029s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[4.029s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[4.030s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[4.030s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[4.031s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[4.032s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[4.032s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[4.033s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[4.034s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[4.034s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[4.034s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[4.034s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[4.035s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[4.035s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[4.081s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[4.083s] -- Checking for module 'apr-1'
+[4.085s] --   No package 'apr-1' found
+[4.239s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.362s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.495s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.507s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.508s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.520s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.520s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.520s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.520s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.530s] -- Found PythonExtra: .so  
+[4.630s] -- Using numpy include directory: /usr/local/lib/python3.10/dist-packages/numpy/core/include
+[4.651s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.662s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.670s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.671s] -- Configured cppcheck include dirs: /root/ros2_ws/src/slam/livox_ros_driver2/3rdparty;/root/ros2_ws/src/slam/livox_ros_driver2/src
+[4.671s] -- Configured cppcheck exclude dirs and/or files: 
+[4.679s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.679s] -- Configured cpplint exclude dirs and/or files: 
+[4.680s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.682s] -- Added test 'lint_cmake' to check CMake code style
+[4.683s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.691s] -- Added test 'uncrustify' to check C / C++ code style
+[4.691s] -- Configured uncrustify additional arguments: 
+[4.692s] -- Added test 'xmllint' to check XML markup files
+[4.692s] -- Configuring done
+[4.720s] -- Generating done
+[4.728s] -- Build files have been written to: /root/ros2_ws/src/build/livox_ros_driver2

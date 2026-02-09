@@ -1,0 +1,1 @@
+Invoking command in '/root/ros2_ws/src/build/super_odometry_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/slam/SuperOdom/super_odometry_msgs -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/super_odometry_msgs

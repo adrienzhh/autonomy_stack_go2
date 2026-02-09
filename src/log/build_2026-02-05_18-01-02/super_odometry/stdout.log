@@ -1,0 +1,88 @@
+[35m[1mConsolidate compiler generated dependencies of target SuperOdomLib[0m
+[ 64%] Built target SuperOdomLib
+[35m[1mConsolidate compiler generated dependencies of target feature_extraction_node[0m
+[35m[1mConsolidate compiler generated dependencies of target imu_preintegration_node[0m
+[35m[1mConsolidate compiler generated dependencies of target laser_mapping_node[0m
+[ 76%] Built target feature_extraction_node
+[ 88%] Built target imu_preintegration_node
+[100%] Built target laser_mapping_node
+-- Install configuration: "Release"
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry/environment/library_path.sh
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry/environment/library_path.dsv
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/include
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/ImuPreintegration
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/ImuPreintegration/imuPreintegration.h
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/container
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/container/MapRingBuffer.h
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/sensor_data
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/sensor_data/imu
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/sensor_data/imu/imu_data.h
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/sensor_data/pointcloud
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/sensor_data/pointcloud/point_os.h
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/sensor_data/pointcloud/LidarPoint.h
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/tic_toc.h
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/LidarProcess
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/LidarProcess/factor
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/LidarProcess/factor/pose_local_parameterization.h
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/LidarProcess/factor/SE3AbsolutatePoseFactor.h
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/LidarProcess/factor/lidarOptimization.h
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/LidarProcess/LidarSlam.h
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/LidarProcess/LocalMap.h
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/utils
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/utils/EigenTypes.h
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/utils/Twist.h
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/utils/superodom_utils.h
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/utils/sophus_utils.hpp
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/utils/utility.h
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/LaserMapping
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/LaserMapping/laserMapping.h
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/FeatureExtraction
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/FeatureExtraction/featureExtraction.h
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/config
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/config/parameter.h
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/flann
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/flann/nanoflann.h
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/flann/octree.h
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/super_odometry/LocalMap.h
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/include/utility.h
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/lib/libSuperOdomLib.so
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/lib/super_odometry/imu_preintegration_node
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/lib/super_odometry/feature_extraction_node
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/lib/super_odometry/laser_mapping_node
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry//config
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry//config/ouster
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry//config/ouster/os1_128_calibration.yaml
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry//config/livox
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry//config/livox/livox_mid360_calibration.yaml
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry//config/os1_128.yaml
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry//config/vlp_16.yaml
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry//config/velodyne
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry//config/velodyne/vlp_16_calibration.yaml
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry//config/livox_mid360.yaml
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry//launch
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry//launch/livox_mid360.launch.py
+-- Installing: /root/ros2_ws/src/install/super_odometry/share/super_odometry//launch/superodom_autonomy_sim.launch.py
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry//launch/os1_128.launch.py
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry//launch/vlp_16.launch.py
+-- Installing: /root/ros2_ws/src/install/super_odometry/share/super_odometry//launch/superodom_autonomy.launch.py
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/ament_index/resource_index/package_run_dependencies/super_odometry
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/ament_index/resource_index/parent_prefix_path/super_odometry
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry/environment/ament_prefix_path.sh
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry/environment/ament_prefix_path.dsv
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry/environment/path.sh
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry/environment/path.dsv
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry/local_setup.bash
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry/local_setup.sh
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry/local_setup.zsh
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry/local_setup.dsv
+-- Installing: /root/ros2_ws/src/install/super_odometry/share/super_odometry/package.dsv
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/ament_index/resource_index/packages/super_odometry
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry/cmake/export_super_odometryExport.cmake
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry/cmake/export_super_odometryExport-release.cmake
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry/cmake/super_odometryConfig.cmake
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry/cmake/super_odometryConfig-version.cmake
+-- Up-to-date: /root/ros2_ws/src/install/super_odometry/share/super_odometry/package.xml
